@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
     public float speed = 10.0F;
     public float jumpspeed = 10.0F;
     public Vector2 atas = new Vector2(0, 0.02f);
-    public bool isGrounded = false;
+    public bool isGrounded = true;
 
     void Start()
     {
