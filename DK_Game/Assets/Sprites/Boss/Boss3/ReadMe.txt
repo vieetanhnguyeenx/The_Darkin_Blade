@@ -1,0 +1,1 @@
+Hiện tại mấy hình này chưa cắt nền, tôi up tạm lên rồi cắt sau nha
