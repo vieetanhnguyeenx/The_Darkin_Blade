@@ -27,6 +27,36 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+    public float CurrentMoveSpeed
+    {
+        get
+        {
+            if (IsMoving)
+                return walkSpeed;
+            else return 0;
+        }
+    }
+
+    public bool _isFacingRight = true;
+    public bool IsFacingRight
+    {
+        get
+        {
+            return _isFacingRight;
+        }
+        private set
+        {
+            // if _isFacingRight is set for new value is mean player is facing at the oppersite direction so we need to reverse the local scale
+            if (_isFacingRight != value)
+            {
+                // reverse the local scale to make player facing the oppersite direction
+                transform.localScale *= new Vector2(-1, 1);
+            }
+            _isFacingRight = value;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,12 +77,28 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
         IsMoving = moveInput != Vector2.zero;
+
+        SetFacingDirection(moveInput);
+    }
+
+    private void SetFacingDirection(Vector2 moveInput)
+    {
+        if (moveInput.x > 0 && !IsFacingRight)
+        {
+            // Face the right
+            IsFacingRight = true;
+        }
+        else if (moveInput.x < 0 && IsFacingRight)
+        {
+            // Face the left
+            IsFacingRight = false;
+        }
     }
 }
