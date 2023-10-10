@@ -13,6 +13,7 @@
     cursor: initial;
     transition-timing-function: linear;
     transition-duration: 0.23s;
+    white-space: nowrap;
 }
 
 .buttonTemplate:hover {
@@ -24,10 +25,11 @@
     border-right-color: rgba(0, 0, 0, 0);
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(255, 37, 37);
     -unity-text-align: middle-center;
     -unity-font-style: normal;
     transition-duration: 0.23s;
     cursor: url('project://database/Assets/Sprites/Pointer/pointer3.png?fileID=2800000&guid=73f3cf989fa65eb4eaadbf53406869af&type=3#pointer3');
     transition-timing-function: linear;
+    white-space: nowrap;
 }
