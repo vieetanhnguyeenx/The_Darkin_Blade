@@ -17,11 +17,8 @@ public class NewBehaviourScript : MonoBehaviour
     }
     public void ModeSelect()
     {
-        StartCoroutine((IEnumerator)LoadAfterDelay());
-    }
-    IEnumerable LoadAfterDelay()
-    {
-        yield return new WaitForSeconds(delay); 
+        
         SceneManager.LoadScene(nameScene);
     }
+   
 }
