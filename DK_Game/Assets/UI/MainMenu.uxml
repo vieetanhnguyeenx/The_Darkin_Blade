@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyle.uss?fileID=7433441132597879392&amp;guid=efd0ea70a06ed674490d4187844adda1&amp;type=3#MenuStyle" />
+    <ui:VisualElement name="root" style="height: 100%; width: 100%; align-items: center; justify-content: flex-start; color: rgb(255, 255, 255); -unity-background-scale-mode: stretch-to-fill; cursor: initial;">
+        <ui:VisualElement name="logo" style="font-size: 50%; justify-content: flex-start; margin-top: 10%; cursor: initial;">
+            <ui:Label tabindex="-1" text="The Darkin blade" display-tooltip-when-elided="true" style="-unity-font: url(&apos;project://database/Assets/UI/Font/AznUnifiedOblique-ZV5gz.otf?fileID=12800000&amp;guid=b267a23ef3d481f408288dfba2c8bd25&amp;type=3#AznUnifiedOblique-ZV5gz&apos;); -unity-font-definition: url(&apos;project://database/Assets/UI/Font/AznUnifiedOblique-ZV5gz%20SDF.asset?fileID=11400000&amp;guid=5ba4599d8bbd3734f8cd992d037241ed&amp;type=2#AznUnifiedOblique-ZV5gz SDF&apos;); font-size: 80px; -unity-text-align: middle-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="menu" style="margin-top: 5%; cursor: initial;" />
+    </ui:VisualElement>
+</ui:UXML>

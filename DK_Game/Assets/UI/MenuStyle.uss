@@ -1,0 +1,33 @@
+.buttonTemplate {
+    -unity-font: url('project://database/Assets/UI/Font/AznUnifiedOblique-ZV5gz.otf?fileID=12800000&guid=b267a23ef3d481f408288dfba2c8bd25&type=3#AznUnifiedOblique-ZV5gz');
+    -unity-font-definition: url('project://database/Assets/UI/Font/AznUnifiedOblique-ZV5gz%20SDF.asset?fileID=11400000&guid=5ba4599d8bbd3734f8cd992d037241ed&type=2#AznUnifiedOblique-ZV5gz SDF');
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    cursor: initial;
+    transition-timing-function: linear;
+    transition-duration: 0.23s;
+}
+
+.buttonTemplate:hover {
+    -unity-font: url('project://database/Assets/UI/Font/AznUnifiedOblique-ZV5gz.otf?fileID=12800000&guid=b267a23ef3d481f408288dfba2c8bd25&type=3#AznUnifiedOblique-ZV5gz');
+    -unity-font-definition: url('project://database/Assets/UI/Font/AznUnifiedOblique-ZV5gz%20SDF.asset?fileID=11400000&guid=5ba4599d8bbd3734f8cd992d037241ed&type=2#AznUnifiedOblique-ZV5gz SDF');
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    transition-duration: 0.23s;
+    cursor: url('project://database/Assets/Sprites/Pointer/pointer3.png?fileID=2800000&guid=73f3cf989fa65eb4eaadbf53406869af&type=3#pointer3');
+    transition-timing-function: linear;
+}
