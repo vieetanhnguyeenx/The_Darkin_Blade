@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e911bd31ee72e6548bbe3cd796e02bd8
+guid: 0a2acaa47a1c9334aaf991f37c6dee83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -218,7 +218,7 @@ TextureImporter:
         x: 847
         y: 857
         width: 83
-        height: 257
+        height: 134
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: Caves3_9
       rect:
         serializedVersion: 2
-        x: 1794
+        x: 1791
         y: 851
         width: 80
-        height: 258
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,7 +386,7 @@ TextureImporter:
         x: 604
         y: 48
         width: 293
-        height: 259
+        height: 125
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
