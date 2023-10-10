@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 
 public class UIController : MonoBehaviour
 {
-    public string[] buttonNames = { "Start Game", "Option", "How to Play", "Quit Game" };
+    public string[] buttonNames = { "Start Game", "Option", "How to Play", "Credits", "Quit Game" };
     //public string[] buttonId = { "btnStartGame", "btnOption", "btnHowtoPlay", "btnQuitGame" };
     private VisualElement menu;
     enum buttonId
@@ -12,7 +12,8 @@ public class UIController : MonoBehaviour
         btnStartGame = 0,
         btnOption = 1,
         btnHowtoPlay = 2,
-        btnQuitGame = 3,
+        btnCredits = 3,
+        btnQuitGame = 4,
     }
 
     void Start()
@@ -40,15 +41,24 @@ public class UIController : MonoBehaviour
                     {
                         case buttonId.btnStartGame:
                             Debug.Log("Start Game");
+
                             break;
                         case buttonId.btnOption:
                             Debug.Log("Option");
+
+                            break;
+                        case buttonId.btnCredits:
+                            Debug.Log("Credits");
+
                             break;
                         case buttonId.btnHowtoPlay:
                             Debug.Log("How to play");
+
                             break;
                         case buttonId.btnQuitGame:
                             Debug.Log("Quit Game");
+                            // SaveChanges()
+                            Application.Quit();
                             break;
                     }
                 }
