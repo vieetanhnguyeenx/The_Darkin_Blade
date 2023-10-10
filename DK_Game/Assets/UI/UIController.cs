@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class UIController : MonoBehaviour
@@ -49,7 +50,7 @@ public class UIController : MonoBehaviour
                             break;
                         case buttonId.btnCredits:
                             Debug.Log("Credits");
-
+                            SceneManager.LoadScene("CreditsScene");
                             break;
                         case buttonId.btnHowtoPlay:
                             Debug.Log("How to play");
@@ -57,7 +58,7 @@ public class UIController : MonoBehaviour
                             break;
                         case buttonId.btnQuitGame:
                             Debug.Log("Quit Game");
-                            // SaveChanges()
+                            // SaveChanges();
                             Application.Quit();
                             break;
                     }
