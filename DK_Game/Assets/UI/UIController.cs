@@ -6,7 +6,6 @@ using UnityEngine.UIElements;
 public class UIController : MonoBehaviour
 {
     public string[] buttonNames = { "Start Game", "Option", "How to Play", "Credits", "Quit Game" };
-    //public string[] buttonId = { "btnStartGame", "btnOption", "btnHowtoPlay", "btnQuitGame" };
     private VisualElement menu;
     enum buttonId
     {
