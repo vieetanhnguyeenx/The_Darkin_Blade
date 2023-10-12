@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Hiddentraps : MonoBehaviour
 {
+    public float timedelay;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,15 @@ public class Hiddentraps : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            gameObject.SetActive(false);
+            StartCoroutine(DelayedActionFunction(timedelay));
+            
         }
     }
+    private IEnumerator DelayedActionFunction(float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+        gameObject.SetActive(false);
+    }
+
 }
