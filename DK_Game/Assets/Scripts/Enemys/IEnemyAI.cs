@@ -6,8 +6,13 @@ public interface IEnemyAI
 
     void LosePlayer();
 
+    void UpdateAI();
+
     void HitObstacle(Vector2 obstaclePosition);
 
     void TakeDamage(int damageAmount);
+    void SendDamage(GameObject target);
+
+    void MoveAroundInitPosition();
 }
 
