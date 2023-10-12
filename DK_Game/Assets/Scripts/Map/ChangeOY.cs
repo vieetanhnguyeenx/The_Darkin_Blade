@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ChangeOY : MonoBehaviour
@@ -19,7 +17,7 @@ public class ChangeOY : MonoBehaviour
     {
         if (transform.position.y <= pointhigh && checkup == true)
         {
-            transform.position = new Vector3(transform.position.x , transform.position.y + (2 * Time.deltaTime), transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + (2 * Time.deltaTime), transform.position.z);
 
         }
         if (transform.position.y > pointhigh)
@@ -29,7 +27,7 @@ public class ChangeOY : MonoBehaviour
         }
         if (transform.position.y >= pointbottom && checkdown == true)
         {
-            transform.position = new Vector3(transform.position.x , transform.position.y - (2 * Time.deltaTime), transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y - (2 * Time.deltaTime), transform.position.z);
 
         }
         if (transform.position.y < pointbottom)
