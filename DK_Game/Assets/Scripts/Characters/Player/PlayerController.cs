@@ -7,9 +7,11 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movment Variables")]
     [SerializeField] public float walkSpeed = 5f;
+    public float jumpInpulse = 10f;
 
     private Rigidbody2D rb;
     private Animator animator;
+    TouchingDirections touchingDirections;
 
     // Read from Player Input Action value -1 0 1
     private Vector2 moveInput;
@@ -40,6 +42,8 @@ public class PlayerController : MonoBehaviour
     }
 
     public bool _isFacingRight = true;
+
+
     public bool IsFacingRight
     {
         get
@@ -68,6 +72,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        touchingDirections = GetComponent<TouchingDirections>();
     }
 
     // Update is called once per frame
@@ -102,6 +107,16 @@ public class PlayerController : MonoBehaviour
         {
             // Face the left
             IsFacingRight = false;
+        }
+    }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        // To do: Check Alive
+        if (context.started && touchingDirections.IsGrounded)
+        {
+            animator.SetTrigger(AnimationStrings.jump);
+            rb.velocity = new Vector2(rb.velocity.x, jumpInpulse);
         }
     }
 }

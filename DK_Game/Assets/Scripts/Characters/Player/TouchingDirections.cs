@@ -17,22 +17,22 @@ public class TouchingDirections : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     [SerializeField]
-    private bool _isGround;
-    public bool IsGround
+    private bool _isGrounded;
+    public bool IsGrounded
     {
         get
         {
-            return _isGround;
+            return _isGrounded;
         }
         private set
         {
-            _isGround = value;
+            _isGrounded = value;
             animator.SetBool(AnimationStrings.isGrounded, value);
         }
     }
 
     private void FixedUpdate()
     {
-        IsGround = touchingCol.Cast(Vector2.down, castFilter, groundHits, groudHitDistance) > 0;
+        IsGrounded = touchingCol.Cast(Vector2.down, castFilter, groundHits, groudHitDistance) > 0;
     }
 }
