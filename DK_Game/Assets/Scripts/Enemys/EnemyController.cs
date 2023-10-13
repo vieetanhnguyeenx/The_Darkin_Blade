@@ -58,13 +58,19 @@ public class EnemyController : MonoBehaviour, IEnemyAI
             {
                 MoveToTarget(initialPosition);
                 animator.SetBool(AnimationStrings.attackTrigger, false);
+                animator.SetBool(AnimationStrings.isMoving, true);
                 float distanceAfterGoBack = Vector3.Distance(transform.position, initialPosition);
                 if (distanceAfterGoBack > 0 && distanceAfterGoBack < 1f
                     || distanceAfterGoBack < 0 && distanceAfterGoBack > -1f)
                 {
+                    MoveAroundInitPosition();
                     overLimit = false;
                     Flip();
                     return;
+                }
+                else
+                {
+                    MoveAroundInitPosition();
                 }
             }
             else
@@ -77,12 +83,14 @@ public class EnemyController : MonoBehaviour, IEnemyAI
                 }
                 else if (distanceToPlayer < 10f && distanceToPlayer >= attackDistance)
                 {
-                    MoveAroundInitPosition();
                     DetectPlayer(playerTransform);
+                    MoveAroundInitPosition();
                 }
                 else
                 {
                     LosePlayer();
+                    DetectPlayer(playerTransform);
+                    MoveAroundInitPosition();
                 }
             }
         }
@@ -178,11 +186,17 @@ public class EnemyController : MonoBehaviour, IEnemyAI
     private void MoveToTarget(Vector3 targetPos)
     {
         if (transform.position.x <= targetPos.x)
+        {
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
-        else
-            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+            SendDamage(playerGameObject);
 
-        SendDamage(playerGameObject);
+        }
+        else
+        {
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+            SendDamage(playerGameObject);
+        }
+
     }
 
     private void FacingPlayer()
