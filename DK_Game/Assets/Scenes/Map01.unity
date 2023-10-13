@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 3.33, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 2.8900003, z: 0}
   m_LookaheadTime: 0.5
   m_LookaheadSmoothing: 6
   m_LookaheadIgnoreY: 0
@@ -289,7 +289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.04, y: 0.00999999, z: -10}
+  m_LocalPosition: {x: -6.04, y: 1.19, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 682155858}
   - component: {fileID: 682155857}
   - component: {fileID: 682155860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,6 +525,26 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 98660690629137537, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: groudHitDistanceFeather
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 958307708017851761, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Size.x
+      value: 0.85573006
+      objectReference: {fileID: 0}
+    - target: {fileID: 958307708017851761, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6339135
+      objectReference: {fileID: 0}
+    - target: {fileID: 958307708017851761, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01916027
+      objectReference: {fileID: 0}
+    - target: {fileID: 958307708017851761, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.067828
+      objectReference: {fileID: 0}
     - target: {fileID: 4701003802268904661, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_Name
       value: Player
@@ -539,7 +559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4701003802268904664, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.49
+      value: -0.26
       objectReference: {fileID: 0}
     - target: {fileID: 4701003802268904664, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_LocalPosition.z
@@ -573,9 +593,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8970793141451094534, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
-      propertyPath: jumpInpulse
-      value: 25
+    - target: {fileID: 4701003802268904665, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -625,7 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 3.5, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 1.45, z: 0}
   m_LookaheadTime: 0.6
   m_LookaheadSmoothing: 5
   m_LookaheadIgnoreY: 1
@@ -731,7 +751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816317531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.04, y: -0.16000009, z: -10}
+  m_LocalPosition: {x: -6.04, y: 2.6300004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -751,7 +771,7 @@ GameObject:
   - component: {fileID: 1894713028}
   - component: {fileID: 1894713027}
   - component: {fileID: 1894713026}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileset_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911480726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.04, y: 0.00999999, z: -10}
+  m_LocalPosition: {x: -6.04, y: 1.19, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -949,7 +969,7 @@ GameObject:
   - component: {fileID: 1912218639}
   - component: {fileID: 1912218638}
   - component: {fileID: 1912218637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}

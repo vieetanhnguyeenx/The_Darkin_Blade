@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TouchingDirections : MonoBehaviour
 {
-    public ContactFilter2D castFilter;
-    public float groudHitDistance = 0.05f;
+    [SerializeField] public ContactFilter2D castFilter;
+    [SerializeField] public float groudHitDistance = 0.05f;
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
 
     CapsuleCollider2D touchingCol;
@@ -16,6 +16,8 @@ public class TouchingDirections : MonoBehaviour
         touchingCol = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
     }
+
+
     [SerializeField]
     private bool _isGrounded;
     public bool IsGrounded
@@ -35,4 +37,6 @@ public class TouchingDirections : MonoBehaviour
     {
         IsGrounded = touchingCol.Cast(Vector2.down, castFilter, groundHits, groudHitDistance) > 0;
     }
+
+
 }

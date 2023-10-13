@@ -84,8 +84,8 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
-        Debug.Log(rb.velocity.y);
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
+
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -119,4 +119,5 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpInpulse);
         }
     }
+
 }
