@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Map02.unity
     guid: 156db224cea30dd42985751394d85aca
   - enabled: 1
-    path: Assets/Scenes/Map2 Boss.unity
+    path: Assets/Scenes/Map02 Boss.unity
     guid: a735c139bccea774d83cf134c46696cd
   - enabled: 1
     path: Assets/Scenes/Map03.unity
