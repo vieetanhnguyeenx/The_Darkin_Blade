@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour, IEnemyAI
@@ -11,9 +12,10 @@ public class EnemyController : MonoBehaviour, IEnemyAI
     private int maxHealth = 5;
     [SerializeField]
     private float moveSpeed = 2.0f;
+
+    private Animator animator;
     private readonly float moveDistance = 1f;
     private float attackDistance = 3f;
-
     private int currentHealth;
     private Vector3 leftLimit;
     private Vector3 rightLimit;
@@ -26,6 +28,7 @@ public class EnemyController : MonoBehaviour, IEnemyAI
     {
         GameObject playerGameObject = GameObject.FindGameObjectWithTag("Player");
         playerTransform = playerGameObject.transform;
+        animator = transform.GetComponent<Animator>();
         Initialize(transform);
     }
 
@@ -39,6 +42,7 @@ public class EnemyController : MonoBehaviour, IEnemyAI
         leftLimit = initialPosition - Vector3.right * 2f;
         rightLimit = initialPosition + Vector3.right * 2f;
         targetPosition = transform.position + Vector3.right * moveDistance;
+        animator.SetBool(AnimationStrings.isMoving, true);
     }
 
     private void Update()
@@ -53,11 +57,13 @@ public class EnemyController : MonoBehaviour, IEnemyAI
             if (overLimit)
             {
                 MoveToTarget(initialPosition);
+                animator.SetBool(AnimationStrings.attackTrigger, false);
                 float distanceAfterGoBack = Vector3.Distance(transform.position, initialPosition);
                 if (distanceAfterGoBack > 0 && distanceAfterGoBack < 1f
                     || distanceAfterGoBack < 0 && distanceAfterGoBack > -1f)
                 {
                     overLimit = false;
+                    Flip();
                     return;
                 }
             }
@@ -77,7 +83,6 @@ public class EnemyController : MonoBehaviour, IEnemyAI
                 else
                 {
                     LosePlayer();
-                    MoveAroundInitPosition();
                 }
             }
         }
@@ -87,12 +92,14 @@ public class EnemyController : MonoBehaviour, IEnemyAI
     {
         isTrackingPlayer = true;
         Debug.Log("DetectPlayer");
+        animator.SetBool(AnimationStrings.isMoving, true);
     }
 
     public void LosePlayer()
     {
         isTrackingPlayer = false;
         Debug.Log("LosePlayer");
+        animator.SetBool(AnimationStrings.isMoving, false);
     }
 
     public void TakeDamage(int damageAmount)
@@ -116,6 +123,8 @@ public class EnemyController : MonoBehaviour, IEnemyAI
     public void SendDamage(GameObject target)
     {
         Debug.Log("Enemies are attacking the player");
+        FacingPlayer();
+        animator.SetBool(AnimationStrings.attackTrigger, true);
     }
 
     public void MoveAroundInitPosition()
@@ -150,6 +159,7 @@ public class EnemyController : MonoBehaviour, IEnemyAI
             if (distanceToInitPosition >= 5f)
             {
                 overLimit = true;
+                animator.SetBool(AnimationStrings.isMoving, true);
                 return;
             }
             MoveToTarget(targetPosition);
@@ -168,13 +178,20 @@ public class EnemyController : MonoBehaviour, IEnemyAI
     private void MoveToTarget(Vector3 targetPos)
     {
         if (transform.position.x <= targetPos.x)
-        {
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
-        }
         else
-        {
             transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
-        }
+
+        SendDamage(playerGameObject);
+    }
+
+    private void FacingPlayer()
+    {
+        Vector3 player = playerTransform.localScale;
+        Vector3 enemy = transform.localScale;
+
+        if (player.x - enemy.x < 0)
+            Flip();
     }
 
     private void Flip()
