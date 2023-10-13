@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 12.5
-  jumpInpulse: 15
+  jumpInpulse: 20
   _isFacingRight: 1
 --- !u!114 &8290244687776108299
 MonoBehaviour:
@@ -192,7 +192,19 @@ MonoBehaviour:
     m_ActionId: 08f92908-761a-4522-b2ac-1198c914458a
     m_ActionName: Player/Look[/Mouse/delta]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8970793141451094534}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: bcb15715-8751-400d-84cf-6d85c792b20d
     m_ActionName: Player/Attack[/Mouse/leftButton]
   - m_PersistentCalls:
@@ -269,8 +281,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.6834359, y: 0.43145812}
-  m_Size: {x: 0.7502775, y: 1.9574082}
+  m_Offset: {x: 0.01916027, y: -1.5040288}
+  m_Size: {x: 0.85573006, y: 3.7615118}
   m_Direction: 0
 --- !u!114 &98660690629137537
 MonoBehaviour:
@@ -299,4 +311,8 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   groudHitDistance: 0.5
+  wallDistance: 0.05
+  ceilingDistance: 0.05
+  _isOnWall: 0
+  _isOnCeiling: 0
   _isGrounded: 0

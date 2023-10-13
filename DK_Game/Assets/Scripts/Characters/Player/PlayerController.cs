@@ -35,9 +35,17 @@ public class PlayerController : MonoBehaviour
     {
         get
         {
-            if (IsMoving)
-                return walkSpeed;
-            else return 0;
+            if (CanMove)
+            {
+                if (IsMoving && !touchingDirections.IsOnWall)
+                    return walkSpeed;
+                else return 0;
+            }
+            else
+            {
+                return 0;
+            }
+
         }
     }
 
@@ -60,6 +68,11 @@ public class PlayerController : MonoBehaviour
             }
             _isFacingRight = value;
         }
+    }
+
+    public bool CanMove
+    {
+        get { return animator.GetBool(AnimationStrings.canMove); }
     }
 
     // Start is called before the first frame update
@@ -113,10 +126,18 @@ public class PlayerController : MonoBehaviour
     public void OnJump(InputAction.CallbackContext context)
     {
         // To do: Check Alive
-        if (context.started && touchingDirections.IsGrounded)
+        if (context.started && touchingDirections.IsGrounded && CanMove)
         {
-            animator.SetTrigger(AnimationStrings.jump);
+            animator.SetTrigger(AnimationStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpInpulse);
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            animator.SetTrigger(AnimationStrings.attackTrigger);
         }
     }
 
