@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 56b3cce261412384ebba937606c085dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dlf.pt-black-bar-png-4094116_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 137
+        width: 164
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a88c03748ec6f9429ae822ec99ebe46
+      internalID: 107579889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlf.pt-black-bar-png-4094116_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 164
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921449c10e6f2474698b68ae2cb6cd11
+      internalID: 1011897081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlf.pt-black-bar-png-4094116_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 135
+        width: 163
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eb4be452db29a48953443ecd68b9ec
+      internalID: 894301843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlf.pt-black-bar-png-4094116_26
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 164
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d7b2326bd933746993d9df18f963fd
+      internalID: 1812650095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlf.pt-black-bar-png-4094116_27
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 135
+        width: 161
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c43fee599dd6a54f8c837c8de5efdd5
+      internalID: 1927040294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dlf.pt-black-bar-png-4094116_28
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 139
+        width: 170
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ebf1c103a569c4289163774456c16f
+      internalID: 672213863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dlf.pt-black-bar-png-4094116_9: -778170400
+      dlf.pt-black-bar-png-4094116_2: -1015554107
+      dlf.pt-black-bar-png-4094116_1: -2018186991
+      dlf.pt-black-bar-png-4094116_22: 1292891697
+      dlf.pt-black-bar-png-4094116_29: -1955215145
+      dlf.pt-black-bar-png-4094116_11: -2067739141
+      dlf.pt-black-bar-png-4094116_6: 848148605
+      dlf.pt-black-bar-png-4094116_13: -1137401049
+      dlf.pt-black-bar-png-4094116_10: -2100827903
+      dlf.pt-black-bar-png-4094116_0: 1878834384
+      dlf.pt-black-bar-png-4094116_26: 1812650095
+      dlf.pt-black-bar-png-4094116_3: -1865544670
+      dlf.pt-black-bar-png-4094116_5: -544678215
+      dlf.pt-black-bar-png-4094116_8: -2015496445
+      dlf.pt-black-bar-png-4094116_12: 1759189757
+      dlf.pt-black-bar-png-4094116_19: 190243675
+      dlf.pt-black-bar-png-4094116_14: 2072239987
+      dlf.pt-black-bar-png-4094116_4: 1105614850
+      dlf.pt-black-bar-png-4094116_7: -758496634
+      dlf.pt-black-bar-png-4094116_16: -183213190
+      dlf.pt-black-bar-png-4094116_23: 107579889
+      dlf.pt-black-bar-png-4094116_27: 1927040294
+      dlf.pt-black-bar-png-4094116_17: -1881831330
+      dlf.pt-black-bar-png-4094116_28: 672213863
+      dlf.pt-black-bar-png-4094116_20: 56478972
+      dlf.pt-black-bar-png-4094116_24: 1011897081
+      dlf.pt-black-bar-png-4094116_18: -282559719
+      dlf.pt-black-bar-png-4094116_21: -1337376119
+      dlf.pt-black-bar-png-4094116_25: 894301843
+      dlf.pt-black-bar-png-4094116_15: -1160169427
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
