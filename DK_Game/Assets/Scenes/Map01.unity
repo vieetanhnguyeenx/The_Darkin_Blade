@@ -85028,7 +85028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d7accb5ea15f6c4d9b05f21e289507c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameScence: Map1 Boss
+  nameScence: Map01 Boss
 --- !u!61 &1662137574
 BoxCollider2D:
   m_ObjectHideFlags: 0

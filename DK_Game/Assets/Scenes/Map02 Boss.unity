@@ -367,6 +367,7 @@ GameObject:
   - component: {fileID: 43286398}
   - component: {fileID: 43286397}
   - component: {fileID: 43286396}
+  - component: {fileID: 43286399}
   m_Layer: 0
   m_Name: cave_x (15)
   m_TagString: Untagged
@@ -467,6 +468,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &43286399
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43286395}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1 &61952897
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61952899}
   - component: {fileID: 61952898}
+  - component: {fileID: 61952900}
   m_Layer: 0
   m_Name: cave_x (18)
   m_TagString: Untagged
@@ -551,6 +579,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61952900
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61952897}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1001 &77168178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -640,6 +694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 88976186}
   - component: {fileID: 88976185}
+  - component: {fileID: 88976187}
   m_Layer: 0
   m_Name: cave_x (10)
   m_TagString: Untagged
@@ -714,6 +769,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &88976187
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88976184}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1 &110309490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5658704578820746579, guid: c1c2520734848a04d905b377c092f3b3, type: 3}
@@ -1979,6 +2060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206095175}
   - component: {fileID: 206095174}
+  - component: {fileID: 206095176}
   m_Layer: 0
   m_Name: cave_x (9)
   m_TagString: Untagged
@@ -2053,6 +2135,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &206095176
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206095173}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1 &233939944
 GameObject:
   m_ObjectHideFlags: 0
@@ -3191,6 +3299,7 @@ GameObject:
   - component: {fileID: 526453013}
   - component: {fileID: 526453012}
   - component: {fileID: 526453011}
+  - component: {fileID: 526453014}
   m_Layer: 0
   m_Name: cave_x (8)
   m_TagString: Untagged
@@ -3291,6 +3400,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &526453014
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526453010}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1 &542735351
 GameObject:
   m_ObjectHideFlags: 0
@@ -8482,6 +8617,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4701003802268904664, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
   m_PrefabInstance: {fileID: 1605002403}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1613447865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5658704578489517829, guid: c1c2520734848a04d905b377c092f3b3, type: 3}
+  m_PrefabInstance: {fileID: 2092093010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1613447868
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613447865}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.93, y: 2.59}
+    newSize: {x: 2.93, y: 2.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.93, y: 2.59}
+  m_EdgeRadius: 0
 --- !u!1 &1622128563
 GameObject:
   m_ObjectHideFlags: 0
@@ -8782,6 +8948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1659990191}
   - component: {fileID: 1659990190}
+  - component: {fileID: 1659990192}
   m_Layer: 0
   m_Name: cave_x (17)
   m_TagString: Untagged
@@ -8856,6 +9023,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1659990192
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659990189}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1 &1666860891
 GameObject:
   m_ObjectHideFlags: 0
@@ -11463,6 +11656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040960558}
   - component: {fileID: 2040960557}
+  - component: {fileID: 2040960559}
   m_Layer: 0
   m_Name: cave_x (16)
   m_TagString: Untagged
@@ -11537,6 +11731,32 @@ Transform:
   m_Father: {fileID: 950441630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2040960559
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040960556}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.17, y: 0.73}
+    newSize: {x: 1.17, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 0.73}
+  m_EdgeRadius: 0
 --- !u!1 &2044485821
 GameObject:
   m_ObjectHideFlags: 0
