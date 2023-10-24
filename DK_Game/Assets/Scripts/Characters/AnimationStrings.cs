@@ -11,5 +11,6 @@
         public static string attackTrigger = "attack";
         public static string canMove = "canMove";
         public static string isAlive = "isAlive";
+        public static string isEnrage = "isEnrage";
     }
 }
