@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+
     [Header("Movment Variables")]
     [SerializeField] public float walkSpeed = 5f;
     public float jumpInpulse = 10f;

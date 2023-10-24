@@ -1,0 +1,1334 @@
+fileFormatVersion: 2
+guid: 4aefbe29ebf41c44697c1bc0a8e2a180
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: basicidlesheet_0
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 15532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636e134d69957714ca132f274752ba07
+      internalID: 619346976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_1
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 15532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aa7e1930a0676428a0776a8fdefe98
+      internalID: -900928871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_2
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 15532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7abc944f16172448bef3a3094ac8a3d
+      internalID: -1048284406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_3
+      rect:
+        serializedVersion: 2
+        x: 6548
+        y: 15532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff6e93c325906c40b06d5ced26a130f
+      internalID: 1958138997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_4
+      rect:
+        serializedVersion: 2
+        x: 8548
+        y: 15532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57948d1060394c64e9f694045ba1dcc6
+      internalID: 1709486116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_5
+      rect:
+        serializedVersion: 2
+        x: 10548
+        y: 15532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a699ce3f9890844f92932eee673f1b6
+      internalID: -915171509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_6
+      rect:
+        serializedVersion: 2
+        x: 12556
+        y: 15532
+        width: 800
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c34e5cc58b0c0444b085eadc05cc40b
+      internalID: 1547614835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_7
+      rect:
+        serializedVersion: 2
+        x: 14549
+        y: 15532
+        width: 807
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dfc3717d45f044aa7dbf166f6f8e96
+      internalID: -615171121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_8
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 13532
+        width: 800
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c47b23006afa34a9db11ec805caa37
+      internalID: 1476203439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 13532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1cd2e5bf0084b42a47c4d70766d979
+      internalID: -1932455347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 13532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6106c3b3df5a0f54083bc3adabc57da5
+      internalID: -482949663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6548
+        y: 13532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d9218b33db6124c969839fb8a0aff5
+      internalID: -451191329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_12
+      rect:
+        serializedVersion: 2
+        x: 8548
+        y: 13532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1542bf59ce0be0542820738032fd1b51
+      internalID: 177664272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_13
+      rect:
+        serializedVersion: 2
+        x: 10548
+        y: 13532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9108e6fef383a4d9a486d6efd52e7e
+      internalID: -994681168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_14
+      rect:
+        serializedVersion: 2
+        x: 12548
+        y: 13532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d6f451828f09d42a5a63fa58bd9728
+      internalID: 1140726166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_15
+      rect:
+        serializedVersion: 2
+        x: 14548
+        y: 13532
+        width: 808
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f1fbbb42c9e8346b67eebb53172dd6
+      internalID: 1693918619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_16
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b468d70fac920144a9eb49c3d9fc4930
+      internalID: -1634978558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e37b7a36d766e14a8a6611251b87a28
+      internalID: -182519630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_18
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6780c2886cc119147b117a65eec4e18e
+      internalID: -195209779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_19
+      rect:
+        serializedVersion: 2
+        x: 6548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975d79ab34eb62c4b80740b3962402ea
+      internalID: -1904476920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_20
+      rect:
+        serializedVersion: 2
+        x: 8548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6cb2f518bc03b4681f856035bf4f64
+      internalID: -2124530097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0598739dffa2ec4287e873e30278360
+      internalID: -1228866242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_22
+      rect:
+        serializedVersion: 2
+        x: 12548
+        y: 11532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fca9ebbd3ca4d5449408fb73bf1d468
+      internalID: 1844306404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_23
+      rect:
+        serializedVersion: 2
+        x: 14540
+        y: 11532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85ef5c9586e4c548b0101129519236d
+      internalID: -291238997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_24
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 9532
+        width: 808
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a0a34c768b004295ef1fcf873bb38
+      internalID: -1957259922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 9532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df50ea34efe103e418f898a0bd7440e0
+      internalID: -1369706263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_26
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 9532
+        width: 816
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67ef9a6ffb0ee74bafef9b1f4dcbb1d
+      internalID: 385356115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_27
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 9532
+        width: 816
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee1c35b1a5f2cd4c9823e875ef7b888
+      internalID: -105315703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_28
+      rect:
+        serializedVersion: 2
+        x: 8536
+        y: 9532
+        width: 820
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2953d311b919f634ab9f97ef6b102713
+      internalID: 1669237101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_29
+      rect:
+        serializedVersion: 2
+        x: 10540
+        y: 9532
+        width: 816
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30364cc0042c1fd488f4d717dce2ed36
+      internalID: -663816358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_30
+      rect:
+        serializedVersion: 2
+        x: 12533
+        y: 9532
+        width: 823
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55190df18c2e21a4f9a5c7ee97c436db
+      internalID: -1337454101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_31
+      rect:
+        serializedVersion: 2
+        x: 14540
+        y: 9532
+        width: 816
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b691486ba107b4a9cf6084c9be42f6
+      internalID: -605506828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 7532
+        width: 824
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f6219e75512444ba7655eb5ee70c47
+      internalID: 437505963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 7532
+        width: 823
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ffde0a53808b048a37e4fbec0123a7
+      internalID: -1950724902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 7532
+        width: 824
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1af30fd6ae4fc4d9cbe1eb3365fa1c
+      internalID: 906503983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_35
+      rect:
+        serializedVersion: 2
+        x: 6532
+        y: 7532
+        width: 824
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d75ae04c9456145bb62e2987d6729d
+      internalID: -1108299612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_36
+      rect:
+        serializedVersion: 2
+        x: 8532
+        y: 7532
+        width: 824
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221f3e9b05356244687bce3aba5f871c
+      internalID: -1738479681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_37
+      rect:
+        serializedVersion: 2
+        x: 10532
+        y: 7532
+        width: 824
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befce75513e577e4c8e2bedd473e3f73
+      internalID: 2024763830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_38
+      rect:
+        serializedVersion: 2
+        x: 12532
+        y: 7532
+        width: 824
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66fdeaa8e8e4e54f8276e0b350c91ca
+      internalID: 1039918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_39
+      rect:
+        serializedVersion: 2
+        x: 14540
+        y: 7532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ff13b093bcafa46a74389d35a8d009
+      internalID: 386255079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_40
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 5532
+        width: 824
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0af2bb5bd3b324aa8020d3e8a99381
+      internalID: -1027213674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 5532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f9a03afbd1e24390ec15eae753432
+      internalID: 1518311652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_42
+      rect:
+        serializedVersion: 2
+        x: 4533
+        y: 5532
+        width: 823
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44deacd4bcb6f9046bc58430822e6735
+      internalID: -1113708183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_43
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 5532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1660b111ba62f469f5ea934ad7e0eb
+      internalID: -356312960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_44
+      rect:
+        serializedVersion: 2
+        x: 8540
+        y: 5532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48e60f6fd9c7ad4cbecb9c0fa0a9d7e
+      internalID: -37425281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_45
+      rect:
+        serializedVersion: 2
+        x: 10540
+        y: 5532
+        width: 816
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914257b77a344a04899c8b15c47a70d0
+      internalID: -1094193226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_46
+      rect:
+        serializedVersion: 2
+        x: 12534
+        y: 5532
+        width: 822
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca560354c4702dd4bafb35fbd2873d5b
+      internalID: -467022990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_47
+      rect:
+        serializedVersion: 2
+        x: 14540
+        y: 5532
+        width: 816
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec988968b0d95744b993aebb96ea3e8
+      internalID: -256622477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_48
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3532
+        width: 816
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2664ee8e3e8c05647aad87baa35b84a9
+      internalID: 850705856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_49
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 3532
+        width: 816
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c35c8289b65d04782f0e7e92cdb86e
+      internalID: -588316352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_50
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 3532
+        width: 816
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae90394f6e007243ad9ae2ec7141230
+      internalID: -623076653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_51
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 3532
+        width: 816
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7268cccf682b6428a1bb98bfed7b5c
+      internalID: -1428110113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_52
+      rect:
+        serializedVersion: 2
+        x: 8548
+        y: 3532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abdd3f7913be8247b86c288dfb14864
+      internalID: 509878477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_53
+      rect:
+        serializedVersion: 2
+        x: 10548
+        y: 3532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb3b0fe6445b014c9a69a6515185061
+      internalID: 1464603665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicidlesheet_54
+      rect:
+        serializedVersion: 2
+        x: 12548
+        y: 3532
+        width: 808
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4f41f0cb7710e44a373d21b9f8d787
+      internalID: -245253657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      basicidlesheet_33: -1950724902
+      basicidlesheet_52: 509878477
+      basicidlesheet_11: -451191329
+      basicidlesheet_19: -1904476920
+      basicidlesheet_32: 437505963
+      basicidlesheet_14: 1140726166
+      basicidlesheet_20: -2124530097
+      basicidlesheet_35: -1108299612
+      basicidlesheet_45: -1094193226
+      basicidlesheet_24: -1957259922
+      basicidlesheet_12: 177664272
+      basicidlesheet_50: -623076653
+      basicidlesheet_16: -1634978558
+      basicidlesheet_30: -1337454101
+      basicidlesheet_3: 1958138997
+      basicidlesheet_4: 1709486116
+      basicidlesheet_8: 1476203439
+      basicidlesheet_0: 619346976
+      basicidlesheet_40: -1027213674
+      basicidlesheet_41: 1518311652
+      basicidlesheet_54: -245253657
+      basicidlesheet_22: 1844306404
+      basicidlesheet_13: -994681168
+      basicidlesheet_53: 1464603665
+      basicidlesheet_29: -663816358
+      basicidlesheet_34: 906503983
+      basicidlesheet_43: -356312960
+      basicidlesheet_46: -467022990
+      basicidlesheet_6: 1547614835
+      basicidlesheet_23: -291238997
+      basicidlesheet_2: -1048284406
+      basicidlesheet_27: -105315703
+      basicidlesheet_38: 1039918598
+      basicidlesheet_10: -482949663
+      basicidlesheet_39: 386255079
+      basicidlesheet_31: -605506828
+      basicidlesheet_26: 385356115
+      basicidlesheet_28: 1669237101
+      basicidlesheet_21: -1228866242
+      basicidlesheet_5: -915171509
+      basicidlesheet_47: -256622477
+      basicidlesheet_1: -900928871
+      basicidlesheet_9: -1932455347
+      basicidlesheet_51: -1428110113
+      basicidlesheet_18: -195209779
+      basicidlesheet_48: 850705856
+      basicidlesheet_25: -1369706263
+      basicidlesheet_37: 2024763830
+      basicidlesheet_36: -1738479681
+      basicidlesheet_44: -37425281
+      basicidlesheet_49: -588316352
+      basicidlesheet_7: -615171121
+      basicidlesheet_15: 1693918619
+      basicidlesheet_42: -1113708183
+      basicidlesheet_17: -182519630
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
