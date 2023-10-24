@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+
     [Header("Movment Variables")]
     [SerializeField] public float walkSpeed = 5f;
     public float jumpInpulse = 10f;
@@ -12,9 +13,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     TouchingDirections touchingDirections;
+    PlayerStats playerStats;
 
     // Read from Player Input Action value -1 0 1
     private Vector2 moveInput;
+
+
 
     private bool _isMoving = false;
     public bool IsMoving
@@ -86,6 +90,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
+        playerStats = GetComponent<PlayerStats>();
+
     }
 
     // Update is called once per frame

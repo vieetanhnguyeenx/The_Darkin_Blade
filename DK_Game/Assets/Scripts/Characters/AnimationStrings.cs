@@ -10,5 +10,6 @@
         public static string isOnCeiling = "isOnCeiling";
         public static string attackTrigger = "attack";
         public static string canMove = "canMove";
+        public static string isAlive = "isAlive";
     }
 }
