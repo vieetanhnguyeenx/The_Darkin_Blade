@@ -311,8 +311,8 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  groudHitDistance: 0.5
-  wallDistance: 0.05
+  groudHitDistance: 0.05
+  wallDistance: 0.2
   ceilingDistance: 0.05
   _isOnWall: 0
   _isOnCeiling: 0
