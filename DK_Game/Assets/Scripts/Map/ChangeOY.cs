@@ -2,38 +2,36 @@ using UnityEngine;
 
 public class ChangeOY : MonoBehaviour
 {
-    private bool checkup;
-    private bool checkdown;
-    public float pointhigh;
-    public float pointbottom;
-    // Start is called before the first frame update
-    void Start()
+    public float moveSpeed  ; 
+    public float top  ;       
+    public float bottom ;   
+
+    private bool movingUp = true;
+
+    void Update()
     {
-        checkup = true; checkdown = false;
-    }
+        
+        if (movingUp)
+        {
+            
+            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        if (transform.position.y <= pointhigh && checkup == true)
+            
+            if (transform.position.y >= top)
+            {
+                movingUp = false;
+            }
+        }
+        else
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + (2 * Time.deltaTime), transform.position.z);
+            
+            transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
 
-        }
-        if (transform.position.y > pointhigh)
-        {
-            checkup = false;
-            checkdown = true;
-        }
-        if (transform.position.y >= pointbottom && checkdown == true)
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y - (2 * Time.deltaTime), transform.position.z);
-
-        }
-        if (transform.position.y < pointbottom)
-        {
-            checkup = true;
-            checkdown = false;
+            
+            if (transform.position.y <= bottom)
+            {
+                movingUp = true;
+            }
         }
     }
 }

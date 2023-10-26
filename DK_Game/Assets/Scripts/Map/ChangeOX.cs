@@ -4,38 +4,36 @@ using UnityEngine;
 
 public class ChangeOX : MonoBehaviour
 {
-    private bool checkleft;
-    private bool checkright;
-    public float pointleft;
-    public float pointright;
-    // Start is called before the first frame update
-    void Start()
+    public float moveSpeed ; 
+    public float left ;     
+    public float right ;     
+
+    private bool movingRight = true;
+
+    void Update()
     {
-        checkleft = true; checkright = false;
-    }
+        Debug.Log(transform.position.x);
+        if (movingRight)
+        {
+           
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
-    
-    void FixedUpdate()
-    {
-        if (transform.position.x <= pointright && checkright == true)
+            
+            if (transform.position.x >= right)
+            {
+                movingRight = false;
+            }
+        }
+        else
         {
-            transform.position = new Vector3(transform.position.x + (2 * Time.deltaTime), transform.position.y , transform.position.z);
+           
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
 
-        }
-        if (transform.position.x > pointright)
-        {
-            checkright = false;
-            checkleft = true;
-        }
-        if (transform.position.x >= pointleft && checkleft == true)
-        {
-            transform.position = new Vector3(transform.position.x - (2 * Time.deltaTime), transform.position.y , transform.position.z);
-
-        }
-        if (transform.position.x < pointleft)
-        {
-            checkright = true;
-            checkleft = false;
+            
+            if (transform.position.x <= left)
+            {
+                movingRight = true;
+            }
         }
     }
 }
