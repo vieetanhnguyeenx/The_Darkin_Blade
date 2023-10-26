@@ -12,7 +12,7 @@ public class ChangeOX : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(transform.position.x);
+       
         if (movingRight)
         {
            
