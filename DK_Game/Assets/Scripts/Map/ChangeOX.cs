@@ -14,12 +14,12 @@ public class ChangeOX : MonoBehaviour
         checkleft = true; checkright = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    
+    void FixedUpdate()
     {
         if (transform.position.x <= pointright && checkright == true)
         {
-            transform.position = new Vector3(transform.position.x + (1 * Time.deltaTime), transform.position.y , transform.position.z);
+            transform.position = new Vector3(transform.position.x + (2 * Time.deltaTime), transform.position.y , transform.position.z);
 
         }
         if (transform.position.x > pointright)
@@ -29,7 +29,7 @@ public class ChangeOX : MonoBehaviour
         }
         if (transform.position.x >= pointleft && checkleft == true)
         {
-            transform.position = new Vector3(transform.position.x - (1 * Time.deltaTime), transform.position.y , transform.position.z);
+            transform.position = new Vector3(transform.position.x - (2 * Time.deltaTime), transform.position.y , transform.position.z);
 
         }
         if (transform.position.x < pointleft)

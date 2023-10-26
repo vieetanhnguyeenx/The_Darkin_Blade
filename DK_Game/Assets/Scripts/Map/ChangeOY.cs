@@ -13,7 +13,7 @@ public class ChangeOY : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (transform.position.y <= pointhigh && checkup == true)
         {
