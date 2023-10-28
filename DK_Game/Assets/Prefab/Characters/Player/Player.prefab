@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 958307708017851761}
   - component: {fileID: 98660690629137537}
   - component: {fileID: 4209809507334490304}
+  - component: {fileID: 2672424389525821830}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -339,3 +340,17 @@ MonoBehaviour:
     BaseValue: 0.7
   LifeSteal:
     BaseValue: 0.5
+--- !u!114 &2672424389525821830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4701003802268904661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0e7fac38d40a94eb98e33d77948ad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInvincible: 0
+  invincibilityTime: 1
