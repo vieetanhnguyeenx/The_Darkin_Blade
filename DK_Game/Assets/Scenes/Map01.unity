@@ -57593,6 +57593,7 @@ GameObject:
   - component: {fileID: 964217842}
   - component: {fileID: 964217841}
   - component: {fileID: 964217844}
+  - component: {fileID: 964217845}
   m_Layer: 3
   m_Name: Tilemap (20)
   m_TagString: Untagged
@@ -57927,6 +57928,27 @@ MonoBehaviour:
   moveSpeed: 5
   top: -39.8
   bottom: -79.8
+--- !u!50 &964217845
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964217839}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &984264868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63962,6 +63984,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1252923684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4701003802268904661, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+  m_PrefabInstance: {fileID: 984264868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252923693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252923684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0e7fac38d40a94eb98e33d77948ad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInvincible: 0
+  invincibilityTime: 1
 --- !u!1 &1273601250
 GameObject:
   m_ObjectHideFlags: 0
@@ -93333,6 +93374,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6737132451384186092, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115.81299
+      objectReference: {fileID: 0}
     - target: {fileID: 6737132451384186093, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
       propertyPath: m_Name
       value: Slot01
@@ -93389,9 +93434,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6737132452080852748, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 114.400024
+      objectReference: {fileID: 0}
     - target: {fileID: 6737132452080852749, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
       propertyPath: m_Name
       value: Slot02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737132452176498580, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 177.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737132452176498580, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115.899994
       objectReference: {fileID: 0}
     - target: {fileID: 6737132452176498581, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
       propertyPath: m_Name
@@ -93405,9 +93462,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: EquiSlotsBorder
       objectReference: {fileID: 0}
+    - target: {fileID: 6737132452632068819, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 107.98999
+      objectReference: {fileID: 0}
     - target: {fileID: 6737132453059982524, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
       propertyPath: m_Name
       value: Slot04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737132453059982527, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 112.900024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

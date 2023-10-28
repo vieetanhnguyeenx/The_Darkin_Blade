@@ -2,6 +2,6 @@
 {
     internal interface IDamageable
     {
-        float Damage(float damageAmount);
+        void Damage(float damageAmount);
     }
 }

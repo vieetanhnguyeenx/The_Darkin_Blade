@@ -1,15 +1,15 @@
 using Assets.Scripts;
+using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class PlayerDamage : MonoBehaviour
+public class PlayerDamage : MonoBehaviour, IDamageable
 {
     PlayerStats playerStats;
     Animator animator;
 
-
-
     private float _currentHealth;
 
+    [SerializeField]
     public float CurrentHealth
     {
         get
@@ -27,7 +27,14 @@ public class PlayerDamage : MonoBehaviour
         }
     }
 
-    private bool _isAlive;
+    [SerializeField]
+    private bool isInvincible = false;
+    private float timeSinceHit = 0;
+    [SerializeField]
+    public float invincibilityTime = 1f;
+
+    private bool _isAlive = true;
+
     public bool IsAlive
     {
         get { return _isAlive; }
@@ -35,23 +42,42 @@ public class PlayerDamage : MonoBehaviour
         {
             _isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
+            Debug.Log("IsAlive set" + value);
         }
     }
 
     private void Awake()
     {
-        _currentHealth = playerStats.MaxHealth.Value;
+        playerStats = GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
+        _currentHealth = playerStats.MaxHealth.Value;
     }
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
 
     // Update is called once per frame
     void Update()
     {
+        if (isInvincible)
+        {
+            if (timeSinceHit > invincibilityTime)
+            {
+                isInvincible = false;
+                timeSinceHit = 0;
+            }
+            timeSinceHit += Time.deltaTime;
+        }
 
+        Damage(100);
+        Debug.Log(CurrentHealth.ToString());
+
+    }
+
+    public void Damage(float damageAmount)
+    {
+        if (_isAlive && !isInvincible)
+        {
+            CurrentHealth -= damageAmount;
+            isInvincible = true;
+        }
     }
 }
