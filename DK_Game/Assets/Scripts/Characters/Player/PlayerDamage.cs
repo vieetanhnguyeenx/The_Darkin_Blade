@@ -67,8 +67,6 @@ public class PlayerDamage : MonoBehaviour, IDamageable
             timeSinceHit += Time.deltaTime;
         }
 
-        Damage(100);
-        Debug.Log(CurrentHealth.ToString());
 
     }
 
