@@ -79,6 +79,11 @@ public class PlayerController : MonoBehaviour
         get { return animator.GetBool(AnimationStrings.canMove); }
     }
 
+    public bool IsAlive
+    {
+        get { return animator.GetBool(AnimationStrings.isAlive); }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -110,9 +115,13 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-        IsMoving = moveInput != Vector2.zero;
+        if (IsAlive)
+        {
+            IsMoving = moveInput != Vector2.zero;
 
-        SetFacingDirection(moveInput);
+            SetFacingDirection(moveInput);
+        }
+
     }
 
     private void SetFacingDirection(Vector2 moveInput)
