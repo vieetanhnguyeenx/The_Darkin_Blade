@@ -24,8 +24,7 @@ public class ArrowDamageSender : MonoBehaviour
         if (damageable != null)
         {
             Debug.Log("Not null");
-            damageable.Damage(archerStats.Damage.Value);
-            //damageable.Damage(10);
+            damageable.DealDamage(archerStats.Damage.Value);
         }
     }
 }

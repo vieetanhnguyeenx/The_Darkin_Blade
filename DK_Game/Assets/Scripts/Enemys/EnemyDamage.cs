@@ -57,19 +57,14 @@ public class EnemyDamage : MonoBehaviour, IDamageable
         Debug.Log($"Archer2: {CurrentHealth}");
     }
 
-    float IDamageable.Damage(float damageAmount)
+    float IDamageable.DealDamage(float damageAmount)
     {
         if (IsAlive)
         {
-            if (IsAlive)
-            {
-                //Debug.Log("dame deal to Dummy " + damageAmount);
-                CurrentHealth -= damageAmount;
-                healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
-                return damageAmount;
-            }
-            return 0;
-
+            //Debug.Log("dame deal to Dummy " + damageAmount);
+            CurrentHealth -= damageAmount;
+            healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
+            return damageAmount;
         }
         return 0;
     }
