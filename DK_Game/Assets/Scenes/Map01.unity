@@ -58072,6 +58072,10 @@ PrefabInstance:
       propertyPath: groudHitDistanceFeather
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2672424389525821830, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4105766809304739886, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.6
@@ -93490,14 +93494,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6737132451384186092, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 115.81299
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132451384186093, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_Name
-      value: Slot01
-      objectReference: {fileID: 0}
     - target: {fileID: 6737132451384382497, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -93550,46 +93546,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 6737132452080852748, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 114.400024
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452080852749, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_Name
-      value: Slot02
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452176498580, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 177.29999
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452176498580, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 115.899994
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452176498581, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_Name
-      value: Slot03
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452254185821, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_Name
-      value: Slot05
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452632068816, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_Name
-      value: EquiSlotsBorder
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132452632068819, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 107.98999
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132453059982524, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_Name
-      value: Slot04
-      objectReference: {fileID: 0}
-    - target: {fileID: 6737132453059982527, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 112.900024
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
