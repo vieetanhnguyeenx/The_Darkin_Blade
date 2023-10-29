@@ -4,7 +4,7 @@ using UnityEngine;
 public class ObjectPool : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public int poolSize = 3;
+    public int poolSize = 10;
     public Vector3[] spawnPositions; // An array containing fixed spawn positions
     private int spawnIndex = 0;
 
@@ -24,6 +24,7 @@ public class ObjectPool : MonoBehaviour
             GameObject enemy = Instantiate(enemyPrefab);
             enemy.SetActive(false);
             pool.Add(enemy);
+            SpawnFromPool();
         }
     }
 

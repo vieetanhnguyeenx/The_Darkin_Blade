@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b32feee3aaa09a4cadb5dddb22f4303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 6930341416334331243, guid: ca036a38527f2434b9093264a0f584e1, type: 3}
   poolSize: 3
   spawnPositions:
-  - {x: 1, y: 1, z: 0}
-  - {x: 2, y: 2, z: 0}
-  - {x: 3, y: 3, z: 0}
+  - {x: -10, y: 0, z: 0}
+  - {x: 8, y: 0, z: 0}
+  - {x: 30, y: 26, z: 0}

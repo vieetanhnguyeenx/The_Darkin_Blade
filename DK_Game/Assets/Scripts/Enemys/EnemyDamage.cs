@@ -9,15 +9,20 @@ public class EnemyDamage : MonoBehaviour, IDamageable
     Animator animator;
     Archer2Stats archer2Stats;
     private float _currentHealth;
-
+    GameObject ObjectPool;
     private void Start()
     {
         archer2Stats = GetComponent<Archer2Stats>();
         healthBar = GetComponentInChildren<EnemyFloatingHealthBar>();
         _currentHealth = archer2Stats.MaxHealth.Value;
         healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
+        ObjectPool = GameObject.FindGameObjectWithTag("Archer2ObjectPool");
     }
 
+    private void OnEnable()
+    {
+        _currentHealth = archer2Stats.MaxHealth.Value;
+    }
 
     public float CurrentHealth
     {
@@ -42,7 +47,7 @@ public class EnemyDamage : MonoBehaviour, IDamageable
             isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("Enemy death");
-            Destroy(gameObject);
+            ObjectPool.GetComponentInChildren<ObjectPool>().ReturnToPool(gameObject);
         }
     }
 
