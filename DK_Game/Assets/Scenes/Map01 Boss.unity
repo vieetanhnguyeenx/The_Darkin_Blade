@@ -9929,6 +9929,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 177.30002
       objectReference: {fileID: 0}
+    - target: {fileID: 6737132452632068819, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 107.98999
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
@@ -14500,6 +14504,10 @@ PrefabInstance:
     - target: {fileID: 4701003802268904664, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791905797081729390, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7791905797081729390, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_PointLightInnerRadius
