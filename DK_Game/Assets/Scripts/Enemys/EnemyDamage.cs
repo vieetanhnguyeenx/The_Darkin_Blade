@@ -6,31 +6,26 @@ public class EnemyDamage : MonoBehaviour, IDamageable
 {
     public bool isInvulnerable = false;
     EnemyFloatingHealthBar healthBar;
-
-    [SerializeField] public CharaterStast MaxHealth;
-    [SerializeField] public CharaterStast Damage;
-    [SerializeField] public CharaterStast Armor;
-    [SerializeField] public CharaterStast AttackSpeed;
-    [SerializeField] public CharaterStast LifeSteal;
-
-    [SerializeField]
-    private float currentHealth;
+    Animator animator;
+    Archer2Stats archer2Stats;
+    private float _currentHealth;
 
     private void Start()
     {
+        archer2Stats = GetComponent<Archer2Stats>();
         healthBar = GetComponentInChildren<EnemyFloatingHealthBar>();
-        healthBar.UpdateHealthBar(currentHealth, MaxHealth.Value);
+        _currentHealth = archer2Stats.MaxHealth.Value;
+        healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
     }
 
 
     public float CurrentHealth
     {
-        get { return currentHealth; }
+        get { return _currentHealth; }
         private set
         {
-            currentHealth = value;
-            // if  heath drop below 0, character is no longer alive
-            if (currentHealth <= 0)
+            _currentHealth = value;
+            if (_currentHealth <= 0)
             {
                 IsAlive = false;
             }
@@ -45,38 +40,36 @@ public class EnemyDamage : MonoBehaviour, IDamageable
         private set
         {
             isAlive = value;
-            GetComponent<Animator>().SetBool(AnimationStrings.isAlive, value);
+            animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("Enemy death");
+            Destroy(gameObject);
         }
     }
 
 
     private void Awake()
     {
-        CurrentHealth = MaxHealth.Value;
+        animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        Debug.Log($"Archer2: {CurrentHealth}");
     }
 
     float IDamageable.Damage(float damageAmount)
     {
         if (IsAlive)
         {
-
-            if (!isInvulnerable)
+            if (IsAlive)
             {
-                currentHealth -= damageAmount;
-                Debug.Log(currentHealth);
-                //if (currentHealth <= MaxHealth.Value / 2f)
-                //{
-                //    GetComponent<Animator>().SetBool(AnimationStrings.isEnrage, true);
-                //}
-
-                if (currentHealth <= 0)
-                {
-                    isAlive = false;
-                }
-                healthBar.UpdateHealthBar(currentHealth, MaxHealth.Value);
+                //Debug.Log("dame deal to Dummy " + damageAmount);
+                CurrentHealth -= damageAmount;
+                healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
                 return damageAmount;
             }
+            return 0;
+
         }
         return 0;
     }

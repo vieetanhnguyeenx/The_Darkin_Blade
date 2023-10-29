@@ -383,7 +383,7 @@ AnimatorStateMachine:
     m_Position: {x: 0, y: -110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110252747}
-    m_Position: {x: 260, y: 80, z: 0}
+    m_Position: {x: 260, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110284564}
     m_Position: {x: -650, y: -190, z: 0}
@@ -407,7 +407,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 280, y: -20, z: 0}
+  m_AnyStatePosition: {x: 280, y: -110, z: 0}
   m_EntryPosition: {x: -450, y: 80, z: 0}
   m_ExitPosition: {x: 540, y: 50, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
