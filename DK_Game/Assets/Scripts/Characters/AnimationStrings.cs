@@ -12,5 +12,6 @@
         public static string canMove = "canMove";
         public static string isAlive = "isAlive";
         public static string isEnrage = "isEnrage";
+        public static string IdleTrigger = "Idle";
     }
 }
