@@ -58146,11 +58146,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7791905797081729390, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 7791905797081729390, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_PointLightInnerRadius
-      value: 11.4
+      value: 5.9
       objectReference: {fileID: 0}
     - target: {fileID: 7791905797081729390, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_PointLightOuterRadius
