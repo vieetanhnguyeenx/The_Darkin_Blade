@@ -20,7 +20,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable
         {
             _currentHealth = value;
             // if  heath drop below 0, character is no longer alive
-            if (_currentHealth < 0)
+            if (_currentHealth <= 0)
             {
                 IsAlive = false;
             }
@@ -67,15 +67,17 @@ public class PlayerDamage : MonoBehaviour, IDamageable
             timeSinceHit += Time.deltaTime;
         }
 
-        Damage(100);
     }
 
-    public void Damage(float damageAmount)
+    public float Damage(float damageAmount)
     {
         if (_isAlive && !isInvincible)
         {
             CurrentHealth -= damageAmount;
             isInvincible = true;
+            // Todo caculate damage
+            return damageAmount;
         }
+        return 0;
     }
 }
