@@ -58072,6 +58072,14 @@ PrefabInstance:
       propertyPath: groudHitDistanceFeather
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4105766809304739886, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105766809304739886, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4209809507334490304, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: MaxHealth.BaseValue
       value: 1000
@@ -58135,6 +58143,10 @@ PrefabInstance:
     - target: {fileID: 4701003802268904667, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
       propertyPath: m_Size.y
       value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7791905797081729390, guid: d8aca9ba124f40a43981134e3fa96551, type: 3}
+      propertyPath: m_Intensity
+      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
