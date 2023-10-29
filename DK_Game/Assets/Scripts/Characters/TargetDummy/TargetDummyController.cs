@@ -1,8 +1,9 @@
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class TargetDummyController : MonoBehaviour, IDamageable
+public class TargetDummyController : MonoBehaviour, IDamageable, IKnockbackable
 {
+
     [SerializeField] public CharaterStast MaxHealth;
     [SerializeField] public CharaterStast Damage;
     [SerializeField] public CharaterStast Armor;
@@ -37,13 +38,16 @@ public class TargetDummyController : MonoBehaviour, IDamageable
         }
     }
 
+    Rigidbody2D rb;
+
 
     private void Awake()
     {
         CurrentHealth = MaxHealth.Value;
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    float IDamageable.Damage(float damageAmount)
+    float IDamageable.DealDamage(float damageAmount)
     {
         if (IsAlive)
         {
@@ -52,5 +56,10 @@ public class TargetDummyController : MonoBehaviour, IDamageable
             return damageAmount;
         }
         return 0;
+    }
+
+    public void DealKnockback(Vector2 knockback)
+    {
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 }

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     TouchingDirections touchingDirections;
     PlayerStats playerStats;
+    PlayerDamage playerDamage;
 
     // Read from Player Input Action value -1 0 1
     private Vector2 moveInput;
@@ -96,6 +97,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
         playerStats = GetComponent<PlayerStats>();
+        playerDamage = GetComponent<PlayerDamage>();
 
     }
 
@@ -107,7 +109,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+        if (!playerDamage.IsHit)
+            rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
 
     }
