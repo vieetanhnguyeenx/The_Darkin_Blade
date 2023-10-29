@@ -46,6 +46,19 @@ public class PlayerDamage : MonoBehaviour, IDamageable
         }
     }
 
+    public bool IsHit
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.isHit);
+        }
+
+        private set
+        {
+            animator.SetBool(AnimationStrings.isHit, value);
+        }
+    }
+
     private void Awake()
     {
         playerStats = GetComponent<PlayerStats>();
@@ -69,7 +82,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable
         Debug.Log($"Player: {CurrentHealth}");
     }
 
-    public float Damage(float damageAmount)
+    public float DealDamage(float damageAmount)
     {
         if (_isAlive && !isInvincible)
         {

@@ -5,6 +5,8 @@ public class BasicAttack : MonoBehaviour
 {
     Collider2D basicAttackColider;
     PlayerStats playerStats;
+
+    [SerializeField] public Vector2 knockback = Vector2.zero;
     private void Awake()
     {
         playerStats = GetComponentInParent<PlayerStats>();
@@ -29,7 +31,14 @@ public class BasicAttack : MonoBehaviour
         if (damageable != null)
         {
             Debug.Log("Not null");
-            damageable.Damage(playerStats.Damage.Value);
+            damageable.DealDamage(playerStats.Damage.Value);
+        }
+
+        IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();
+
+        if (knockbackable != null)
+        {
+            knockbackable.DealKnockback(knockback);
         }
     }
 }
