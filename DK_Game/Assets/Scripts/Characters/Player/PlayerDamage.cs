@@ -67,7 +67,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable
             timeSinceHit += Time.deltaTime;
         }
 
-
+        Damage(100);
     }
 
     public void Damage(float damageAmount)
