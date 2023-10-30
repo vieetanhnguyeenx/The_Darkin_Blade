@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 615991193354854084}
   m_Layer: 0
   m_Name: Archer1
-  m_TagString: Untagged
+  m_TagString: Archer1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ Transform:
   - {fileID: 615991194592987190}
   - {fileID: 615991194825266001}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &615991193354854091
 SpriteRenderer:

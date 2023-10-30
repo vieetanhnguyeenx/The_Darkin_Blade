@@ -404,6 +404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EquivementSlots
       objectReference: {fileID: 0}
+    - target: {fileID: 6737132451384382526, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6737132452037869556, guid: c8ae932ed19f1cb4da248f6b98d5f63b, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1004,6 +1008,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6930341415936657689, guid: ca036a38527f2434b9093264a0f584e1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930341415936657689, guid: ca036a38527f2434b9093264a0f584e1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6930341416334331243, guid: ca036a38527f2434b9093264a0f584e1, type: 3}
       propertyPath: m_Name
       value: Archer02

@@ -19,14 +19,13 @@ public class Arrow1DamageSender : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Ontrigger " + collision.tag);
+        if (!collision.CompareTag("Player"))
+            return;
         IDamageable damageable = collision.GetComponent<IDamageable>();
-        if (collision.tag.Equals("Player"))
+        if (damageable != null)
         {
-            if (damageable != null)
-            {
-                Debug.Log("Not null");
-                damageable.DealDamage(archerStats.Damage.Value);
-            }
+            Debug.Log("Not null");
+            damageable.DealDamage(archerStats.Damage.Value);
         }
     }
 }

@@ -17,7 +17,7 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
         healthBar = GetComponentInChildren<EnemyFloatingHealthBar>();
         _currentHealth = archer1Stats.MaxHealth.Value;
         healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
-        ObjectPool = GameObject.FindGameObjectWithTag("Archer2ObjectPool");
+        ObjectPool = GameObject.FindGameObjectWithTag("Archer1ObjectPool");
     }
 
     public float CurrentHealth
@@ -43,7 +43,10 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
             isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("Enemy death");
-            ObjectPool.GetComponentInChildren<ObjectPool>().ReturnToPool(gameObject);
+            if (ObjectPool != null)
+                ObjectPool.GetComponentInChildren<ObjectPool>().ReturnToPool(gameObject);
+            else
+                Destroy(gameObject);
         }
     }
 
@@ -59,17 +62,29 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
         Debug.Log($"Archer2: {CurrentHealth}");
     }
 
-    float IDamageable.DealDamage(float damageAmount)
+    public float DealDamage(float damageAmount)
     {
         if (IsAlive)
         {
             //Debug.Log("dame deal to Dummy " + damageAmount);
-            CurrentHealth -= damageAmount;
+            _currentHealth -= damageAmount;
             healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
             return damageAmount;
         }
         return 0;
     }
+
+    //float IDamageable.DealDamage(float damageAmount)
+    //{
+    //    if (IsAlive)
+    //    {
+    //        //Debug.Log("dame deal to Dummy " + damageAmount);
+    //        _currentHealth -= damageAmount;
+    //        healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
+    //        return damageAmount;
+    //    }
+    //    return 0;
+    //}
 
     public void DealKnockback(Vector2 knockback)
     {
