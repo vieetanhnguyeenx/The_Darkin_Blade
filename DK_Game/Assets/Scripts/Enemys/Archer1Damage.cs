@@ -2,26 +2,21 @@ using Assets.Scripts;
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class EnemyDamage : MonoBehaviour, IDamageable
+public class Archer1Damage : MonoBehaviour, IDamageable
 {
     public bool isInvulnerable = false;
     EnemyFloatingHealthBar healthBar;
     Animator animator;
-    Archer2Stats archer2Stats;
+    Archer1Stats archer1Stats;
     private float _currentHealth;
     GameObject ObjectPool;
     private void Start()
     {
-        archer2Stats = GetComponent<Archer2Stats>();
+        archer1Stats = GetComponent<Archer1Stats>();
         healthBar = GetComponentInChildren<EnemyFloatingHealthBar>();
-        _currentHealth = archer2Stats.MaxHealth.Value;
-        healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
+        _currentHealth = archer1Stats.MaxHealth.Value;
+        healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
         ObjectPool = GameObject.FindGameObjectWithTag("Archer2ObjectPool");
-    }
-
-    private void OnEnable()
-    {
-        _currentHealth = archer2Stats.MaxHealth.Value;
     }
 
     public float CurrentHealth
@@ -68,7 +63,7 @@ public class EnemyDamage : MonoBehaviour, IDamageable
         {
             //Debug.Log("dame deal to Dummy " + damageAmount);
             CurrentHealth -= damageAmount;
-            healthBar.UpdateHealthBar(_currentHealth, archer2Stats.MaxHealth.Value);
+            healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
             return damageAmount;
         }
         return 0;
