@@ -2,8 +2,9 @@ using Assets.Scripts;
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class Archer1Damage : MonoBehaviour, IDamageable
+public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
 {
+    Rigidbody2D rb;
     public bool isInvulnerable = false;
     EnemyFloatingHealthBar healthBar;
     Animator animator;
@@ -50,6 +51,7 @@ public class Archer1Damage : MonoBehaviour, IDamageable
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -67,5 +69,10 @@ public class Archer1Damage : MonoBehaviour, IDamageable
             return damageAmount;
         }
         return 0;
+    }
+
+    public void DealKnockback(Vector2 knockback)
+    {
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 }
