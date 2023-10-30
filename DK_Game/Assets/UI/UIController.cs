@@ -41,7 +41,7 @@ public class UIController : MonoBehaviour
                     {
                         case buttonId.btnStartGame:
                             Debug.Log("Start Game");
-                            SceneManager.LoadScene("Map01");
+                            SceneManager.LoadScene("MenuLoaderMap01");
                             break;
                         case buttonId.btnOption:
                             Debug.Log("Option");

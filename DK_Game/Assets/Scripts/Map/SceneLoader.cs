@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
 
     void Start()
     {
-        LoadSceneWithDelay(sceneName, 10f); // Load scene after 10 seconds
+        LoadSceneWithDelay(sceneName, 5f); 
     }
 
     public void LoadSceneWithDelay(string sceneName, float delay)
@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
         progressSlider.value = 0;
         loaderUI.SetActive(true);
 
-        // Fill progress bar over a specified delay time
+        
         while (timer < delay)
         {
             timer += Time.deltaTime;
@@ -38,10 +38,10 @@ public class SceneLoader : MonoBehaviour
 
         progressSlider.value = 1;
 
-        // Wait for a short moment for the progress bar to show completion (optional)
-        yield return new WaitForSeconds(1f);
+        
+        yield return new WaitForSeconds(0f);
 
-        // Load the new scene
+       
         SceneManager.LoadScene(sceneName);
     }
 }
