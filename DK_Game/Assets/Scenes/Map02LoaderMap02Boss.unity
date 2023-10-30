@@ -175,14 +175,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_Color: {r: 0.6886792, g: 0.6328052, b: 0.6328052, a: 1}
+  m_Color: {r: 0.6132076, g: 0.47668213, b: 0.47668213, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b8fc1fe2873a48cfb18db6093c125ac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df73b4bce81f34a13ad5c1760f1a7a40, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loaderUI: {fileID: 413378637}
   progressSlider: {fileID: 1193885456}
-  sceneName: Map01 Boss
+  sceneName: Map03
 --- !u!1 &1193885455
 GameObject:
   m_ObjectHideFlags: 0

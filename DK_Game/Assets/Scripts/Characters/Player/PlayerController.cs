@@ -154,7 +154,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.performed)
         {
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
