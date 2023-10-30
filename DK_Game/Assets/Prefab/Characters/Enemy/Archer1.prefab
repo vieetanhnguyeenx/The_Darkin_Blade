@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInvulnerable: 0
+  FloatingDamage: {fileID: 5069561559753570855, guid: 1a9e5f7870f4a864fb336ad14c514880, type: 3}
   isAlive: 1
 --- !u!95 &615991193354854081
 Animator:

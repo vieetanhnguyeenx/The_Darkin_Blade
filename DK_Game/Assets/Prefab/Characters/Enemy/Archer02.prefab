@@ -34,7 +34,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 4.069992, y: 0}
   m_SizeDelta: {x: 18.15, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -115,7 +115,7 @@ Transform:
   - {fileID: 6930341417080311980}
   - {fileID: 6930341416670977937}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6930341416334331245
 SpriteRenderer:
@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInvulnerable: 0
+  FloatingDamage: {fileID: 5069561559753570855, guid: 1a9e5f7870f4a864fb336ad14c514880, type: 3}
   isAlive: 1
 --- !u!114 &89264668174566837
 MonoBehaviour:

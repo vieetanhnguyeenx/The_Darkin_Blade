@@ -11,6 +11,7 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
     Archer1Stats archer1Stats;
     private float _currentHealth;
     GameObject ObjectPool;
+    public GameObject FloatingDamage;
     private void Start()
     {
         archer1Stats = GetComponent<Archer1Stats>();
@@ -66,10 +67,14 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
 
     public float DealDamage(float damageAmount)
     {
+
         if (IsAlive)
         {
             //Debug.Log("dame deal to Dummy " + damageAmount);
             CurrentHealth -= damageAmount;
+            //Instantiate(FloatingDamage, transform.position, Quaternion.identity);
+            GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
+            txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
             healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
             return damageAmount;
         }
