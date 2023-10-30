@@ -76,6 +76,7 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
             GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
             txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
             healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
+            gameObject.GetComponentInChildren<Enemysfx>().HurtSound();
             return damageAmount;
         }
         return 0;

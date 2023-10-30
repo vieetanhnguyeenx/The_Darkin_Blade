@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Archer2
+  - Archer1
+  - Archer2ObjectPool
+  - Archer1ObjectPool
+  - arrow
   layers:
   - Default
   - TransparentFX
