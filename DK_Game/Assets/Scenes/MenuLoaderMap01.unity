@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.6792453, b: 0.6792453, a: 1}
+  m_Color: {r: 1, g: 0.97547174, b: 0.97547174, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loaderUI: {fileID: 413378637}
   progressSlider: {fileID: 1193885456}
-  sceneName: Map02
+  sceneName: Map01
 --- !u!1 &1193885455
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8584906, g: 0.100427166, b: 0.100427166, a: 1}
+  m_Color: {r: 0.41509432, g: 0.09555001, b: 0.09555001, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
