@@ -1,7 +1,7 @@
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class ArrowDamageSender : MonoBehaviour
+public class Arrow2DamageSender : MonoBehaviour
 {
     Archer2Stats archerStats;
 
@@ -20,11 +20,13 @@ public class ArrowDamageSender : MonoBehaviour
     {
         Debug.Log("Ontrigger " + collision.tag);
         IDamageable damageable = collision.GetComponent<IDamageable>();
-
-        if (damageable != null)
+        if (collision.tag.Equals("Player"))
         {
-            Debug.Log("Not null");
-            damageable.DealDamage(archerStats.Damage.Value);
+            if (damageable != null)
+            {
+                Debug.Log("Not null");
+                damageable.DealDamage(archerStats.Damage.Value);
+            }
         }
     }
 }

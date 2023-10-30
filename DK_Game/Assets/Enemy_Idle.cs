@@ -27,7 +27,7 @@ public class Enemy_Idle : StateMachineBehaviour
             attackRange = 3f;
         }
         attackRange = 10f;
-        Debug.Log(Vector2.Distance(player.position, rb.position));
+        //Debug.Log(Vector2.Distance(player.position, rb.position));
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
             animator.SetTrigger(AnimationStrings.attackTrigger);
         else
