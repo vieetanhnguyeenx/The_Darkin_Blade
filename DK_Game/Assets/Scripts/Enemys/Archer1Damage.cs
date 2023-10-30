@@ -60,10 +60,10 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
-    {
-        Debug.Log($"Archer2: {CurrentHealth}");
-    }
+    //private void Update()
+    //{
+    //    Debug.Log($"Archer2: {CurrentHealth}");
+    //}
 
     public float DealDamage(float damageAmount)
     {
