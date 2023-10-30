@@ -10,10 +10,11 @@ public class SceneLoader : MonoBehaviour
 
     private bool loadFinished = false;
     public string sceneName;
+    public float time;
 
     void Start()
     {
-        LoadSceneWithDelay(sceneName, 5f); 
+        LoadSceneWithDelay(sceneName, time); 
     }
 
     public void LoadSceneWithDelay(string sceneName, float delay)
