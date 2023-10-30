@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d26467695f4a0499392ab080ee7244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canReceiveInput: 0
+  canReceiveInput: 1
   inputRecived: 0
 --- !u!1 &5974937621822285832
 GameObject:
