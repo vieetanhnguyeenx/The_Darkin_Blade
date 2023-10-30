@@ -547,4 +547,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockback: {x: 1, y: 5}
+  player: {fileID: 4701003802268904661}
+  knockback: {x: 1, y: 1}

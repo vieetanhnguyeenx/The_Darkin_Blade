@@ -5,6 +5,7 @@ public class BasicAttack : MonoBehaviour
 {
     Collider2D basicAttackColider;
     PlayerStats playerStats;
+    [SerializeField] public GameObject player;
 
     [SerializeField] public Vector2 knockback = Vector2.zero;
     private void Awake()
@@ -38,7 +39,10 @@ public class BasicAttack : MonoBehaviour
 
         if (knockbackable != null)
         {
-            knockbackable.DealKnockback(knockback);
+
+            Vector2 vector2knockbackVector = player.transform.localScale.x > 0 ? knockback : new Vector2(knockback.x * -1, knockback.y);
+            Debug.Log(vector2knockbackVector);
+            knockbackable.DealKnockback(vector2knockbackVector);
         }
     }
 }
