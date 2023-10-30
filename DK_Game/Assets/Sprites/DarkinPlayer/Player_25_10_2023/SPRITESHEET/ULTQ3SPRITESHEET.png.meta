@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,7 +105,910 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_0
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 15316
+        width: 512
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdca0fad17d3374f8582c9d027d8b17
+      internalID: -739149532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_1
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 15316
+        width: 512
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c7c83fb2fefa4ea3cd1bf6d104be7
+      internalID: -1555149392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_2
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 15272
+        width: 356
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4a622698cf25f4ba3f0b41df4330e3
+      internalID: 1333805230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_3
+      rect:
+        serializedVersion: 2
+        x: 6676
+        y: 15340
+        width: 328
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4b70db815ea2b4ba5b8cf8ac516d4a
+      internalID: -1115636239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_4
+      rect:
+        serializedVersion: 2
+        x: 8676
+        y: 15436
+        width: 336
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad85e4ce48158546945963453a18dd1
+      internalID: 943942208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_5
+      rect:
+        serializedVersion: 2
+        x: 10612
+        y: 15476
+        width: 416
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4c52d91ba05284eac3ebf62868fa84
+      internalID: -137349081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_6
+      rect:
+        serializedVersion: 2
+        x: 12540
+        y: 15540
+        width: 609
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ea381b59b3e7044b3e921e34449ff4
+      internalID: -1895291197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_8
+      rect:
+        serializedVersion: 2
+        x: 14508
+        y: 15631
+        width: 681
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e972c2568aaf14b4fab9ff62a95bd2bf
+      internalID: 1893435967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 13716
+        width: 643
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f6111f7557be4b8550c20e29a1685
+      internalID: -1368719726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_11
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 13694
+        width: 700
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016f70c7265c03a4cbe672f73d3a2164
+      internalID: -1878763283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_12
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 13642
+        width: 712
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fed5790ad4d284dab15d9ab516af28
+      internalID: 1180236010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_13
+      rect:
+        serializedVersion: 2
+        x: 6444
+        y: 13638
+        width: 700
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7781b37ed53c0458599f1096cdc716
+      internalID: -568968915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_15
+      rect:
+        serializedVersion: 2
+        x: 8437
+        y: 13660
+        width: 742
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba1a3955b8ddb546bb68d0b9a0abb87
+      internalID: 1838112282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_17
+      rect:
+        serializedVersion: 2
+        x: 10444
+        y: 13681
+        width: 796
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368fba545a951524ca463cf814ce693f
+      internalID: -2095532449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_19
+      rect:
+        serializedVersion: 2
+        x: 12460
+        y: 13625
+        width: 832
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e699d323151c8440a622ff73a77d7c4
+      internalID: 870098386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_21
+      rect:
+        serializedVersion: 2
+        x: 14476
+        y: 13581
+        width: 860
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9978224576753ed42b921ed8a6fe81cc
+      internalID: 28069122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_26
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 11541
+        width: 872
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d4717c2993c064fbf41a7728bd0053
+      internalID: -1202072394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_27
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 11492
+        width: 848
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40718651d5041347b2bc425c482f017
+      internalID: -1334418548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_28
+      rect:
+        serializedVersion: 2
+        x: 4556
+        y: 11436
+        width: 752
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e109bc5d4bda04d4bade199c04d0aa2e
+      internalID: -665516691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_29
+      rect:
+        serializedVersion: 2
+        x: 6596
+        y: 11220
+        width: 648
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30c7d99afe00d9418afc6f76312f7f7
+      internalID: -1365433992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_30
+      rect:
+        serializedVersion: 2
+        x: 8588
+        y: 11076
+        width: 696
+        height: 1048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394bdfad828b4d843a88128b6778768b
+      internalID: 2060609222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_31
+      rect:
+        serializedVersion: 2
+        x: 10788
+        y: 11060
+        width: 760
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663c21d67e7e8ba4fa64fde0cd25e2a8
+      internalID: 1738039694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_32
+      rect:
+        serializedVersion: 2
+        x: 12804
+        y: 11044
+        width: 880
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d6f2b922fbc7b44a3e72b43720e7d3
+      internalID: 1140818520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_33
+      rect:
+        serializedVersion: 2
+        x: 14804
+        y: 11044
+        width: 880
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4795b727bd7597f4e901eb6ab24e7df2
+      internalID: 747613666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_34
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 9510
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04f9696da5f2184ebcb860e03c8da75
+      internalID: 238907320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_35
+      rect:
+        serializedVersion: 2
+        x: 8612
+        y: 8996
+        width: 936
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acbf16301a41514691085184655a563
+      internalID: 1495841345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_36
+      rect:
+        serializedVersion: 2
+        x: 10620
+        y: 8964
+        width: 888
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405cc52ee409507449dc851630f67921
+      internalID: 753110381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_37
+      rect:
+        serializedVersion: 2
+        x: 12660
+        y: 8932
+        width: 756
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed9d61e87694f143a8a57f9bb6bd01c
+      internalID: 492184533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_38
+      rect:
+        serializedVersion: 2
+        x: 14708
+        y: 8966
+        width: 608
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5723c4cfdb256a47aa5567cedf3a480
+      internalID: -1989869979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_39
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 9044
+        width: 896
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e2a172b595a4f46bd722aebe6f34b7
+      internalID: 377138544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_40
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 9044
+        width: 1008
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3915af774b927a543b8a5e020a07db0e
+      internalID: 330315492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_41
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 9044
+        width: 1023
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612edec8f5080424891f7c0bd1d7b921
+      internalID: 12307916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_42
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 9036
+        width: 991
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c24881eb45506c4abd53d7941c9e033
+      internalID: 466908122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_43
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 7028
+        width: 528
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4850f0a1b0154e044abf0e91a82ead44
+      internalID: 1406119841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_44
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 7096
+        width: 496
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fbb62268c2150488cf13f37b0c79b1
+      internalID: -559742336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_45
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 7164
+        width: 552
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572a9ffdc3418274e9e419d585b6e397
+      internalID: 1978694739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_46
+      rect:
+        serializedVersion: 2
+        x: 6708
+        y: 7220
+        width: 600
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df6c3509936a1b40a3fc71eead32517
+      internalID: 1244879205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_47
+      rect:
+        serializedVersion: 2
+        x: 8676
+        y: 7252
+        width: 624
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baeb632dd3693c44b421e79a5a622fd
+      internalID: 1683842435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_48
+      rect:
+        serializedVersion: 2
+        x: 10652
+        y: 7244
+        width: 648
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b6bc02145fdc94aa434f39e0e20f45
+      internalID: -1958716663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_49
+      rect:
+        serializedVersion: 2
+        x: 12628
+        y: 7244
+        width: 680
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a46a032bb08274ebc13a0ee1d85a13
+      internalID: 1962256353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_50
+      rect:
+        serializedVersion: 2
+        x: 14628
+        y: 7236
+        width: 688
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5829028390702214ebd8b8aaec319c13
+      internalID: -452290864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_51
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 5228
+        width: 672
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0911e901a36472846a66ee1c1dc33c90
+      internalID: 670049061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULTQ3SPRITESHEET_52
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 5220
+        width: 656
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccadd798f1f6ad45a505770b61fc3f5
+      internalID: 904073941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +1019,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ULTQ3SPRITESHEET_21: 28069122
+      ULTQ3SPRITESHEET_23: 762687237
+      ULTQ3SPRITESHEET_49: 1962256353
+      ULTQ3SPRITESHEET_25: 476452411
+      ULTQ3SPRITESHEET_31: 1738039694
+      ULTQ3SPRITESHEET_5: -137349081
+      ULTQ3SPRITESHEET_18: -1158438062
+      ULTQ3SPRITESHEET_34: 238907320
+      ULTQ3SPRITESHEET_37: 492184533
+      ULTQ3SPRITESHEET_30: 2060609222
+      ULTQ3SPRITESHEET_28: -665516691
+      ULTQ3SPRITESHEET_35: 1495841345
+      ULTQ3SPRITESHEET_2: 1333805230
+      ULTQ3SPRITESHEET_42: 466908122
+      ULTQ3SPRITESHEET_43: 1406119841
+      ULTQ3SPRITESHEET_41: 12307916
+      ULTQ3SPRITESHEET_20: 31000762
+      ULTQ3SPRITESHEET_52: 904073941
+      ULTQ3SPRITESHEET_11: -1878763283
+      ULTQ3SPRITESHEET_44: -559742336
+      ULTQ3SPRITESHEET_8: 1893435967
+      ULTQ3SPRITESHEET_40: 330315492
+      ULTQ3SPRITESHEET_1: -1555149392
+      ULTQ3SPRITESHEET_9: 1521652051
+      ULTQ3SPRITESHEET_10: -1368719726
+      ULTQ3SPRITESHEET_12: 1180236010
+      ULTQ3SPRITESHEET_19: 870098386
+      ULTQ3SPRITESHEET_4: 943942208
+      ULTQ3SPRITESHEET_13: -568968915
+      ULTQ3SPRITESHEET_14: 727966616
+      ULTQ3SPRITESHEET_16: -1733563942
+      ULTQ3SPRITESHEET_22: -301792402
+      ULTQ3SPRITESHEET_38: -1989869979
+      ULTQ3SPRITESHEET_47: 1683842435
+      ULTQ3SPRITESHEET_48: -1958716663
+      ULTQ3SPRITESHEET_15: 1838112282
+      ULTQ3SPRITESHEET_17: -2095532449
+      ULTQ3SPRITESHEET_0: -739149532
+      ULTQ3SPRITESHEET_3: -1115636239
+      ULTQ3SPRITESHEET_24: -981063859
+      ULTQ3SPRITESHEET_27: -1334418548
+      ULTQ3SPRITESHEET_29: -1365433992
+      ULTQ3SPRITESHEET_32: 1140818520
+      ULTQ3SPRITESHEET_33: 747613666
+      ULTQ3SPRITESHEET_45: 1978694739
+      ULTQ3SPRITESHEET_26: -1202072394
+      ULTQ3SPRITESHEET_50: -452290864
+      ULTQ3SPRITESHEET_36: 753110381
+      ULTQ3SPRITESHEET_7: -636805076
+      ULTQ3SPRITESHEET_39: 377138544
+      ULTQ3SPRITESHEET_46: 1244879205
+      ULTQ3SPRITESHEET_6: -1895291197
+      ULTQ3SPRITESHEET_51: 670049061
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
