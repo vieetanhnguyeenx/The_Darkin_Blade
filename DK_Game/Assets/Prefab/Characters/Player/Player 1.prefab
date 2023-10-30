@@ -125,7 +125,7 @@ Transform:
   - {fileID: 8532652272460837530}
   - {fileID: 4258972927179097470}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2848940130306441702
 SpriteRenderer:
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 12.5
-  jumpInpulse: 22
+  jumpInpulse: 30
   _isFacingRight: 1
 --- !u!114 &1565273995791311414
 MonoBehaviour:
