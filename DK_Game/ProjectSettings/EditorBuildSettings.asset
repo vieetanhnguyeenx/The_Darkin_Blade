@@ -18,14 +18,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Map01 Boss.unity
     guid: e001f48baba0cbd448aee015754d468f
   - enabled: 1
+    path: Assets/Scenes/Map1BossLoaderMap2.unity
+    guid: 1ddbf6452a1d90049a4117104121b132
+  - enabled: 1
     path: Assets/Scenes/Map02.unity
     guid: 156db224cea30dd42985751394d85aca
+  - enabled: 1
+    path: Assets/Scenes/Map02LoaderMap02Boss.unity
+    guid: ce5bdf3d238a26840b5b157273260085
   - enabled: 1
     path: Assets/Scenes/Map02 Boss.unity
     guid: a735c139bccea774d83cf134c46696cd
   - enabled: 1
+    path: Assets/Scenes/Map02BossLoaderMap03.unity
+    guid: 3acb38023a2c52341973b76ea1d6c74d
+  - enabled: 1
     path: Assets/Scenes/Map03.unity
     guid: 2104a732dd1f05d419b39058de15df2d
+  - enabled: 1
+    path: Assets/Scenes/Map03LoaderMap03Boss.unity
+    guid: 1ab47b98755045f4a8c0ad83b0ce1c8a
   - enabled: 1
     path: Assets/Scenes/Map03 Boss.unity
     guid: 044422b0d657d5b46814f492cec0fb88
