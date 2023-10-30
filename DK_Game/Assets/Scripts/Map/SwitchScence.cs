@@ -21,7 +21,7 @@ public class SwitchScence : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-           
+            Debug.Log("nhu lol");
             collision.gameObject.SetActive(false);  
             SceneManager.LoadScene(nameScence);
         }
