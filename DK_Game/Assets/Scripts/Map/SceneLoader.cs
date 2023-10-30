@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
 
     void Start()
     {
-        LoadSceneWithDelay(sceneName, 5f); 
+        LoadSceneWithDelay(sceneName, 2.5f); 
     }
 
     public void LoadSceneWithDelay(string sceneName, float delay)
