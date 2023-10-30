@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: -7090365245904011048}
   - component: {fileID: -2094391718379541146}
   - component: {fileID: -2027860753402083350}
-  - component: {fileID: 7920506689288168506}
-  - component: {fileID: 9043524462291422260}
+  - component: {fileID: 8324047173625331754}
+  - component: {fileID: 4345977708047451114}
   m_Layer: 0
-  m_Name: arrow
+  m_Name: arrow 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ca9fe303c0020774081cd2d82c87f454, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e6bccf86564ce34e89052d7287c6708, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,7 +149,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 1.32}
   m_EdgeRadius: 0
---- !u!114 &7920506689288168506
+--- !u!114 &8324047173625331754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,10 +158,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3726792752928684734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a9568a373f88d847bf297ac8dd7758d, type: 3}
+  m_Script: {fileID: 11500000, guid: 46f7a567ea8dc1242938dae83a03f55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &9043524462291422260
+--- !u!114 &4345977708047451114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,13 +170,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3726792752928684734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5791cc9642b903047858067c2f3b46cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 93a0d0972ba945f498998168c4cc107c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth:
-    BaseValue: 250
+    BaseValue: 350
   Damage:
-    BaseValue: 30
+    BaseValue: 35
   Armor:
     BaseValue: 20
   AttackSpeed:

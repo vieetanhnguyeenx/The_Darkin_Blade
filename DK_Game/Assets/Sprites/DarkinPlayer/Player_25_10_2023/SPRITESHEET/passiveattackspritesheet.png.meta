@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,7 +105,616 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: passiveattackspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 6844
+        width: 632
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c44a8d9579cb849a56b67469c5185d
+      internalID: -325012826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 6844
+        width: 632
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8347d1e8b3ddc1b4ba600e410c0bbff4
+      internalID: 97727356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 4172
+        y: 6852
+        width: 672
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70fe0256e6802c488802850fb6104ba
+      internalID: -2114324032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 6124
+        y: 6852
+        width: 703
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818513cddd5db94983a5066627b9aff
+      internalID: -1371944822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 8108
+        y: 6852
+        width: 712
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2fdc230dace0149912757e88370cbe
+      internalID: 1565145868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 6852
+        width: 727
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906234113a004e946b700e87c152fe15
+      internalID: -516756524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 12092
+        y: 6852
+        width: 728
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e17fd013e798842a9099a43c8ab6cf
+      internalID: 690346280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 14100
+        y: 6852
+        width: 727
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a81e2866486f994b9707466480c4fcd
+      internalID: 1878898912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4844
+        width: 704
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1942f3b786a22741a72622786c84c5f
+      internalID: -643017229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 4724
+        width: 616
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799e78ba949a90d428109954ffcf978f
+      internalID: -117136665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 4844
+        width: 1080
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f43427c1ee6ef46b22e0489e40a3a2
+      internalID: -1683627704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 4844
+        width: 1400
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202e3360b9cd6c4094121e9c306f909
+      internalID: 571802132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 8500
+        y: 4852
+        width: 1120
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f2c6a2433570644a68360c88194f3b
+      internalID: 96476223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 4852
+        width: 1064
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff86eed2743b9444b411b35caf4ef8e
+      internalID: -713736718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 12500
+        y: 4852
+        width: 1080
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f686ba978a5fa44ea4e18b2a38285e0
+      internalID: 776920112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 14500
+        y: 4852
+        width: 1080
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9373329be337274c89e5768cd2ad66c
+      internalID: 967396436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2852
+        width: 1080
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ec9f1f382a09b4db439025e9043e9f
+      internalID: 1048849401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2852
+        width: 1080
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d926044241cedb940a0001fc327a4088
+      internalID: 1995399990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2852
+        width: 1080
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b93bc787bccc4d49a7fdf184b80d841
+      internalID: -1513376621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 6516
+        y: 2844
+        width: 1064
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30303a352c76dd24f929385548a0fcf7
+      internalID: 2112276642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 8532
+        y: 2828
+        width: 1056
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12576048133223419007c7349dff4ab
+      internalID: 2104001471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10532
+        y: 2837
+        width: 1048
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3781dea2bd3ca54ebe625c4b5b12724
+      internalID: 2065500585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 12524
+        y: 2852
+        width: 1048
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6018346f604d55549a245079d2479292
+      internalID: 1460298912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 14524
+        y: 2852
+        width: 1000
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5198b02f2b1f1429addb928093272c
+      internalID: 267111392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 852
+        width: 776
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5371554122e7c2242887ad95648e920f
+      internalID: 1812623287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 852
+        width: 640
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1488c334637a76a47af68306291ff939
+      internalID: 1054194474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 852
+        width: 632
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0979a3cecce194f906ed15a1809ca6
+      internalID: -1653748632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 6428
+        y: 852
+        width: 628
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fbdbaca357bde42a62477069e382eb
+      internalID: -1570695359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passiveattackspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 8428
+        y: 852
+        width: 616
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e989e2baff653b5499d243f52ccad0f0
+      internalID: 1895281486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +725,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      passiveattackspritesheet_14: 776920112
+      passiveattackspritesheet_11: 571802132
+      passiveattackspritesheet_15: 967396436
+      passiveattackspritesheet_21: 2065500585
+      passiveattackspritesheet_25: 1054194474
+      passiveattackspritesheet_24: 1812623287
+      passiveattackspritesheet_0: -325012826
+      passiveattackspritesheet_22: 1460298912
+      passiveattackspritesheet_16: 1048849401
+      passiveattackspritesheet_1: 97727356
+      passiveattackspritesheet_9: -117136665
+      passiveattackspritesheet_13: -713736718
+      passiveattackspritesheet_28: 1895281486
+      passiveattackspritesheet_20: 2104001471
+      passiveattackspritesheet_8: -643017229
+      passiveattackspritesheet_4: 1565145868
+      passiveattackspritesheet_2: -2114324032
+      passiveattackspritesheet_17: 1995399990
+      passiveattackspritesheet_19: 2112276642
+      passiveattackspritesheet_26: -1653748632
+      passiveattackspritesheet_18: -1513376621
+      passiveattackspritesheet_7: 1878898912
+      passiveattackspritesheet_27: -1570695359
+      passiveattackspritesheet_5: -516756524
+      passiveattackspritesheet_10: -1683627704
+      passiveattackspritesheet_12: 96476223
+      passiveattackspritesheet_23: 267111392
+      passiveattackspritesheet_3: -1371944822
+      passiveattackspritesheet_6: 690346280
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

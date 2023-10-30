@@ -9,6 +9,9 @@
         public static string isOnWall = "isOnWall";
         public static string isOnCeiling = "isOnCeiling";
         public static string attackTrigger = "attack";
+        public static string attackTriggerOne = "attackOne";
+        public static string attackTriggerTwo = "attackTwo";
+        public static string attackTriggerThree = "attackThree";
         public static string canMove = "canMove";
         public static string isAlive = "isAlive";
         public static string isEnrage = "isEnrage";
