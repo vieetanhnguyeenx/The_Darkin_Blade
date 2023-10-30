@@ -46,7 +46,9 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
             if (ObjectPool != null)
                 ObjectPool.GetComponentInChildren<ObjectPool>().ReturnToPool(gameObject);
             else
+            {
                 Destroy(gameObject);
+            }
         }
     }
 
@@ -67,7 +69,7 @@ public class Archer1Damage : MonoBehaviour, IDamageable, IKnockbackable
         if (IsAlive)
         {
             //Debug.Log("dame deal to Dummy " + damageAmount);
-            _currentHealth -= damageAmount;
+            CurrentHealth -= damageAmount;
             healthBar.UpdateHealthBar(_currentHealth, archer1Stats.MaxHealth.Value);
             return damageAmount;
         }
