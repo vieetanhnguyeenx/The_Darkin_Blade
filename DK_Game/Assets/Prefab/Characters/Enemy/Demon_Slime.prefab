@@ -295,7 +295,7 @@ Transform:
   - {fileID: 1223207387383908180}
   - {fileID: 7458300716116778638}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1223207387055595785
 SpriteRenderer:
@@ -403,8 +403,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020815134, y: -0.30864632}
-  m_Size: {x: 0.5348382, y: 1.0281227}
+  m_Offset: {x: 0.020815134, y: -0.30387974}
+  m_Size: {x: 0.5348382, y: 1.0185895}
   m_Direction: 0
 --- !u!114 &1223207387055595799
 MonoBehaviour:
@@ -665,7 +665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb0fe42291f26540af539f8f2045b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectedColiders: []
+  DemonSlimeDetectedColiders: []
+  targetCollision: {fileID: 0}
 --- !u!1 &4793554067736723592
 GameObject:
   m_ObjectHideFlags: 0

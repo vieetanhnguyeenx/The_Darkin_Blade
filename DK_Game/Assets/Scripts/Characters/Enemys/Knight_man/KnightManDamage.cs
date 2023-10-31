@@ -97,4 +97,17 @@ public class KnightManDamage : MonoBehaviour, IDamageable, IKnockbackable
             }
         }
     }
+
+    public void Attack()
+    {
+        if (attackZone.targetCollision == null)
+            return;
+        IDamageable damageable = attackZone.targetCollision.GetComponent<IDamageable>();
+        if (damageable != null)
+        {
+            Debug.Log("Not null");
+            damageable.DealDamage(knightManStats.Damage.Value);
+            gameObject.GetComponentInParent<Enemysfx>().WeaponSound();
+        }
+    }
 }

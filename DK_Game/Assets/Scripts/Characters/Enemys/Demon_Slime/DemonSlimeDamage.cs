@@ -97,4 +97,17 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
             }
         }
     }
+
+    public void Attack()
+    {
+        if (attackZone.targetCollision == null)
+            return;
+        IDamageable damageable = attackZone.targetCollision.GetComponent<IDamageable>();
+        if (damageable != null)
+        {
+            Debug.Log("Not null");
+            damageable.DealDamage(demonSlimeStats.Damage.Value);
+            gameObject.GetComponentInParent<Enemysfx>().WeaponSound();
+        }
+    }
 }

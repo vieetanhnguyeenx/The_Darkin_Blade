@@ -4,10 +4,11 @@ using UnityEngine;
 public class DetectionZoneDemonSlime : MonoBehaviour
 {
     public List<Collider2D> DemonSlimeDetectedColiders = new List<Collider2D>();
-
+    public Collider2D targetCollision;
     private void OnTriggerExit2D(Collider2D collision)
     {
         DemonSlimeDetectedColiders.Remove(collision);
+        targetCollision = null;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -15,6 +16,7 @@ public class DetectionZoneDemonSlime : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             DemonSlimeDetectedColiders.Add(collision);
+            targetCollision = collision;
         }
     }
 }
