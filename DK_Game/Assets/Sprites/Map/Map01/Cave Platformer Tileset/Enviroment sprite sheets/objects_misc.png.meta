@@ -501,7 +501,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      objects_6: 21300012
+      objects_7: 21300014
       objects_1: 21300002
       objects_9: 21300018
       objects_3: 21300006
@@ -514,8 +514,8 @@ TextureImporter:
       objects_5: 21300010
       objects_0: 21300000
       objects_12: 21300024
+      objects_6: 21300012
       objects_4: 21300008
-      objects_7: 21300014
       objects_11: 21300022
   spritePackingTag: 
   pSDRemoveMatte: 0
