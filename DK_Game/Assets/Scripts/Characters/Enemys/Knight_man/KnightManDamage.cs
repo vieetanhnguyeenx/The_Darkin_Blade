@@ -1,7 +1,8 @@
 using Assets.Scripts;
+using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class KnightManDamage : MonoBehaviour
+public class KnightManDamage : MonoBehaviour, IDamageable, IKnockbackable
 {
     EnemyFloatingHealthBar healthBar;
     public bool isInvulnerable = false;
