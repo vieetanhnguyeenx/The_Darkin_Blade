@@ -1,33 +1,32 @@
 using Assets.Scripts;
-using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
+public class KnightManDamage : MonoBehaviour
 {
     EnemyFloatingHealthBar healthBar;
     public bool isInvulnerable = false;
     Animator animator;
-    DemonSlimeStats demonSlimeStats;
+    KnightManStats knightManStats;
     private float _currentHealth;
     GameObject ObjectPool;
     Rigidbody2D rb;
     public GameObject FloatingDamage;
 
-    DetectionZoneDemonSlime attackZone;
+    DetectionZoneKnightMan attackZone;
     private void Awake()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        attackZone = GetComponentInChildren<DetectionZoneDemonSlime>();
+        attackZone = GetComponentInChildren<DetectionZoneKnightMan>();
     }
 
     private void Start()
     {
-        demonSlimeStats = GetComponent<DemonSlimeStats>();
+        knightManStats = GetComponent<KnightManStats>();
         healthBar = GetComponentInChildren<EnemyFloatingHealthBar>();
-        _currentHealth = demonSlimeStats.MaxHealth.Value;
-        healthBar.UpdateHealthBar(_currentHealth, demonSlimeStats.MaxHealth.Value);
-        ObjectPool = GameObject.FindGameObjectWithTag("DemonSlimeObjectPool");
+        _currentHealth = knightManStats.MaxHealth.Value;
+        healthBar.UpdateHealthBar(_currentHealth, knightManStats.MaxHealth.Value);
+        ObjectPool = GameObject.FindGameObjectWithTag("KnightManObjectPool");
     }
 
     public bool _hasTarget = false;
@@ -43,7 +42,7 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
 
     private void Update()
     {
-        HasTarget = attackZone.DemonSlimeDetectedColiders.Count > 0;
+        HasTarget = attackZone.KnightManDetectedColiders.Count > 0;
 
     }
     public float DealDamage(float damageAmount)
@@ -54,7 +53,7 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
             CurrentHealth -= damageAmount;
             GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
             txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
-            healthBar.UpdateHealthBar(_currentHealth, demonSlimeStats.MaxHealth.Value);
+            healthBar.UpdateHealthBar(_currentHealth, knightManStats.MaxHealth.Value);
             gameObject.GetComponentInChildren<Enemysfx>().HurtSound();
             return damageAmount;
         }
