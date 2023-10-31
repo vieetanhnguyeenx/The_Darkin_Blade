@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SwitchScence : MonoBehaviour
+public class DistroyArrow : MonoBehaviour
 {
-    public string nameScence;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +18,11 @@ public class SwitchScence : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "arrow")
         {
             
-            collision.gameObject.SetActive(false);  
-            SceneManager.LoadScene(nameScence);
+            collision.gameObject.SetActive(false);
+            
         }
     }
-
 }
