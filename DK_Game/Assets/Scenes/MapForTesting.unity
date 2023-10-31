@@ -1860,26 +1860,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 88131294352667313, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_Size.x
-      value: 0.7003039
-      objectReference: {fileID: 0}
-    - target: {fileID: 88131294352667313, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_Size.y
-      value: 0.8669379
-      objectReference: {fileID: 0}
-    - target: {fileID: 88131294352667313, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.44042927
-      objectReference: {fileID: 0}
-    - target: {fileID: 88131294352667313, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.39479864
-      objectReference: {fileID: 0}
-    - target: {fileID: 88131294352667313, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1223207386172074803, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1894,7 +1874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1223207387055595784, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.09
+      value: -16.26
       objectReference: {fileID: 0}
     - target: {fileID: 1223207387055595784, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1936,22 +1916,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Demon_Slime
       objectReference: {fileID: 0}
-    - target: {fileID: 1223207387055595791, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 1770237149428536539, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2576777967252671447, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3919020714958588479, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
-      propertyPath: weapon
-      value: 
-      objectReference: {fileID: 8300000, guid: ec276d056f2895f4d810b38a36442228, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
