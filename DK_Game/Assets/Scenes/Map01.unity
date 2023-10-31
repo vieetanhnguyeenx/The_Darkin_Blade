@@ -13815,7 +13815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848940130306441701, guid: 0002420b8634c89409665f247148a29d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: 2848940130306441701, guid: 0002420b8634c89409665f247148a29d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23927,7 +23927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4, y: 9, z: -10}
+  m_LocalPosition: {x: -5.4, y: -2.33, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -122882,7 +122882,7 @@ GameObject:
   - component: {fileID: 1809798124}
   - component: {fileID: 1809798123}
   - component: {fileID: 1809798122}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Foreground1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128595,7 +128595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911480726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4, y: 9, z: -10}
+  m_LocalPosition: {x: -5.4, y: -2.33, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -130002,7 +130002,7 @@ GameObject:
   - component: {fileID: 2104645209}
   - component: {fileID: 2104645208}
   - component: {fileID: 2104645207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
