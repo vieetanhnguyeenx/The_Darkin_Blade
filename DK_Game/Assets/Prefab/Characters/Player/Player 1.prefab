@@ -76,10 +76,10 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070238960185839174}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -96,8 +96,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 2.645079, y: 2.6210425}
       - {x: -2.3676982, y: 2.681892}
-      - {x: -2.40902, y: -2.584072}
-      - {x: 2.5846233, y: -2.61739}
+      - {x: -2.4266372, y: -2.425516}
+      - {x: 2.5317717, y: -2.3883667}
       - {x: 2.6156104, y: 0.8756745}
   m_UseDelaunayMesh: 0
 --- !u!1 &1959238218694442027
@@ -139,10 +139,10 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959238218694442027}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -159,8 +159,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 5.166761, y: 2.5706122}
       - {x: 2.8269668, y: 2.6062434}
-      - {x: 2.886512, y: -2.7101574}
-      - {x: 5.2828226, y: -2.6930418}
+      - {x: 2.798425, y: -2.4987516}
+      - {x: 5.2828226, y: -2.5168695}
       - {x: 5.2381606, y: 0.8756745}
   m_UseDelaunayMesh: 0
 --- !u!1 &1971132887800707833
@@ -284,10 +284,10 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983870178662826504}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -304,8 +304,9 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 2.645079, y: 2.6210425}
       - {x: -2.3676982, y: 2.681892}
-      - {x: -2.40902, y: -2.584072}
-      - {x: 2.5846233, y: -2.61739}
+      - {x: -2.3737855, y: -2.443135}
+      - {x: 0.21085925, y: -2.478113}
+      - {x: 2.619858, y: -2.4588351}
       - {x: 2.6156104, y: 0.8756745}
   m_UseDelaunayMesh: 0
 --- !u!1 &2848940130306441704
@@ -839,7 +840,7 @@ PolygonCollider2D:
   m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -856,8 +857,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 5.166761, y: 2.5706122}
       - {x: 2.8269668, y: 2.6062434}
-      - {x: 2.886512, y: -2.7101574}
-      - {x: 5.2828226, y: -2.6930418}
+      - {x: 2.8160427, y: -2.4282815}
+      - {x: 5.3180575, y: -2.3583133}
       - {x: 5.2381606, y: 0.8756745}
   m_UseDelaunayMesh: 0
 --- !u!1 &4770451015872246104
@@ -981,10 +982,10 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5306857973593773470}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1001,8 +1002,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.5124966, y: 3.0033994}
       - {x: -0.62492055, y: 0.35560715}
-      - {x: -0.7741474, y: -2.5794656}
-      - {x: 4.687769, y: -2.579462}
+      - {x: -0.7389129, y: -2.3152058}
+      - {x: 4.687769, y: -2.3680549}
       - {x: 4.932193, y: 3.066242}
   m_UseDelaunayMesh: 0
 --- !u!1 &5593315228804576674
@@ -1127,10 +1128,10 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8663846000691472328}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1148,8 +1149,8 @@ PolygonCollider2D:
     - - {x: -0.49381888, y: 2.6578195}
       - {x: -1.5529588, y: 2.5534003}
       - {x: -2.8910573, y: 2.7075648}
-      - {x: -2.915785, y: -2.5726535}
-      - {x: -0.5056704, y: -2.6079295}
+      - {x: -2.9510195, y: -2.4140973}
+      - {x: -0.5232878, y: -2.4141397}
       - {x: -0.42458045, y: 0.09738411}
   m_UseDelaunayMesh: 0
 --- !u!60 &5217080487621843300
@@ -1159,10 +1160,10 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8663846000691472328}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1179,7 +1180,7 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 4.4796367, y: 2.8341792}
       - {x: 4.4809427, y: 0.13265401}
-      - {x: 4.5620356, y: -2.6079292}
-      - {x: 7.0779705, y: -2.6079295}
+      - {x: 4.526801, y: -2.3084357}
+      - {x: 7.042737, y: -2.3612885}
       - {x: 7.0885143, y: 2.8133817}
   m_UseDelaunayMesh: 0
