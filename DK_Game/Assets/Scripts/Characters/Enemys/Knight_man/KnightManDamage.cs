@@ -107,7 +107,7 @@ public class KnightManDamage : MonoBehaviour, IDamageable, IKnockbackable
         {
             Debug.Log("Not null");
             damageable.DealDamage(knightManStats.Damage.Value);
-            gameObject.GetComponentInParent<Enemysfx>().WeaponSound();
+            gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
         }
     }
 }

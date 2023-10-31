@@ -107,7 +107,7 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
         {
             Debug.Log("Not null");
             damageable.DealDamage(demonSlimeStats.Damage.Value);
-            gameObject.GetComponentInParent<Enemysfx>().WeaponSound();
+            gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
         }
     }
 }
