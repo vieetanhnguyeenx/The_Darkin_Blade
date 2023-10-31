@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   src: {fileID: 6091059085185127092}
-  arrow: {fileID: 8300000, guid: 08f58ce46c84c5849ba35e1d22a1a8cf, type: 3}
+  weapon: {fileID: 8300000, guid: 08f58ce46c84c5849ba35e1d22a1a8cf, type: 3}
   hurt: {fileID: 8300000, guid: 2b10815611acff14585427deb960b42e, type: 3}
 --- !u!1 &6930341415936657688
 GameObject:
@@ -260,7 +260,7 @@ Transform:
   - {fileID: 3767599111715386297}
   - {fileID: 6930341416670977937}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6930341416334331245
 SpriteRenderer:

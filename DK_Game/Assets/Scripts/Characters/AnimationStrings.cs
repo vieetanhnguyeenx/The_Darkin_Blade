@@ -17,5 +17,6 @@
         public static string isEnrage = "isEnrage";
         public static string IdleTrigger = "Idle";
         public static string isHit = "isHit";
+        public static string hasTarget = "hasTarget";
     }
 }

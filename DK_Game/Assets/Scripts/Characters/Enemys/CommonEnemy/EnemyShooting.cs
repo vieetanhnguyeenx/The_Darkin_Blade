@@ -6,7 +6,7 @@ public class EnemyShooting : MonoBehaviour
     public Transform bulletPos;
     void Shoot()
     {
-        gameObject.GetComponentInChildren<Enemysfx>().ArrowSound();
+        gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
 }

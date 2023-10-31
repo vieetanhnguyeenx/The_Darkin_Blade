@@ -40,7 +40,7 @@ Transform:
   - {fileID: 2244010210791247615}
   - {fileID: 615991194825266001}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &615991193354854091
 SpriteRenderer:
@@ -783,5 +783,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   src: {fileID: 3012624028740052608}
-  arrow: {fileID: 8300000, guid: 08f58ce46c84c5849ba35e1d22a1a8cf, type: 3}
+  weapon: {fileID: 8300000, guid: 08f58ce46c84c5849ba35e1d22a1a8cf, type: 3}
   hurt: {fileID: 8300000, guid: 2b10815611acff14585427deb960b42e, type: 3}

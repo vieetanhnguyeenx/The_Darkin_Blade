@@ -13,10 +13,12 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
     Rigidbody2D rb;
     public GameObject FloatingDamage;
 
+    DetectionZone attackZone;
     private void Awake()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        attackZone = GetComponentInChildren<DetectionZone>();
     }
 
     private void Start()
@@ -26,6 +28,23 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
         _currentHealth = demonSlimeStats.MaxHealth.Value;
         healthBar.UpdateHealthBar(_currentHealth, demonSlimeStats.MaxHealth.Value);
         ObjectPool = GameObject.FindGameObjectWithTag("DemonSlimeObjectPool");
+    }
+
+    public bool _hasTarget = false;
+    public bool HasTarget
+    {
+        get { return _hasTarget; }
+        private set
+        {
+            _hasTarget = value;
+            animator.SetBool(AnimationStrings.hasTarget, value);
+        }
+    }
+
+    private void Update()
+    {
+        HasTarget = attackZone.detectedColiders.Count > 0;
+
     }
     public float DealDamage(float damageAmount)
     {

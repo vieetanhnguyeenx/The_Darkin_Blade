@@ -5,16 +5,16 @@ public class Enemysfx : MonoBehaviour
     [SerializeField]
     private AudioSource src;
     [SerializeField]
-    private AudioClip arrow, hurt;
+    private AudioClip weapon, hurt;
 
-    public void ArrowSound()
+    public void WeaponSound()
     {
-        src.clip = arrow;
+        src.clip = weapon;
         src.Play();
     }
     public void HurtSound()
     {
-        //src.clip = hurt;
-        //src.Play();
+        src.clip = hurt;
+        src.Play();
     }
 }
