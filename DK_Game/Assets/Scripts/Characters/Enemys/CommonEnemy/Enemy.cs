@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public void LookAtPlayer()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        if (player == null)
+            return;
         Vector3 flipped = transform.localScale;
         flipped.z *= -1f;
 
