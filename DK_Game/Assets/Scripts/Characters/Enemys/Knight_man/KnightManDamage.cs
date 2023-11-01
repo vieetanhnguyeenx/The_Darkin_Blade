@@ -51,6 +51,7 @@ public class KnightManDamage : MonoBehaviour, IDamageable, IKnockbackable
         if (IsAlive)
         {
             //Debug.Log("dame deal to Dummy " + damageAmount);
+            animator.SetTrigger(AnimationStrings.isHit);
             CurrentHealth -= damageAmount;
             GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
             txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
