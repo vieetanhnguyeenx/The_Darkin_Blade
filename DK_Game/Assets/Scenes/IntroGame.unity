@@ -352,6 +352,73 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &564834134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 260.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 248.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781140, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670434054350781143, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
+      propertyPath: m_Name
+      value: Loading
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71b1fd285e17dc542b80a7885a396271, type: 3}
 --- !u!1 &591738517
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 66}
+  m_AnchoredPosition: {x: 0, y: 117.399994}
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227993328
@@ -949,7 +1016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -81.900024, y: 35.320007}
+  m_AnchoredPosition: {x: -62.799988, y: 34.700012}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230164842
@@ -1614,7 +1681,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Welcome to
 
-    The Dakin Blade'
+    The Darkin Blade'
 --- !u!222 &1991072928
 CanvasRenderer:
   m_ObjectHideFlags: 0

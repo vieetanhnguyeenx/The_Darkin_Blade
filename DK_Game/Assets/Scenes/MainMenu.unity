@@ -268,7 +268,7 @@ VideoPlayer:
   m_GameObject: {fileID: 841842174}
   m_Enabled: 1
   m_VideoClip: {fileID: 32900000, guid: eead5740669e76d45ba7b62590e0cb79, type: 3}
-  m_TargetCameraAlpha: 1
+  m_TargetCameraAlpha: 0.5
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 652242765}
   m_TargetTexture: {fileID: 0}
@@ -321,13 +321,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4417e720fb645d440a851cfd31b45e63, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.75
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 160
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

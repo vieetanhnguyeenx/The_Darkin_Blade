@@ -10,7 +10,7 @@
     color: rgb(255, 255, 255);
     -unity-text-align: middle-center;
     -unity-font-style: normal;
-    cursor: initial;
+    cursor: url('project://database/Assets/Sprites/Other/Pointer/pointer2%201.png?fileID=2800000&guid=05acfce812f17d64a9d89cf8567d788a&type=3#pointer2 1');
     transition-timing-function: linear;
     transition-duration: 0.23s;
     white-space: nowrap;
@@ -29,7 +29,7 @@
     -unity-text-align: middle-center;
     -unity-font-style: normal;
     transition-duration: 0.23s;
-    cursor: url('project://database/Assets/Sprites/Pointer/pointer3.png?fileID=2800000&guid=73f3cf989fa65eb4eaadbf53406869af&type=3#pointer3');
+    cursor: url('project://database/Assets/Sprites/Other/Pointer/pointer2%201.png?fileID=2800000&guid=05acfce812f17d64a9d89cf8567d788a&type=3#pointer2 1');
     transition-timing-function: linear;
     white-space: nowrap;
 }
