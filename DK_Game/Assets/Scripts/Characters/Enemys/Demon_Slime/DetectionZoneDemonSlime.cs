@@ -8,7 +8,6 @@ public class DetectionZoneDemonSlime : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         DemonSlimeDetectedColiders.Remove(collision);
-        targetCollision = null;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

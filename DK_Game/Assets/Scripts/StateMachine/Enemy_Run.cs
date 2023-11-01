@@ -32,10 +32,12 @@ public class Enemy_Run : StateMachineBehaviour
                 Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
                 rb.MovePosition(newPos);
             }
+            animator.SetBool(AnimationStrings.isAttackRange, true);
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
         else
         {
+            animator.SetBool(AnimationStrings.isAttackRange, false);
             animator.SetTrigger(AnimationStrings.IdleTrigger);
         }
     }

@@ -10,13 +10,11 @@ public class Enemysfx : MonoBehaviour
     public void WeaponSound()
     {
         src.clip = weapon;
-        if (!src.DisableGamepadOutput())
-            src.Play();
+        src.Play();
     }
     public void HurtSound()
     {
         src.clip = hurt;
-        if (!src.DisableGamepadOutput())
-            src.Play();
+        src.Play();
     }
 }
