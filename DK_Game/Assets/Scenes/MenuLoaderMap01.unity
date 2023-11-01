@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 634365465}
   - component: {fileID: 634365464}
   - component: {fileID: 634365468}
+  - component: {fileID: 634365469}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -319,6 +320,24 @@ MonoBehaviour:
   progressSlider: {fileID: 1193885456}
   sceneName: Map01
   time: 2.5
+--- !u!320 &634365469
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634365463}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: fb1867c51eb85f840a29dfb083cd3414, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References:
+    - c98b39e66f49bb043b12659bebe6bcd1: {fileID: 0}
 --- !u!1 &1193885455
 GameObject:
   m_ObjectHideFlags: 0
