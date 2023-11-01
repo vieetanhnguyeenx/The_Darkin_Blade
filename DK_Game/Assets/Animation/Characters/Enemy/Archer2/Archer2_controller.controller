@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  attackRange: 3
+  attackRange: 10
   isLongRangeEnemy: 1
 --- !u!1101 &-672670303533760708
 AnimatorStateTransition:

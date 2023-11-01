@@ -4,7 +4,7 @@ using UnityEngine;
 public class Enemy_Run : StateMachineBehaviour
 {
     public float speed = 2.5f;
-    public float attackRange = 5f;
+    public float attackRange = 10f;
     public bool isLongRangeEnemy = false;
     Transform player;
     Rigidbody2D rb;
@@ -31,7 +31,6 @@ public class Enemy_Run : StateMachineBehaviour
                 Vector2 target = new Vector2(player.position.x, rb.position.y);
                 Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
                 rb.MovePosition(newPos);
-                attackRange = 9f;
             }
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
