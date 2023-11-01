@@ -1,25 +1,20 @@
-using Assets.Scripts.Characters;
+using Assets.Scripts;
 using UnityEngine;
 
 public class DemonSlimeAttack : MonoBehaviour
 {
-    DemonSlimeStats demonSlimeStats;
-
+    Animator animator;
+    GameObject player;
+    float distanceToPlayer;
+    public float attackRange = 8f;
     private void Awake()
     {
-        demonSlimeStats = GetComponentInParent<DemonSlimeStats>();
+        animator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    private void Update()
     {
-        Debug.Log("Ontrigger " + collision.tag);
-        if (!collision.CompareTag("Player"))
-            return;
-        IDamageable damageable = collision.GetComponent<IDamageable>();
-        if (damageable != null)
-        {
-            Debug.Log("Not null");
-            damageable.DealDamage(demonSlimeStats.Damage.Value);
-            gameObject.GetComponentInParent<Enemysfx>().WeaponSound();
-        }
+        distanceToPlayer = Vector2.Distance(gameObject.transform.position, player.transform.position);
+        animator.SetBool(AnimationStrings.isAttackRange, distanceToPlayer <= attackRange);
     }
 }

@@ -4,11 +4,12 @@ using UnityEngine;
 public class Enemy_Idle : StateMachineBehaviour
 {
     public float speed = 2.5f;
-    public float attackRange = 3f;
+    public float attackRange = 8f;
     public bool isLongRangeEnemy = false;
     Transform player;
     Rigidbody2D rb;
     Enemy enemy;
+    float distanceToPlayer;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -22,16 +23,16 @@ public class Enemy_Idle : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         enemy.LookAtPlayer();
-        if (!isLongRangeEnemy)
-        {
-            attackRange = 3f;
-        }
-        attackRange = 10f;
         //Debug.Log(Vector2.Distance(player.position, rb.position));
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
             animator.SetTrigger(AnimationStrings.attackTrigger);
         else
             animator.SetTrigger(AnimationStrings.IdleTrigger);
+        if (!isLongRangeEnemy)
+        {
+            distanceToPlayer = Vector2.Distance(enemy.transform.position, player.transform.position);
+            animator.SetBool(AnimationStrings.isAttackRange, distanceToPlayer <= attackRange);
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

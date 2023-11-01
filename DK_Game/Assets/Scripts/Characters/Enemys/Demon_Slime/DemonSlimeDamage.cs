@@ -1,5 +1,6 @@
 using Assets.Scripts;
 using Assets.Scripts.Characters;
+using System.Collections;
 using UnityEngine;
 
 public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
@@ -44,13 +45,14 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
     private void Update()
     {
         HasTarget = attackZone.DemonSlimeDetectedColiders.Count > 0;
-
     }
+
     public float DealDamage(float damageAmount)
     {
         if (IsAlive)
         {
             //Debug.Log("dame deal to Dummy " + damageAmount);
+            animator.SetTrigger(AnimationStrings.isHit);
             CurrentHealth -= damageAmount;
             GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
             txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
@@ -64,6 +66,11 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
     public void DealKnockback(Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+    }
+
+    private IEnumerator WaitForSeconds(float secondsToWait)
+    {
+        yield return new WaitForSeconds(secondsToWait);
     }
 
     public float CurrentHealth
@@ -100,14 +107,12 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
 
     public void Attack()
     {
-        if (attackZone.targetCollision == null)
-            return;
         IDamageable damageable = attackZone.targetCollision.GetComponent<IDamageable>();
         if (damageable != null)
         {
             Debug.Log("Not null");
             damageable.DealDamage(demonSlimeStats.Damage.Value);
-            gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
         }
+        gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
     }
 }

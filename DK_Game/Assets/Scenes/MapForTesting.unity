@@ -1933,11 +1933,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1223207386172074803, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1223207386172074803, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1223207387055595784, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_RootOrder
@@ -1989,7 +1989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1223207387055595791, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565243874962555326, guid: 64d7740535e455640b5ae314687f9dfb, type: 3}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2187,6 +2191,34 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 513745433}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990070821466136946, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5990070821503052096, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
       propertyPath: m_Name
       value: SpawnEnemyForTesting
@@ -2235,6 +2267,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5990070821503052098, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
+      propertyPath: enemyPrefab
+      value: 
+      objectReference: {fileID: 1045421187935054156, guid: 7a7a2c2558d2e0d43bc0c1e8cfa06d9a, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 7445b61d91b594a4fa411d5bb8113732, type: 3}
