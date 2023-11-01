@@ -5,16 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class IntroLoaderMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     void Start()
     {
         SceneManager.LoadScene("MainMenu");
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
