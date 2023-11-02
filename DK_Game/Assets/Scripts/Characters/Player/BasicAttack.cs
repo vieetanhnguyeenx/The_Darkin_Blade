@@ -26,7 +26,6 @@ public class BasicAttack : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Ontrigger " + collision.tag);
         IDamageable damageable = collision.GetComponent<IDamageable>();
 
         if (damageable != null)

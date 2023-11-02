@@ -79,7 +79,6 @@ public class PlayerDamage : MonoBehaviour, IDamageable
             }
             timeSinceHit += Time.deltaTime;
         }
-        Debug.Log($"Player: {CurrentHealth}");
     }
 
     public float DealDamage(float damageAmount)

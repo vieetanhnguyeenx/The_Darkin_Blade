@@ -129623,6 +129623,22 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1565273995791311414, guid: 0002420b8634c89409665f247148a29d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565273995791311414, guid: 0002420b8634c89409665f247148a29d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565273995791311414, guid: 0002420b8634c89409665f247148a29d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1973573581}
+    - target: {fileID: 1565273995791311414, guid: 0002420b8634c89409665f247148a29d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2848940130306441701, guid: 0002420b8634c89409665f247148a29d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -129674,6 +129690,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0002420b8634c89409665f247148a29d, type: 3}
+--- !u!1 &1973573581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2848940130306441704, guid: 0002420b8634c89409665f247148a29d, type: 3}
+  m_PrefabInstance: {fileID: 1969027594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2014404028
 GameObject:
   m_ObjectHideFlags: 0

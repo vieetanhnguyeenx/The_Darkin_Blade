@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 6690126418346960381}
   - component: {fileID: 4873596473783891131}
   - component: {fileID: 8287728969820058132}
+  - component: {fileID: 5919833194948286705}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -581,7 +582,19 @@ MonoBehaviour:
     m_ActionId: cb1a43a0-1a1f-49c9-ada3-0398f09bc956
     m_ActionName: Player/Jump[/Keyboard/space]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5919833194948286705}
+        m_TargetAssemblyTypeName: PlayerAbilityQ, Assembly-CSharp
+        m_MethodName: OnActionQ
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 1f52494a-fcb0-4a35-abd9-f0f40f6dd346
     m_ActionName: Player/Skill_1[/Keyboard/q]
   m_NeverAutoSwitchControlSchemes: 0
@@ -687,6 +700,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canReceiveInput: 1
   inputRecived: 0
+--- !u!114 &5919833194948286705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848940130306441704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f08ff489e75e6499c42c70ded1d7aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillActivationCount: 0
+  skillActivationMax: 3
+  baseCoolDown: 14
+  baseCoolDownTimmer: 0
+  timeSinceLastUseMax: 1
+  timeSinceLastUse: 1.2
+  timeSinceLastActivationMax: 4
+  timeSinceLastActivation: 0
 --- !u!1 &3773765683581502773
 GameObject:
   m_ObjectHideFlags: 0

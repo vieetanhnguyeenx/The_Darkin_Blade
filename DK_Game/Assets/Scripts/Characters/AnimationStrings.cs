@@ -20,5 +20,8 @@
         public static string hasTarget = "hasTarget";
         public static string isAbilityQAvalible = "isAbilityQAvalible";
         public static string isAttackRange = "isAttackRange";
+
+        public static string abilityQ1 = "abilityQ";
+
     }
 }

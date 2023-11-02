@@ -71,7 +71,6 @@ public class TouchingDirections : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(groundHits[0]);
         IsGrounded = touchingCol.Cast(Vector2.down, castFilter, groundHits, groudHitDistance) > 0;
         IsOnWall = touchingCol.Cast(wallCheckDirection, castFilter, wallHits, wallDistance) > 0;
         IsOnCeiling = touchingCol.Cast(Vector2.up, castFilter, ceilingHits, ceilingDistance) > 0;
