@@ -123,7 +123,7 @@ public class BossCreatureDamage : MonoBehaviour, IDamageable, IKnockbackable
         if (damageable != null)
         {
             Debug.Log("Not null");
-            damageable.DealDamage(bossCreatureStats.Damage.Value + 50);
+            damageable.DealDamage(bossCreatureStats.Damage.Value + 120);
             gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
         }
     }
