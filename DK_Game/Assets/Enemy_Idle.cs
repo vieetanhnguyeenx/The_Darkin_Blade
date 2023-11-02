@@ -4,7 +4,7 @@ using UnityEngine;
 public class Enemy_Idle : StateMachineBehaviour
 {
     public float speed = 2.5f;
-    public float attackRange = 8f;
+    public float attackRange = 10f;
     public bool isLongRangeEnemy = false;
     Transform player;
     Rigidbody2D rb;

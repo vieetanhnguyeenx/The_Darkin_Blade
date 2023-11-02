@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  attackRange: 3
+  attackRange: 10
   isLongRangeEnemy: 0
 --- !u!114 &8467839821114497515
 MonoBehaviour:

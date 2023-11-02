@@ -24,7 +24,7 @@ public class Enemy_Run : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         enemy.LookAtPlayer();
-
+        Debug.Log(Vector2.Distance(player.position, enemy.transform.position));
         //Debug.Log(Vector2.Distance(player.position, rb.position));
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {
