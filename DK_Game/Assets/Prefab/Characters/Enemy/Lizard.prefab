@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth:
-    BaseValue: 1200
+    BaseValue: 2000
   Damage:
     BaseValue: 45
   Armor:
