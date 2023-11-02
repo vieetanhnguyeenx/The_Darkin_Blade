@@ -1,0 +1,2324 @@
+fileFormatVersion: 2
+guid: 6f460651d7b5fca42acb76814469e557
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_LOL_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 661
+        width: 79
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68e2cf4ef1462d4d883d8a3ec4cdf1d
+      internalID: -1398515099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 661
+        width: 304
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534322c1df4f4424ea5b5bf915e557e3
+      internalID: -443473893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 944
+        width: 510
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb968e2e1e035648b6b0fbad06ed829
+      internalID: -1823592755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_3
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 986
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a5b18262407334a9039852bb91e64c
+      internalID: 1357180652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 907
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5f197ce23f50d448770d826b0dc609
+      internalID: 565517864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 907
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41077027f02f5b74a91a416b85d34675
+      internalID: -1854092471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 906
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c190bfd27a302c44bb59fd6e2db7075
+      internalID: -1084532600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_7
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 906
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b8d52362378324b8407cd45d90fb0c
+      internalID: -1730580840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 913
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bed3b3a2f5edc429a6ed8d50a88858
+      internalID: 1598569504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 903
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3454b6bebb6fccf499d7a820e577d5e3
+      internalID: -210513809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 903
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad19b109e4a3bc45bb3c9a161ee90f8
+      internalID: -1294286080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 905
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c61b3c0dd895a4099dbdcf17932a96
+      internalID: 1758570404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_12
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 906
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09efa76c9756124492f7ed38269f32b
+      internalID: 881395251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_13
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 907
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2790461315c8294f8f8b94830302a84
+      internalID: -1281422214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_14
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 918
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30750ab50e846464d86cf2674905b790
+      internalID: 815209226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_15
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 918
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bffcc724523148449e1b57db514a7e1
+      internalID: -871283442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_16
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 918
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ffafcdceb93404f92ac5d5a7ff655a
+      internalID: 108679133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_17
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 922
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58ef457fa8dc5e478a6f0d9a33fea72
+      internalID: -72058180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_18
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 897
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b75d19a9fb15f4e8551436916e8087
+      internalID: 1749536640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 861
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7ddd899bbe35a4c8cc0bd33d502e8e
+      internalID: 893567418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 861
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73765348640c884297917db32bbab65
+      internalID: -162895625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_21
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 860
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2807f4786b5244b72380100d2a272
+      internalID: 1414596938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 862
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4885c1fc1407db48aec8839330d3f53
+      internalID: 1832730144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_23
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 861
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ffbf773b5f7f8428999284fe5dd88c
+      internalID: 1203583341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 861
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c4020b20269544b47e21aaeac174a
+      internalID: -1320315029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_25
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 860
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fb8a5baa4a78c48b9b3c30ad18b944
+      internalID: -366169485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_26
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 862
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e73f4363f437d46b1e0a6cccacb076
+      internalID: -1103477508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 862
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7c24f2b40e5f843b5de2a88c22818b
+      internalID: 1561400404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_28
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 862
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791e5c0050f666f4ea2dec6b48d106ee
+      internalID: 18347036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 821
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9c84d6a3d29404a9f6daba3890cbdc
+      internalID: 1669676131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_30
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 820
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e8295ddd568c04eb39c0025c6e0341
+      internalID: -1203265535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_31
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 822
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23131024b346a8d4395d04b5671a24b9
+      internalID: 823864160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 822
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4b0c9361e1de14a9dda9a792a1b241
+      internalID: -635036779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_33
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 822
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d190812f69e8ee84e84d7ad2d6587555
+      internalID: -112185820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 822
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bfee99c91f17548b73ab08cf4af3c1
+      internalID: 438606571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_35
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 808
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315075c8daf66824296a2eb6bbb08b97
+      internalID: 1837928507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_36
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 798
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436781f9a221f1143bf5451e2ef6c79a
+      internalID: 750868131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_37
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 787
+        width: 254
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6891518a65e2b48a5b3512e8546e11
+      internalID: -1922202564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 729
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5066c22a7c80219418dab7672cb0564c
+      internalID: 1460965313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_39
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 729
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987a96e3787a1c847b467c3fd36ffbf3
+      internalID: -1412771484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 729
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7ebae37596194786a26379ef6a904
+      internalID: 431454874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_41
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 729
+        width: 61
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635f3314330453944aae96f09dc12b8c
+      internalID: 645903600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_42
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 729
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d9fc46da8ed8743bc066bfc326fb33
+      internalID: 925344871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_43
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 729
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021d2981731b07c48873bb2ffafef329
+      internalID: 1933947240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_44
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 729
+        width: 78
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e1de355eff5e64394550c01e2aa994
+      internalID: 2020187539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_45
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 729
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb260cd64806f3249af4202a85ccde8e
+      internalID: -42204907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_46
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 729
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2aee9d077664c4ab98416467b2c669
+      internalID: 590586454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_47
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 661
+        width: 329
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bc111659cc7a54f92e8042f3e90b92
+      internalID: 1624389717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_48
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 702
+        width: 152
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7368342099a755449b1ee4ed7d06779
+      internalID: -1223821360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_49
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 701
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eec2d308ad47c0428f432f9f53394e3
+      internalID: -1868537920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_50
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 673
+        width: 166
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2d78ddf29a50e4eb273747a015cb30
+      internalID: 1568719408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_51
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 480
+        width: 705
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2e4dd9c9de0ad4a870888037083133
+      internalID: 1906409775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_52
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 554
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2a25f33d7ec924db1ad4010222fe7a
+      internalID: -1357591143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_53
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7e002d772ee844aa813b885ba9b499
+      internalID: -1559232366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_54
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 343
+        width: 428
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e1d3a500a6db044b4318d79141f1cd
+      internalID: 1919470184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 422
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46d1abef2c38944ae06cf45a83cb6d
+      internalID: 516367245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_56
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 416
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1132957f2b33cbc4fba7fd724cf88ea3
+      internalID: 2121291432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_57
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 421
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17564862273383f4faa9779422f0b503
+      internalID: 745778206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_58
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 421
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f32469be6422e43871f5ca739d750d
+      internalID: 1298462827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_59
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 421
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf80a6118e62148479792aee207310b5
+      internalID: 424157902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_60
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 421
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39618a2e9a5eb41498c6008774bae473
+      internalID: -1895496508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_61
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 421
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd2b812c398a54f8196c7364ad06d8
+      internalID: -1865605265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 391
+        width: 519
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff40ce96f8b454245b8ef32ae0095837
+      internalID: 725894571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_63
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 390
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfa693588493cb4b8dfbc6a5350629a
+      internalID: 734117903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_64
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 358
+        width: 531
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0320d74d078014440b9583b9ce7c752b
+      internalID: -2061126116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 161
+        width: 416
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b613fba828cf947916257a151749c4
+      internalID: 501711115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_66
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 161
+        width: 81
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081859d900ba81b47b6db11c994fd3fc
+      internalID: -1304081966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_67
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 296
+        width: 134
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0cc992d94bd784cbc60713560c4b3d
+      internalID: -509912371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_68
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 10
+        width: 325
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcde13c2e4bece244862bb828ad7f5b2
+      internalID: -1217974181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_69
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 251
+        width: 132
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fac5b1d0dcc59f46829ac14dfeeb3a3
+      internalID: 1864861113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_70
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 205
+        width: 132
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e27956ce2f8f24a92f1341270c38da
+      internalID: 361449247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 136
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba597adc9a91c743a326e2598cb0741
+      internalID: -1994158922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 134
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8504a6995595c64fab8902455372370
+      internalID: -1707532925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_73
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 131
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb621d685092e14b9a9af580be314a1
+      internalID: -1701845585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_74
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 128
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3443e0361f02df64db4b5a4f652478a3
+      internalID: 1723719569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_75
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 124
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0293dad54368a646bfb1bf96c915241
+      internalID: 283481438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_76
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 119
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61377bec65498c4c8552afc932da193
+      internalID: 2120094230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_77
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 114
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572039912d8e95e4dabb3aeb5bf9f438
+      internalID: 376938455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_78
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 108
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f36843259798b94a86b980abd860b33
+      internalID: -1484254645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_79
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 105
+        width: 12
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ec8ff14aa873944b73ba5caff2ccac
+      internalID: 624631283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_80
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 104
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c27c7e15592894693d0c0c53214c76
+      internalID: -1250540522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_81
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 104
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8647b33fb81d7a94aa1ccb05c989d2b2
+      internalID: -533181323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_82
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 104
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5ee0234d51b9a4fa7cbdaddf4a286e
+      internalID: -1702084887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_83
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 104
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dc1e2ac6678614794092d18d713d37
+      internalID: 512602500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_84
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 104
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188aef15c624c3d4d8f5474d6244ce7f
+      internalID: -824284602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_85
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 56
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3141d3cf81a998b458bed33353424e34
+      internalID: -369466021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_86
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 56
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ca434a51c698c4f8c3b317d77bd885
+      internalID: 1890123136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_87
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 57
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3685f21679b5d44952b65d1a11b7de
+      internalID: -1618988285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_88
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 62
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fca3026be0998d46a9753710dbb0547
+      internalID: -504830181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_89
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 67
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad13289b761c067449bdcb8a908d64a4
+      internalID: -795079896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_90
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 72
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eacb763ce7c19459f9c63ec367c71d
+      internalID: 927488628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_91
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 77
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589ac357bc0a90488d3f0806e78066f
+      internalID: 1764286788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_92
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 82
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c496e349920ecdc4f9a654a8aa32d8dc
+      internalID: 1812010556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_93
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 56
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3625f7de29f4469ca42324d795e78
+      internalID: 401612299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_94
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 56
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e1cf8b4eaf03642b17bd48ae1b1611
+      internalID: 2079974742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_95
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 56
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c707c8b2277428546acdf09c95d60bc6
+      internalID: 968047833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_96
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 56
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3b7030d9dc2f04d81f00683d0dc651
+      internalID: -1146459647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_97
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 56
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0d01cd3421ec14da8afa822ab2eba9
+      internalID: 1575058032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_98
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 56
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26c34bb3a6fef341849b896baeb2da9
+      internalID: -596144558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOL_99
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 38
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f32fb7b37aecf47bd47b05d7820bfe
+      internalID: -263027486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_LOL_85: -369466021
+      UI_LOL_54: 1919470184
+      UI_LOL_82: -1702084887
+      UI_LOL_66: -1304081966
+      UI_LOL_93: 401612299
+      UI_LOL_47: 1624389717
+      UI_LOL_27: 1561400404
+      UI_LOL_65: 501711115
+      UI_LOL_51: 1906409775
+      UI_LOL_55: 516367245
+      UI_LOL_98: -596144558
+      UI_LOL_36: 750868131
+      UI_LOL_41: 645903600
+      UI_LOL_12: 881395251
+      UI_LOL_8: 1598569504
+      UI_LOL_31: 823864160
+      UI_LOL_18: 1749536640
+      UI_LOL_45: -42204907
+      UI_LOL_17: -72058180
+      UI_LOL_38: 1460965313
+      UI_LOL_59: 424157902
+      UI_LOL_63: 734117903
+      UI_LOL_4: 565517864
+      UI_LOL_34: 438606571
+      UI_LOL_91: 1764286788
+      UI_LOL_79: 624631283
+      UI_LOL_60: -1895496508
+      UI_LOL_3: 1357180652
+      UI_LOL_94: 2079974742
+      UI_LOL_56: 2121291432
+      UI_LOL_97: 1575058032
+      UI_LOL_75: 283481438
+      UI_LOL_61: -1865605265
+      UI_LOL_29: 1669676131
+      UI_LOL_2: -1823592755
+      UI_LOL_24: -1320315029
+      UI_LOL_95: 968047833
+      UI_LOL_89: -795079896
+      UI_LOL_20: -162895625
+      UI_LOL_25: -366169485
+      UI_LOL_53: -1559232366
+      UI_LOL_11: 1758570404
+      UI_LOL_62: 725894571
+      UI_LOL_84: -824284602
+      UI_LOL_6: -1084532600
+      UI_LOL_78: -1484254645
+      UI_LOL_73: -1701845585
+      UI_LOL_32: -635036779
+      UI_LOL_80: -1250540522
+      UI_LOL_50: 1568719408
+      UI_LOL_26: -1103477508
+      UI_LOL_67: -509912371
+      UI_LOL_44: 2020187539
+      UI_LOL_10: -1294286080
+      UI_LOL_74: 1723719569
+      UI_LOL_99: -263027486
+      UI_LOL_68: -1217974181
+      UI_LOL_88: -504830181
+      UI_LOL_90: 927488628
+      UI_LOL_33: -112185820
+      UI_LOL_96: -1146459647
+      UI_LOL_52: -1357591143
+      UI_LOL_7: -1730580840
+      UI_LOL_42: 925344871
+      UI_LOL_21: 1414596938
+      UI_LOL_81: -533181323
+      UI_LOL_9: -210513809
+      UI_LOL_71: -1994158922
+      UI_LOL_30: -1203265535
+      UI_LOL_76: 2120094230
+      UI_LOL_35: 1837928507
+      UI_LOL_57: 745778206
+      UI_LOL_23: 1203583341
+      UI_LOL_43: 1933947240
+      UI_LOL_0: -1398515099
+      UI_LOL_14: 815209226
+      UI_LOL_5: -1854092471
+      UI_LOL_69: 1864861113
+      UI_LOL_83: 512602500
+      UI_LOL_48: -1223821360
+      UI_LOL_39: -1412771484
+      UI_LOL_58: 1298462827
+      UI_LOL_19: 893567418
+      UI_LOL_1: -443473893
+      UI_LOL_15: -871283442
+      UI_LOL_49: -1868537920
+      UI_LOL_77: 376938455
+      UI_LOL_16: 108679133
+      UI_LOL_86: 1890123136
+      UI_LOL_28: 18347036
+      UI_LOL_40: 431454874
+      UI_LOL_13: -1281422214
+      UI_LOL_92: 1812010556
+      UI_LOL_87: -1618988285
+      UI_LOL_22: 1832730144
+      UI_LOL_64: -2061126116
+      UI_LOL_72: -1707532925
+      UI_LOL_70: 361449247
+      UI_LOL_37: -1922202564
+      UI_LOL_46: 590586454
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
