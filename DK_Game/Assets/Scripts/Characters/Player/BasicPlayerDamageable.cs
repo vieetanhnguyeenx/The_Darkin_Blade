@@ -1,8 +1,10 @@
 using Assets.Scripts.Characters;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BasicPlayerDamageable : MonoBehaviour
 {
+    [SerializeField] public UnityEvent<float> DealDamage;
     Collider2D basicAttackColider;
     PlayerStats playerStats;
     [SerializeField] public GameObject player;
@@ -18,7 +20,7 @@ public class BasicPlayerDamageable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        DealDamage.AddListener(player.GetComponent<ILifestealable>().LifeStealHeal);
     }
 
     // Update is called once per frame
@@ -33,7 +35,8 @@ public class BasicPlayerDamageable : MonoBehaviour
         if (damageable != null)
         {
             Debug.Log("Not null");
-            damageable.DealDamage((playerStats.Damage.Value * BounusDamagePercentRate) + BonusDamage);
+            float damageDealToTarget = damageable.DealDamage((playerStats.Damage.Value * BounusDamagePercentRate) + BonusDamage);
+            DealDamage?.Invoke(damageDealToTarget);
         }
 
         IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();

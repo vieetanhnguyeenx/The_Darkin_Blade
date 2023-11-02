@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4387978513055654792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Abilities
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 8888925698260118048}
   - component: {fileID: 7719569387975644009}
   - component: {fileID: 4843952450216964892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AbilityQ2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,6 +113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 40
   BounusDamagePercentRate: 1
@@ -128,7 +131,7 @@ GameObject:
   - component: {fileID: 7605467734184516003}
   - component: {fileID: 5263073095765167094}
   - component: {fileID: 1968584571736553651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AbilityQ1Crit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,6 +196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 30
   BounusDamagePercentRate: 1.75
@@ -208,7 +214,7 @@ GameObject:
   - component: {fileID: 498373529958157996}
   - component: {fileID: 7227728114580676523}
   - component: {fileID: 8510172813064970375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BasicAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,6 +283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 0
   BounusDamagePercentRate: 1
@@ -292,7 +301,7 @@ GameObject:
   - component: {fileID: 8682230592692364343}
   - component: {fileID: 159143105761530319}
   - component: {fileID: 8131048437346779820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AbilityQ1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,6 +367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 30
   BounusDamagePercentRate: 1
@@ -382,7 +394,7 @@ GameObject:
   - component: {fileID: 4873596473783891131}
   - component: {fileID: 8287728969820058132}
   - component: {fileID: 5919833194948286705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -407,7 +419,7 @@ Transform:
   - {fileID: 4258972927179097470}
   - {fileID: 4387978513055654792}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2848940130306441702
 SpriteRenderer:
@@ -722,7 +734,7 @@ MonoBehaviour:
   Armor:
     BaseValue: 35
   AttackSpeed:
-    BaseValue: 0.7
+    BaseValue: 0.3
   LifeSteal:
     BaseValue: 0.5
 --- !u!114 &4873596473783891131
@@ -783,7 +795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6795572098682608915}
   - component: {fileID: 762881794971788371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,7 +907,7 @@ GameObject:
   - component: {fileID: 694945055442406087}
   - component: {fileID: 5209295854718475812}
   - component: {fileID: 8755023150155639581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AbilityQ2Crit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,6 +972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 40
   BounusDamagePercentRate: 1.75
@@ -975,7 +990,7 @@ GameObject:
   - component: {fileID: 4258972927179097470}
   - component: {fileID: 8025325125203455366}
   - component: {fileID: 9163299974761665411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BasicAttack_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,6 +1059,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 30
   BounusDamagePercentRate: 1
@@ -1059,7 +1077,7 @@ GameObject:
   - component: {fileID: 7531447445315611142}
   - component: {fileID: 2388830328383117335}
   - component: {fileID: 2736118674866041659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AbilityQ3Crit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,6 +1142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 50
   BounusDamagePercentRate: 1.75
@@ -1139,7 +1160,7 @@ GameObject:
   - component: {fileID: 8532652272460837530}
   - component: {fileID: 6960994652325580991}
   - component: {fileID: 345798924725454721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BasicAttack_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1208,6 +1229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 15
   BounusDamagePercentRate: 1
@@ -1224,7 +1248,7 @@ GameObject:
   - component: {fileID: 6280847642806575770}
   - component: {fileID: 5217080487621843300}
   - component: {fileID: 6091059461405202637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AbilityQ3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1321,6 +1345,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DealDamage:
+    m_PersistentCalls:
+      m_Calls: []
   player: {fileID: 2848940130306441704}
   BonusDamage: 50
   BounusDamagePercentRate: 1.75
