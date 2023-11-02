@@ -2,7 +2,7 @@ using Assets.Scripts;
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class PlayerDamage : MonoBehaviour, IDamageable
+public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
 {
     PlayerStats playerStats;
     Animator animator;
@@ -18,7 +18,14 @@ public class PlayerDamage : MonoBehaviour, IDamageable
         }
         set
         {
-            _currentHealth = value;
+            if (value >= playerStats.MaxHealth.Value)
+            {
+                _currentHealth = playerStats.MaxHealth.Value;
+            }
+            else
+            {
+                _currentHealth = value;
+            }
             // if  heath drop below 0, character is no longer alive
             if (_currentHealth <= 0)
             {
@@ -91,5 +98,12 @@ public class PlayerDamage : MonoBehaviour, IDamageable
             return damageAmount;
         }
         return 0;
+    }
+
+    public void LifeStealHeal(float damageDeal)
+    {
+        float healthStealed = damageDeal * playerStats.LifeSteal.Value;
+        CurrentHealth += healthStealed;
+        Debug.Log("Lifesteal " + healthStealed);
     }
 }

@@ -2073,26 +2073,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 537915539520808007, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1070238960185839174, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1959238218694442027, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1971132887800707833, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1983870178662826504, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 2848940130306441701, guid: 0002420b8634c89409665f247148a29d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2140,34 +2120,6 @@ PrefabInstance:
     - target: {fileID: 2848940130306441704, guid: 0002420b8634c89409665f247148a29d, type: 3}
       propertyPath: m_Name
       value: Player 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2848940130306441704, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773765683581502773, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4588312715994177551, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770451015872246104, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5306857973593773470, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5593315228804576674, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8663846000691472328, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: m_Layer
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
