@@ -1,34 +1,33 @@
 using Assets.Scripts;
 using Assets.Scripts.Characters;
-using System.Collections;
 using UnityEngine;
 
-public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
+public class MonsterBugDamage : MonoBehaviour, IDamageable, IKnockbackable
 {
     EnemyFloatingHealthBar healthBar;
     public bool isInvulnerable = false;
     Animator animator;
-    DemonSlimeStats demonSlimeStats;
+    MonsterBugStats monsterBugStats;
     private float _currentHealth;
     GameObject ObjectPool;
     Rigidbody2D rb;
     public GameObject FloatingDamage;
 
-    DetectionZoneDemonSlime attackZone;
+    DetectionZoneMonsterBug attackZone;
     private void Awake()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        attackZone = GetComponentInChildren<DetectionZoneDemonSlime>();
+        attackZone = GetComponentInChildren<DetectionZoneMonsterBug>();
     }
 
     private void Start()
     {
-        demonSlimeStats = GetComponent<DemonSlimeStats>();
+        monsterBugStats = GetComponent<MonsterBugStats>();
         healthBar = GetComponentInChildren<EnemyFloatingHealthBar>();
-        _currentHealth = demonSlimeStats.MaxHealth.Value;
-        healthBar.UpdateHealthBar(_currentHealth, demonSlimeStats.MaxHealth.Value);
-        ObjectPool = GameObject.FindGameObjectWithTag("DemonSlimeObjectPool");
+        _currentHealth = monsterBugStats.MaxHealth.Value;
+        healthBar.UpdateHealthBar(_currentHealth, monsterBugStats.MaxHealth.Value);
+        ObjectPool = GameObject.FindGameObjectWithTag("KnightManObjectPool");
     }
 
     public bool _hasTarget = false;
@@ -42,11 +41,14 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
         }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        HasTarget = attackZone.DemonSlimeDetectedColiders.Count > 0;
+        HasTarget = attackZone.BossCreatureDetectedColiders.Count > 0;
+        if (_currentHealth < (monsterBugStats.MaxHealth.Value / 2))
+        {
+            animator.SetBool(AnimationStrings.isEnrage, true);
+        }
     }
-
     public float DealDamage(float damageAmount)
     {
         if (IsAlive)
@@ -56,7 +58,7 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
             CurrentHealth -= damageAmount;
             GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
             txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
-            healthBar.UpdateHealthBar(_currentHealth, demonSlimeStats.MaxHealth.Value);
+            healthBar.UpdateHealthBar(_currentHealth, monsterBugStats.MaxHealth.Value);
             gameObject.GetComponentInChildren<Enemysfx>().HurtSound();
             return damageAmount;
         }
@@ -66,11 +68,6 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
     public void DealKnockback(Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
-    }
-
-    private IEnumerator WaitForSeconds(float secondsToWait)
-    {
-        yield return new WaitForSeconds(secondsToWait);
     }
 
     public float CurrentHealth
@@ -107,12 +104,27 @@ public class DemonSlimeDamage : MonoBehaviour, IDamageable, IKnockbackable
 
     public void Attack()
     {
+        if (attackZone.targetCollision == null)
+            return;
         IDamageable damageable = attackZone.targetCollision.GetComponent<IDamageable>();
         if (damageable != null)
         {
             Debug.Log("Not null");
-            damageable.DealDamage(demonSlimeStats.Damage.Value);
+            damageable.DealDamage(monsterBugStats.Damage.Value);
+            gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
         }
-        gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
+    }
+
+    public void Attack2()
+    {
+        if (attackZone.targetCollision == null)
+            return;
+        IDamageable damageable = attackZone.targetCollision.GetComponent<IDamageable>();
+        if (damageable != null)
+        {
+            Debug.Log("Not null");
+            damageable.DealDamage(monsterBugStats.Damage.Value + 120);
+            gameObject.GetComponentInChildren<Enemysfx>().WeaponSound();
+        }
     }
 }

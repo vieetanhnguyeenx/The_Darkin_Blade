@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 2135500631817685411}
   m_Layer: 0
   m_Name: Boss_Creature
-  m_TagString: Untagged
+  m_TagString: Boss1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ Transform:
   - {fileID: 5578433663595971115}
   - {fileID: 5578433662628627213}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5578433661931496197
 SpriteRenderer:
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 8
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Boss Name
+  m_text: The Mole King
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5ba4599d8bbd3734f8cd992d037241ed, type: 2}
   m_sharedMaterial: {fileID: -5758680417762819202, guid: 5ba4599d8bbd3734f8cd992d037241ed, type: 2}
