@@ -554,6 +554,8 @@ GameObject:
   - component: {fileID: 4873596473783891131}
   - component: {fileID: 8287728969820058132}
   - component: {fileID: 5919833194948286705}
+  - component: {fileID: 2997231761962665929}
+  - component: {fileID: 2685863362877525810}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
@@ -579,7 +581,7 @@ Transform:
   - {fileID: 4258972927179097470}
   - {fileID: 4387978513055654792}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2848940130306441702
 SpriteRenderer:
@@ -822,6 +824,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1f52494a-fcb0-4a35-abd9-f0f40f6dd346
     m_ActionName: Player/Skill_1[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2997231761962665929}
+        m_TargetAssemblyTypeName: PlayerAbilityW, Assembly-CSharp
+        m_MethodName: OnActionW
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ed1cd0e7-05c3-4546-ac53-236caaa07e66
+    m_ActionName: Player/Skill_2[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2685863362877525810}
+        m_TargetAssemblyTypeName: PlayerAbilityE, Assembly-CSharp
+        m_MethodName: OnActionE
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 34ef0837-b951-431b-adf5-091cbe1b003a
+    m_ActionName: Player/Skill_3[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -948,6 +982,39 @@ MonoBehaviour:
   timeSinceLastUse: 1.2
   timeSinceLastActivationMax: 4
   timeSinceLastActivation: 0
+--- !u!114 &2997231761962665929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848940130306441704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff5528de618db94792224ca1ea49591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActivated: 0
+  punishPercentRate: 0.05
+--- !u!114 &2685863362877525810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848940130306441704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae532638b22fc74787e1cbf2cd86188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dashing:
+    m_PersistentCalls:
+      m_Calls: []
+  BaseCooldown: 3
+  BaseCooldownTimmer: 0
+  DashingPower: 10
+  player: {fileID: 2848940130306441704}
 --- !u!1 &3773765683581502773
 GameObject:
   m_ObjectHideFlags: 0

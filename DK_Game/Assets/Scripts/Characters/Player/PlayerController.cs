@@ -1,9 +1,10 @@
 using Assets.Scripts;
+using Assets.Scripts.Characters;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDashingable
 {
 
     [Header("Movment Variables")]
@@ -160,4 +161,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Dashing(float dashingPower)
+    {
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.velocity = new Vector2(transform.localScale.x * dashingPower, rb.velocity.y);
+        rb.gravityScale = originalGravity;
+    }
 }

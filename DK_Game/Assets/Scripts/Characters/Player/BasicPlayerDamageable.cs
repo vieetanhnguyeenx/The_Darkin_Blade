@@ -21,6 +21,8 @@ public class BasicPlayerDamageable : MonoBehaviour
     void Start()
     {
         DealDamage.AddListener(player.GetComponent<ILifestealable>().LifeStealHeal);
+
+        DealDamage.AddListener(player.GetComponent<IPunishable>().Punish);
     }
 
     // Update is called once per frame
