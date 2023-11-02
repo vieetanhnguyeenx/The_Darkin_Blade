@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 5578433661931496198}
   - component: {fileID: 5578433661931496194}
   - component: {fileID: 5578433661931496195}
+  - component: {fileID: 7948541540543102531}
+  - component: {fileID: 5891577754226824897}
+  - component: {fileID: 4484560442412161428}
+  - component: {fileID: 2135500631817685411}
   m_Layer: 0
   m_Name: Boss_Creature
   m_TagString: Untagged
@@ -125,7 +129,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -147,6 +151,69 @@ CapsuleCollider2D:
   m_Offset: {x: -0.012889385, y: -0.61223316}
   m_Size: {x: 1.3305988, y: 2.2715044}
   m_Direction: 0
+--- !u!114 &7948541540543102531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578433661931496199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88786d294b97940851acc43fc706e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInvulnerable: 0
+  FloatingDamage: {fileID: 5069561559753570855, guid: 1a9e5f7870f4a864fb336ad14c514880, type: 3}
+  _hasTarget: 0
+  isAlive: 1
+--- !u!114 &5891577754226824897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578433661931496199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114f9b0c90643a94fac2f1193e209389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth:
+    BaseValue: 3000
+  Damage:
+    BaseValue: 60
+  Armor:
+    BaseValue: 40
+  AttackSpeed:
+    BaseValue: 0.9
+--- !u!114 &4484560442412161428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578433661931496199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc52064a78119d4cab9e265de98572c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BossCreatureDetectedColiders: []
+  targetCollision: {fileID: 0}
+--- !u!114 &2135500631817685411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578433661931496199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502935765aabd3240aacd059513e0231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFlipped: 1
 --- !u!1 &5578433662179781715
 GameObject:
   m_ObjectHideFlags: 0
