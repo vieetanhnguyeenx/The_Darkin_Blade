@@ -53,7 +53,8 @@ public class UIController : MonoBehaviour
                             break;
                         case buttonId.btnHowtoPlay:
                             Debug.Log("How to play");
-
+                            SceneManager.LoadScene("HowToPlay");
+                            break;
                             break;
                         case buttonId.btnQuitGame:
                             Debug.Log("Quit Game");
