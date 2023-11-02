@@ -8,7 +8,10 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
     Animator animator;
     PlayerFloatingHealthBar healthBar;
     [SerializeField] private float _currentHealth;
-
+    [SerializeField]
+    private GameObject FloatingDamage;
+    [SerializeField]
+    private GameObject FloatingHealthSeal;
     [SerializeField]
     public float CurrentHealth
     {
@@ -89,7 +92,6 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
             }
             timeSinceHit += Time.deltaTime;
         }
-        healthBar.UpdateHealthBar(CurrentHealth, playerStats.MaxHealth.Value);
         Debug.Log($"Curent Health: {CurrentHealth}");
     }
 
@@ -100,6 +102,9 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
             CurrentHealth -= damageAmount;
             isInvincible = true;
             // Todo caculate damage
+            GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
+            txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
+            healthBar.UpdateHealthBar(CurrentHealth, playerStats.MaxHealth.Value);
             return damageAmount;
         }
         return 0;
@@ -109,6 +114,9 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
     {
         float healthStealed = damageDeal * playerStats.LifeSteal.Value;
         CurrentHealth += healthStealed;
+        GameObject txtDamage = Instantiate(FloatingHealthSeal, transform.position, Quaternion.identity);
+        txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"+{healthStealed}";
+        healthBar.UpdateHealthBar(CurrentHealth, playerStats.MaxHealth.Value);
         Debug.Log("Lifesteal " + healthStealed);
     }
 }

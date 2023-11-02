@@ -579,7 +579,7 @@ Transform:
   - {fileID: 4258972927179097470}
   - {fileID: 4387978513055654792}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2848940130306441702
 SpriteRenderer:
@@ -910,6 +910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentHealth: 0
+  FloatingDamage: {fileID: 5069561559753570855, guid: 1a9e5f7870f4a864fb336ad14c514880, type: 3}
+  FloatingHealthSeal: {fileID: 5069561559753570855, guid: 108699341e672d1478ee1e832e5da464, type: 3}
   isInvincible: 0
   invincibilityTime: 1
 --- !u!114 &8287728969820058132

@@ -6,6 +6,8 @@ public class EnemyFloatingTextHandle : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, 0.8f);
-        transform.localPosition += new Vector3(0, 2f, 0);
+        float randomx = Random.Range(0f, 1f);
+        float randomy = Random.Range(2f, 3f);
+        transform.localPosition += new Vector3(randomx, randomy, 0);
     }
 }
