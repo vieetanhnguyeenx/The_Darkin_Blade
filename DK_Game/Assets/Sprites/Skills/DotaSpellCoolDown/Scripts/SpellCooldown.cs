@@ -22,11 +22,15 @@ public class SpellCooldown : MonoBehaviour
     private float cooldownTimer = 0.0f;
     private GameObject player;
     private PlayerAbilityQ playerAbilityQ;
+    private PlayerAbilityW playerAbilityW;
+    private PlayerAbilityE playerAbilityE;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerAbilityQ = player.GetComponent<PlayerAbilityQ>();
+        playerAbilityW = player.GetComponent<PlayerAbilityW>();
+        playerAbilityE = player.GetComponent<PlayerAbilityE>();
         textCooldown.gameObject.SetActive(false);
         imageEdge.gameObject.SetActive(false);
         imageCooldown.fillAmount = 0.0f;
@@ -35,27 +39,6 @@ public class SpellCooldown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"Cooldown: {playerAbilityQ.IsQCooldown}");
-        //if (Input.GetKeyDown(Key))
-        //{
-        //    if (playerAbilityQ.IsQCooldown)
-        //    {
-        //        return;
-        //    }
-
-        //    bool spellUsed = UseSpell();
-
-        //    if (spellUsed)
-        //    {
-        //        cooldownTimer = playerAbilityQ.baseCoolDown;
-        //    }
-        //}
-
-        //if (playerAbilityQ.IsQCooldown)
-        //{
-        //    ApplyCooldown();
-        //}
-
         switch (Key)
         {
             case KeyCode.P:
@@ -66,9 +49,9 @@ public class SpellCooldown : MonoBehaviour
                     return;
                 }
 
-                bool spellUsed = UseSpell();
+                bool spellUsedQ = UseSpell();
 
-                if (spellUsed)
+                if (spellUsedQ)
                 {
                     cooldownTimer = playerAbilityQ.baseCoolDown;
                 }
@@ -79,8 +62,40 @@ public class SpellCooldown : MonoBehaviour
                 }
                 break;
             case KeyCode.W:
+                //if (playerAbilityW.IsWCooldown)
+                //{
+                //    return;
+                //}
+
+                //bool spellUsedW = UseSpell();
+
+                //if (spellUsedW)
+                //{
+                //    cooldownTimer = playerAbilityW.baseCoolDown;
+                //}
+
+                //if (!playerAbilityW.IsWCooldown)
+                //{
+                //    ApplyCooldown();
+                //}
                 break;
             case KeyCode.E:
+                //if (playerAbilityE.IsECooldown)
+                //{
+                //    return;
+                //}
+
+                //bool spellUsedE = UseSpell();
+
+                //if (spellUsedE)
+                //{
+                //    cooldownTimer = playerAbilityE.baseCoolDown;
+                //}
+
+                //if (!playerAbilityE.IsECooldown)
+                //{
+                //    ApplyCooldown();
+                //}
                 break;
         }
     }
