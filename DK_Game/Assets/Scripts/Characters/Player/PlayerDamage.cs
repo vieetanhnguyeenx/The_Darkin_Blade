@@ -7,7 +7,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
     PlayerStats playerStats;
     Animator animator;
 
-    private float _currentHealth;
+    [SerializeField] private float _currentHealth;
 
     [SerializeField]
     public float CurrentHealth
