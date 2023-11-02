@@ -2080,8 +2080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &1087232742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2157,7 +2155,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
->>>>>>> Stashed changes
 --- !u!1001 &1164844097
 PrefabInstance:
   m_ObjectHideFlags: 0
