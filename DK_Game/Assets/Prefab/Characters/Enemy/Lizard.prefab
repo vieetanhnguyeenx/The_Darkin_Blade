@@ -282,7 +282,7 @@ MonoBehaviour:
   MaxHealth:
     BaseValue: 2000
   Damage:
-    BaseValue: 60
+    BaseValue: 180
   Armor:
     BaseValue: 0
   AttackSpeed:
