@@ -6,7 +6,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
 {
     PlayerStats playerStats;
     Animator animator;
-
+    PlayerFloatingHealthBar healthBar;
     [SerializeField] private float _currentHealth;
 
     [SerializeField]
@@ -71,6 +71,9 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
         playerStats = GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
         _currentHealth = playerStats.MaxHealth.Value;
+        GameObject PlayerInfo = GameObject.FindGameObjectWithTag("PlayerInfo");
+        healthBar = PlayerInfo.GetComponentInChildren<PlayerFloatingHealthBar>();
+        healthBar.UpdateHealthBar(_currentHealth, playerStats.MaxHealth.Value);
     }
 
 
@@ -86,6 +89,8 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
             }
             timeSinceHit += Time.deltaTime;
         }
+        healthBar.UpdateHealthBar(CurrentHealth, playerStats.MaxHealth.Value);
+        Debug.Log($"Curent Health: {CurrentHealth}");
     }
 
     public float DealDamage(float damageAmount)

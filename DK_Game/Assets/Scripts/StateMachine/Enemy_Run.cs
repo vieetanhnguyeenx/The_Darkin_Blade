@@ -13,6 +13,8 @@ public class Enemy_Run : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        if (player == null)
+            Destroy(enemy);
         rb = animator.GetComponent<Rigidbody2D>();
         enemy = animator.GetComponent<Enemy>();
         Debug.Log(player.gameObject.name);

@@ -5,7 +5,6 @@ public class Enemy : MonoBehaviour
     Transform player;
 
     public bool isFlipped = false;
-
     public void LookAtPlayer()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
