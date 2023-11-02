@@ -33,6 +33,14 @@ public class PlayerAbilityQ : MonoBehaviour
         }
     }
 
+    public bool IsQCooldown
+    {
+        get
+        {
+            return skillActivationCount >= skillActivationMax || baseCoolDownTimmer > baseCoolDown;
+        }
+    }
+
     private bool skillActive = false;
 
     public bool SkillActive

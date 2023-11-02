@@ -20,9 +20,13 @@ public class SpellCooldown : MonoBehaviour
     //variable for looking after the cooldown
     private bool isCoolDown = false;
     private float cooldownTimer = 0.0f;
+    private GameObject player;
+    private PlayerAbilityQ playerAbilityQ;
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerAbilityQ = player.GetComponent<PlayerAbilityQ>();
         textCooldown.gameObject.SetActive(false);
         imageEdge.gameObject.SetActive(false);
         imageCooldown.fillAmount = 0.0f;
@@ -31,21 +35,60 @@ public class SpellCooldown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(Key))
-        {
-            UseSpell();
-        }
+        Debug.Log($"Cooldown: {playerAbilityQ.IsQCooldown}");
+        //if (Input.GetKeyDown(Key))
+        //{
+        //    if (playerAbilityQ.IsQCooldown)
+        //    {
+        //        return;
+        //    }
 
-        if (isCoolDown)
+        //    bool spellUsed = UseSpell();
+
+        //    if (spellUsed)
+        //    {
+        //        cooldownTimer = playerAbilityQ.baseCoolDown;
+        //    }
+        //}
+
+        //if (playerAbilityQ.IsQCooldown)
+        //{
+        //    ApplyCooldown();
+        //}
+
+        switch (Key)
         {
-            ApplyCooldown();
+            case KeyCode.P:
+                break;
+            case KeyCode.Q:
+                if (playerAbilityQ.IsQCooldown)
+                {
+                    return;
+                }
+
+                bool spellUsed = UseSpell();
+
+                if (spellUsed)
+                {
+                    cooldownTimer = playerAbilityQ.baseCoolDown;
+                }
+
+                if (!playerAbilityQ.IsQCooldown)
+                {
+                    ApplyCooldown();
+                }
+                break;
+            case KeyCode.W:
+                break;
+            case KeyCode.E:
+                break;
         }
     }
 
     void ApplyCooldown()
     {
         cooldownTimer -= Time.deltaTime;
-        if (cooldownTimer < 0.0f)
+        if (cooldownTimer <= 0.0f)
         {
             isCoolDown = false;
             textCooldown.gameObject.SetActive(false);

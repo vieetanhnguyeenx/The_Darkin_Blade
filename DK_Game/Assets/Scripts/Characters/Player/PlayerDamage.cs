@@ -2,7 +2,7 @@ using Assets.Scripts;
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
+public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable, IPunishable, IDashingable
 {
     PlayerStats playerStats;
     Animator animator;
@@ -41,9 +41,9 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
     private bool isInvincible = false;
     private float timeSinceHit = 0;
     [SerializeField]
-    public float invincibilityTime = 1f;
-
+    public float invincibilityTime = 3f;
     private bool _isAlive = true;
+    private PlayerAbilityW playerAbilityW;
 
     public bool IsAlive
     {
@@ -77,6 +77,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
         GameObject PlayerInfo = GameObject.FindGameObjectWithTag("PlayerInfo");
         healthBar = PlayerInfo.GetComponentInChildren<PlayerFloatingHealthBar>();
         healthBar.UpdateHealthBar(_currentHealth, playerStats.MaxHealth.Value);
+        playerAbilityW = GetComponent<PlayerAbilityW>();
     }
 
 
@@ -117,6 +118,22 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable
         GameObject txtDamage = Instantiate(FloatingHealthSeal, transform.position, Quaternion.identity);
         txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"+{healthStealed}";
         healthBar.UpdateHealthBar(CurrentHealth, playerStats.MaxHealth.Value);
-        Debug.Log("Lifesteal " + healthStealed);
+
+    }
+
+    public void Punish(float damageDeal)
+    {
+        if (playerAbilityW.IsActivated)
+        {
+            float punishDamage = playerStats.MaxHealth.Value * playerAbilityW.punishPercentRate;
+            CurrentHealth -= punishDamage;
+
+        }
+    }
+
+    public void Dashing(float dashingPower)
+    {
+        Debug.Log("Dashing ");
+        isInvincible = true;
     }
 }

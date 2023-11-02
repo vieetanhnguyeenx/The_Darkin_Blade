@@ -49,6 +49,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Skill_2",
+                    "type": "Button",
+                    "id": "ed1cd0e7-05c3-4546-ac53-236caaa07e66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skill_3",
+                    "type": "Button",
+                    "id": "34ef0837-b951-431b-adf5-091cbe1b003a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -186,17 +204,6 @@
                 },
                 {
                     "name": "",
-                    "id": "05f6913d-c316-48b2-a6bb-e225f14c7960",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "886e731e-7071-4ae4-95c0-e61739dad6fd",
                     "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "",
@@ -258,6 +265,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Skill_1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9aa509b-e0f5-4795-80f0-69ca9726854b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Skill_2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d5b8f0b-de22-4717-9385-607deca67a31",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Skill_3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
