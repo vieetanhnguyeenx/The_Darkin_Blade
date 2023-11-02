@@ -47,6 +47,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8888925698260118048}
   - component: {fileID: 7719569387975644009}
+  - component: {fileID: 4843952450216964892}
   m_Layer: 0
   m_Name: AbilityQ2
   m_TagString: Untagged
@@ -94,12 +95,28 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.645079, y: 2.6210425}
+    - - {x: 8.254786, y: 2.3848443}
       - {x: -2.3676982, y: 2.681892}
       - {x: -2.4266372, y: -2.425516}
-      - {x: 2.5317717, y: -2.3883667}
-      - {x: 2.6156104, y: 0.8756745}
+      - {x: 7.9643335, y: -2.388367}
+      - {x: 8.107222, y: 0.7575747}
   m_UseDelaunayMesh: 0
+--- !u!114 &4843952450216964892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070238960185839174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2848940130306441704}
+  BonusDamage: 40
+  BounusDamagePercentRate: 1
+  knockback: {x: 2, y: 0}
 --- !u!1 &1959238218694442027
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,6 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7605467734184516003}
   - component: {fileID: 5263073095765167094}
+  - component: {fileID: 1968584571736553651}
   m_Layer: 0
   m_Name: AbilityQ1Crit
   m_TagString: Untagged
@@ -157,12 +175,28 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 5.166761, y: 2.5706122}
-      - {x: 2.8269668, y: 2.6062434}
-      - {x: 2.798425, y: -2.4987516}
-      - {x: 5.2828226, y: -2.5168695}
-      - {x: 5.2381606, y: 0.8756745}
+    - - {x: 9.949777, y: 2.865859}
+      - {x: 8.259526, y: 2.6652951}
+      - {x: 8.230985, y: -2.4987497}
+      - {x: 10.006787, y: -2.5168695}
+      - {x: 9.962124, y: 0.6985248}
   m_UseDelaunayMesh: 0
+--- !u!114 &1968584571736553651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959238218694442027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2848940130306441704}
+  BonusDamage: 30
+  BounusDamagePercentRate: 1.75
+  knockback: {x: 0, y: 5}
 --- !u!1 &1971132887800707833
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,6 +278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2848940130306441704}
+  BonusDamage: 0
+  BounusDamagePercentRate: 1
   knockback: {x: 1, y: 1}
 --- !u!1 &1983870178662826504
 GameObject:
@@ -255,6 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8682230592692364343}
   - component: {fileID: 159143105761530319}
+  - component: {fileID: 8131048437346779820}
   m_Layer: 0
   m_Name: AbilityQ1
   m_TagString: Untagged
@@ -302,13 +339,29 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.645079, y: 2.6210425}
-      - {x: -2.3676982, y: 2.681892}
-      - {x: -2.3737855, y: -2.443135}
+    - - {x: 8.077641, y: 2.3257945}
+      - {x: 0.8209784, y: 2.5047436}
+      - {x: 0.28344488, y: -2.2659867}
       - {x: 0.21085925, y: -2.478113}
-      - {x: 2.619858, y: -2.4588351}
-      - {x: 2.6156104, y: 0.8756745}
+      - {x: 7.8162193, y: -2.5178835}
+      - {x: 7.98912, y: 0.52137816}
   m_UseDelaunayMesh: 0
+--- !u!114 &8131048437346779820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983870178662826504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2848940130306441704}
+  BonusDamage: 30
+  BounusDamagePercentRate: 1
+  knockback: {x: 2, y: 0}
 --- !u!1 &2848940130306441704
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillActivationCount: 0
   skillActivationMax: 3
-  baseCoolDown: 14
+  baseCoolDown: 5
   baseCoolDownTimmer: 0
   timeSinceLastUseMax: 1
   timeSinceLastUse: 1.2
@@ -841,6 +894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 694945055442406087}
   - component: {fileID: 5209295854718475812}
+  - component: {fileID: 8755023150155639581}
   m_Layer: 0
   m_Name: AbilityQ2Crit
   m_TagString: Untagged
@@ -888,12 +942,28 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 5.166761, y: 2.5706122}
-      - {x: 2.8269668, y: 2.6062434}
-      - {x: 2.8160427, y: -2.4282815}
-      - {x: 5.3180575, y: -2.3583133}
-      - {x: 5.2381606, y: 0.8756745}
+    - - {x: 10.95362, y: 2.393464}
+      - {x: 8.968121, y: 2.4290936}
+      - {x: 9.016247, y: -2.4873297}
+      - {x: 11.163966, y: -2.3583133}
+      - {x: 10.965969, y: 0.58042806}
   m_UseDelaunayMesh: 0
+--- !u!114 &8755023150155639581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4588312715994177551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2848940130306441704}
+  BonusDamage: 40
+  BounusDamagePercentRate: 1.75
+  knockback: {x: 0, y: 5}
 --- !u!1 &4770451015872246104
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,6 +1045,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2848940130306441704}
+  BonusDamage: 30
+  BounusDamagePercentRate: 1
   knockback: {x: 3, y: 1}
 --- !u!1 &5306857973593773470
 GameObject:
@@ -986,6 +1058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7531447445315611142}
   - component: {fileID: 2388830328383117335}
+  - component: {fileID: 2736118674866041659}
   m_Layer: 0
   m_Name: AbilityQ3Crit
   m_TagString: Untagged
@@ -1033,12 +1106,28 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5124966, y: 3.0033994}
-      - {x: -0.62492055, y: 0.35560715}
-      - {x: -0.7389129, y: -2.3152058}
-      - {x: 4.687769, y: -2.3680549}
-      - {x: 4.932193, y: 3.066242}
+    - - {x: -4.4688177, y: 3.2395973}
+      - {x: -4.226944, y: 0.06035918}
+      - {x: -4.5180845, y: -2.3152058}
+      - {x: 6.872603, y: -2.4271047}
+      - {x: 7.1170273, y: 3.0071907}
   m_UseDelaunayMesh: 0
+--- !u!114 &2736118674866041659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5306857973593773470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2848940130306441704}
+  BonusDamage: 50
+  BounusDamagePercentRate: 1.75
+  knockback: {x: 0, y: 5}
 --- !u!1 &5593315228804576674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,6 +1209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2848940130306441704}
+  BonusDamage: 15
+  BounusDamagePercentRate: 1
   knockback: {x: 1, y: 1}
 --- !u!1 &8663846000691472328
 GameObject:
@@ -1132,6 +1223,7 @@ GameObject:
   - component: {fileID: 2720804936195020675}
   - component: {fileID: 6280847642806575770}
   - component: {fileID: 5217080487621843300}
+  - component: {fileID: 6091059461405202637}
   m_Layer: 0
   m_Name: AbilityQ3
   m_TagString: Untagged
@@ -1179,12 +1271,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.49381888, y: 2.6578195}
-      - {x: -1.5529588, y: 2.5534003}
-      - {x: -2.8910573, y: 2.7075648}
-      - {x: -2.9510195, y: -2.4140973}
-      - {x: -0.5232878, y: -2.4141397}
-      - {x: -0.42458045, y: 0.09738411}
+    - - {x: -4.9815865, y: 2.7759178}
+      - {x: -7.339817, y: 2.7895985}
+      - {x: -7.2607255, y: 1.1132232}
+      - {x: -7.5568857, y: -2.236949}
+      - {x: -4.8339067, y: -2.23699}
+      - {x: -4.971397, y: 0.21548395}
   m_UseDelaunayMesh: 0
 --- !u!60 &5217080487621843300
 PolygonCollider2D:
@@ -1211,9 +1303,25 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.4796367, y: 2.8341792}
-      - {x: 4.4809427, y: 0.13265401}
-      - {x: 4.526801, y: -2.3084357}
-      - {x: 7.042737, y: -2.3612885}
-      - {x: 7.0885143, y: 2.8133817}
+    - - {x: 8.6721525, y: 2.5389311}
+      - {x: 8.791561, y: 0.25075227}
+      - {x: 8.71932, y: -2.3084376}
+      - {x: 11.235258, y: -2.4203365}
+      - {x: 11.221985, y: 2.636232}
   m_UseDelaunayMesh: 0
+--- !u!114 &6091059461405202637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8663846000691472328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c7a83b892ae6488bace68b99fc5a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2848940130306441704}
+  BonusDamage: 50
+  BounusDamagePercentRate: 1.75
+  knockback: {x: 0, y: 0}

@@ -50,6 +50,7 @@ public class PlayerAbilityQ : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        baseCoolDownTimmer = 15f;
     }
 
     public void OnActionQ(InputAction.CallbackContext context)

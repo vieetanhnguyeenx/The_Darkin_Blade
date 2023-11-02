@@ -1,11 +1,13 @@
 using Assets.Scripts.Characters;
 using UnityEngine;
 
-public class BasicAttack : MonoBehaviour
+public class BasicPlayerDamageable : MonoBehaviour
 {
     Collider2D basicAttackColider;
     PlayerStats playerStats;
     [SerializeField] public GameObject player;
+    [SerializeField] public float BonusDamage;
+    [SerializeField] public float BounusDamagePercentRate = 1f;
 
     [SerializeField] public Vector2 knockback = Vector2.zero;
     private void Awake()
@@ -31,7 +33,7 @@ public class BasicAttack : MonoBehaviour
         if (damageable != null)
         {
             Debug.Log("Not null");
-            damageable.DealDamage(playerStats.Damage.Value);
+            damageable.DealDamage((playerStats.Damage.Value * BounusDamagePercentRate) + BonusDamage);
         }
 
         IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();
