@@ -8,12 +8,12 @@ public class PlayerAbilityQ : MonoBehaviour
     public int skillActivationMax = 3;
 
     public float baseCoolDown = 14.0f;
-    public float baseCoolDownTimmer = 0f;
+    public float baseCoolDownTimmer = 14.0f;
 
     public float timeSinceLastUseMax = 1f;
     public float timeSinceLastUse = 1.2f;
 
-    public float timeSinceLastActivationMax = 4f;
+    public float timeSinceLastActivationMax = 6f;
     public float timeSinceLastActivation = 0f;
 
     private Animator animator;
@@ -61,27 +61,21 @@ public class PlayerAbilityQ : MonoBehaviour
                 Debug.Log("Skill is on cooldown!!!");
                 return;
             }
-            if (timeSinceLastActivation > timeSinceLastActivationMax)
-            {
-                timeSinceLastActivation = 0f;
-                SkillActive = false;
-                skillActivationCount = 0;
-                timeSinceLastUse = 1.2f;
-                Debug.Log("Skill goes on cooldown");
-                return;
-            }
-            if (timeSinceLastUse > timeSinceLastActivation)
+
+            if (timeSinceLastUse > timeSinceLastUseMax)
             {
                 if (skillActivationCount < skillActivationMax)
                 {
+
                     skillActive = true;
                     skillActivationCount++;
-                    //animator.SetTrigger(AnimationStrings.abilityQ1 + skillActivationCount);
+                    animator.SetTrigger(AnimationStrings.abilityQ1 + skillActivationCount);
                     Debug.Log("Q" + skillActivationCount);
                     timeSinceLastUse = 0f;
                 }
                 else
                 {
+                    baseCoolDownTimmer = 0;
                     timeSinceLastActivation = 0f;
                     SkillActive = false;
                     skillActivationCount = 0;
@@ -93,12 +87,21 @@ public class PlayerAbilityQ : MonoBehaviour
     }
     private void Update()
     {
+        if (timeSinceLastActivation > timeSinceLastActivationMax)
+        {
+            timeSinceLastActivation = 0f;
+            SkillActive = false;
+            skillActivationCount = 0;
+            timeSinceLastUse = 1.2f;
+            Debug.Log("Skill goes on cooldown");
+            baseCoolDownTimmer = 0;
+            return;
+        }
+
 
         if (!skillActive)
         {
             baseCoolDownTimmer += Time.deltaTime;
-            timeSinceLastActivation = 0;
-            timeSinceLastUse = 0;
         }
         else
         {
