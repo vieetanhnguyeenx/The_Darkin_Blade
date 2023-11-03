@@ -118,7 +118,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player: {fileID: 2848940130306441704}
-  BonusDamage: 40
+  BonusDamage: 50
   BounusDamagePercentRate: 1
   knockback: {x: 2, y: 0}
 --- !u!212 &3805096380167635912
@@ -255,7 +255,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player: {fileID: 2848940130306441704}
-  BonusDamage: 30
+  BonusDamage: 45
   BounusDamagePercentRate: 1.75
   knockback: {x: 0, y: 5}
 --- !u!212 &1830532347614536946
@@ -479,8 +479,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player: {fileID: 2848940130306441704}
-  BonusDamage: 30
-  BounusDamagePercentRate: 1
+  BonusDamage: 40
+  BounusDamagePercentRate: 1.2
   knockback: {x: 2, y: 0}
 --- !u!212 &6343269631995075020
 SpriteRenderer:
@@ -1356,7 +1356,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player: {fileID: 2848940130306441704}
-  BonusDamage: 40
+  BonusDamage: 50
   BounusDamagePercentRate: 1.75
   knockback: {x: 0, y: 5}
 --- !u!212 &7904430584791406057
@@ -1579,7 +1579,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player: {fileID: 2848940130306441704}
-  BonusDamage: 50
+  BonusDamage: 80
   BounusDamagePercentRate: 1.75
   knockback: {x: 0, y: 7}
 --- !u!212 &5701636348584767204
@@ -1835,8 +1835,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player: {fileID: 2848940130306441704}
-  BonusDamage: 50
-  BounusDamagePercentRate: 1.75
+  BonusDamage: 70
+  BounusDamagePercentRate: 1
   knockback: {x: 0, y: 0}
 --- !u!212 &3056957627004881337
 SpriteRenderer:

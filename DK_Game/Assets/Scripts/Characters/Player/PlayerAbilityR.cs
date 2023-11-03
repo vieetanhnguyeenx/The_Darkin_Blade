@@ -125,5 +125,6 @@ public class PlayerAbilityR : MonoBehaviour
         playerStats.Damage.RemoveModifier(percentDamageAdd);
         playerStats.Damage.RemoveModifier(flatDamage);
         playerStats.LifeSteal.AddModifier(flatLifeSteal);
+        DurationTimmer = 0f;
     }
 }
