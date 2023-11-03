@@ -468,7 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonNames:
   - Start Game
-  - Option
+  - Dev Tools
   - How to Play
   - Credits
   - Quit Game

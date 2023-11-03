@@ -53,4 +53,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HowToPlay.unity
     guid: 358ee62006ebf9f4f8656bc651930b37
+  - enabled: 1
+    path: Assets/Scenes/DevToolScene.unity
+    guid: 7904f5a06bfaeab488563407d3e16f33
+  - enabled: 1
+    path: Assets/Scenes/SencenForInventorySystem.unity
+    guid: a74b97487cdf632439947e390c25d70c
+  - enabled: 1
+    path: Assets/Scenes/Draft.unity
+    guid: f69190c3ae4f6314384cb38394b56708
+  - enabled: 1
+    path: Assets/Scenes/MapForTesting.unity
+    guid: 96b99e4dcf0955644af2db2cd26bd9f2
   m_configObjects: {}

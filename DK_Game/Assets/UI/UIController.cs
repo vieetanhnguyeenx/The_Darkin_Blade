@@ -5,12 +5,12 @@ using UnityEngine.UIElements;
 
 public class UIController : MonoBehaviour
 {
-    public string[] buttonNames = { "Start Game", "Option", "How to Play", "Credits", "Quit Game" };
+    public string[] buttonNames = { "Start Game", "Dev tools", "How to Play", "Credits", "Quit Game" };
     private VisualElement menu;
     enum buttonId
     {
         btnStartGame = 0,
-        btnOption = 1,
+        btnDevTools = 1,
         btnHowtoPlay = 2,
         btnCredits = 3,
         btnQuitGame = 4,
@@ -43,9 +43,9 @@ public class UIController : MonoBehaviour
                             Debug.Log("Start Game");
                             SceneManager.LoadScene("MenuLoaderMap01");
                             break;
-                        case buttonId.btnOption:
+                        case buttonId.btnDevTools:
                             Debug.Log("Option");
-
+                            SceneManager.LoadScene("DevToolScene");
                             break;
                         case buttonId.btnCredits:
                             Debug.Log("Credits");
