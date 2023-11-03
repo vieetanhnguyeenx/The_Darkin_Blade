@@ -81,6 +81,11 @@ public class PlayerAbilityQ : MonoBehaviour
                     animator.SetTrigger(AnimationStrings.abilityQ1 + skillActivationCount);
                     Debug.Log("Q" + skillActivationCount);
                     timeSinceLastUse = 0f;
+                    timeSinceLastActivation = 0f;
+                    if (skillActivationCount == 3)
+                    {
+                        timeSinceLastActivation = 5f;
+                    }
                 }
                 else
                 {
