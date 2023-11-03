@@ -1987,10 +1987,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6690126418346960381, guid: 0002420b8634c89409665f247148a29d, type: 3}
-      propertyPath: Damage.BaseValue
-      value: 70
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0002420b8634c89409665f247148a29d, type: 3}
