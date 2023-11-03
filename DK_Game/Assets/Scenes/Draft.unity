@@ -202,6 +202,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 274383811878862142, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 114.20001
+      objectReference: {fileID: 0}
     - target: {fileID: 3771070033029545657, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -340,6 +344,10 @@ PrefabInstance:
     - target: {fileID: 2848940130306441704, guid: 0002420b8634c89409665f247148a29d, type: 3}
       propertyPath: m_Name
       value: Player 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848940130306441704, guid: 0002420b8634c89409665f247148a29d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1202,6 +1210,73 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f03135fde83dacb479f525d8518bf869, type: 3}
+--- !u!1001 &2811866852320307072
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2811866854004954873, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_Name
+      value: KnightManBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811866854004954876, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048807610827194180, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048807610827194180, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c8689934a0a397479f6aa3104b6d2f5, type: 3}
 --- !u!1001 &7031789068003002431
 PrefabInstance:
   m_ObjectHideFlags: 0

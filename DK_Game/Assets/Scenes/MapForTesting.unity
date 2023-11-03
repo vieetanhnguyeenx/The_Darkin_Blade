@@ -282,52 +282,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss_Creature (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5578433661931496199, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433662179781715, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5578433662432888668, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5578433662432888668, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433662432888669, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433662460539230, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433662628627214, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433662727771132, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433663026000341, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433663384769581, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433663595971116, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578433663619304214, guid: 992a623cab6a2ff4b9d419f02ee0bba6, type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2675,10 +2635,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 513745433}
-    - target: {fileID: 7924965279460747200, guid: 82882132d9bb1b34dba804533a669fa7, type: 3}
-      propertyPath: Key
-      value: 114
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 82882132d9bb1b34dba804533a669fa7, type: 3}
