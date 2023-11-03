@@ -16056,7 +16056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727192956279261294, guid: f03135fde83dacb479f525d8518bf869, type: 3}
       propertyPath: poolSize
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1727192956279261294, guid: f03135fde83dacb479f525d8518bf869, type: 3}
       propertyPath: enemyPrefab
@@ -84503,7 +84503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727192956279261294, guid: f03135fde83dacb479f525d8518bf869, type: 3}
       propertyPath: poolSize
-      value: 4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1727192956279261294, guid: f03135fde83dacb479f525d8518bf869, type: 3}
       propertyPath: enemyPrefab
