@@ -1,9 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DevTool : MonoBehaviour
 {
+    [SerializeField]
+    private Text tbPassCode;
+    [SerializeField]
+    private GameObject DevToolContent;
+    [SerializeField]
+    private GameObject txtMessage;
+    [SerializeField]
+    private GameObject PassCodePanel;
 
+    private string passcode = "PRU_Fall23_VietAnh_Nghia_Khang";
     public void LoadSceneIntro()
     {
         SceneManager.LoadScene(0);
@@ -56,5 +66,21 @@ public class DevTool : MonoBehaviour
     public void LoadSceneMapTest()
     {
         SceneManager.LoadScene(19);
+    }
+    public void btnOkClicked()
+    {
+
+        Debug.Log(tbPassCode);
+        if (tbPassCode.text == passcode)
+        {
+            DevToolContent.SetActive(true);
+            PassCodePanel.SetActive(false);
+        }
+        else
+        {
+            txtMessage.GetComponent<Text>().text = "Incorrect Passcode";
+            txtMessage.SetActive(true);
+        }
+
     }
 }

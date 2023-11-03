@@ -11,6 +11,10 @@ TagManager:
   - Archer2ObjectPool
   - Archer1ObjectPool
   - arrow
+  - PlayerInfo
+  - W
+  - R
+  - pressAnyKey
   layers:
   - Default
   - TransparentFX
