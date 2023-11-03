@@ -31,7 +31,7 @@ Transform:
   m_Children:
   - {fileID: 3771070034646763685}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3771070033703288701
 SpriteRenderer:
@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2879287984066112495, guid: 1f2d94f92352a5841984d81c66a89515, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 114.2
+      value: 114.20001
       objectReference: {fileID: 0}
     - target: {fileID: 2879287984066112495, guid: 1f2d94f92352a5841984d81c66a89515, type: 3}
       propertyPath: m_AnchoredPosition.y
