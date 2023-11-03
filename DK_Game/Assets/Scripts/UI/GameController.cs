@@ -7,6 +7,9 @@ namespace Assets.Scripts.UI
     {
         [SerializeField]
         private GameObject Panel;
+        [SerializeField]
+        private GameObject PanelGameOver;
+        private GameObject player;
         private void Start()
         {
             Panel.SetActive(false);
@@ -17,6 +20,11 @@ namespace Assets.Scripts.UI
             {
                 Time.timeScale = 0;
                 Panel.SetActive(true);
+            }
+            player = GameObject.FindGameObjectWithTag("Player");
+            if (player == null)
+            {
+                PanelGameOver.SetActive(true);
             }
         }
         public void btnYesClicked()
@@ -29,6 +37,13 @@ namespace Assets.Scripts.UI
         {
             Panel.SetActive(false);
             Time.timeScale = 1;
+        }
+
+        public void ReloadScene()
+        {
+            PanelGameOver.SetActive(false);
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
         }
     }
 }
