@@ -40,7 +40,7 @@ public class PlayerAbilityE : MonoBehaviour
                 BaseCooldownTimmer = 0f;
             }
         }
-        Debug.Log("Dash " + IsCooldown());
+
     }
 
     public bool IsCooldown()
