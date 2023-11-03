@@ -17,14 +17,14 @@ public class Enemy_Run : StateMachineBehaviour
             Destroy(enemy);
         rb = animator.GetComponent<Rigidbody2D>();
         enemy = animator.GetComponent<Enemy>();
-        Debug.Log(player.gameObject.name);
+        //Debug.Log(player.gameObject.name);
     }
 
     //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         enemy.LookAtPlayer();
-        Debug.Log(Vector2.Distance(player.position, enemy.transform.position));
+        //Debug.Log(Vector2.Distance(player.position, enemy.transform.position));
         //Debug.Log(Vector2.Distance(player.position, rb.position));
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {
