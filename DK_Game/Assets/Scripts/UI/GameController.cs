@@ -18,7 +18,6 @@ namespace Assets.Scripts.UI
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                Time.timeScale = 0;
                 Panel.SetActive(true);
             }
             player = GameObject.FindGameObjectWithTag("Player");
@@ -29,14 +28,13 @@ namespace Assets.Scripts.UI
         }
         public void btnYesClicked()
         {
-            Time.timeScale = 1;
+            PanelGameOver.SetActive(false);
             SceneManager.LoadScene("MainMenu");
         }
 
         public void btnNoClicked()
         {
             Panel.SetActive(false);
-            Time.timeScale = 1;
         }
 
         public void ReloadScene()
