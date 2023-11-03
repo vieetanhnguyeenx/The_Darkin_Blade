@@ -7,7 +7,7 @@ public class PlayerAbilityE : MonoBehaviour
 {
     [SerializeField] public UnityEvent<float> Dashing;
     public float BaseCooldown = 3f;
-    public float BaseCooldownTimmer = 0f;
+    public float BaseCooldownTimmer = 3f;
     [SerializeField] public float DashingPower = 5f;
     [SerializeField] public GameObject player;
     private PlayerController playerController;
@@ -40,7 +40,7 @@ public class PlayerAbilityE : MonoBehaviour
                 BaseCooldownTimmer = 0f;
             }
         }
-        Debug.Log("Dash " + IsCooldown());
+
     }
 
     public bool IsCooldown()

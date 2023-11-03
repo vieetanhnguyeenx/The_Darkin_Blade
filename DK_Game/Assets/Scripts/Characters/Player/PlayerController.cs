@@ -1,5 +1,6 @@
 using Assets.Scripts;
 using Assets.Scripts.Characters;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,7 +21,9 @@ public class PlayerController : MonoBehaviour, IDashingable
     // Read from Player Input Action value -1 0 1
     private Vector2 moveInput;
 
-
+    private bool isDashing = false;
+    private float dashingTime = 0.1f;
+    private TrailRenderer tr;
 
     private bool _isMoving = false;
     public bool IsMoving
@@ -99,7 +102,7 @@ public class PlayerController : MonoBehaviour, IDashingable
         touchingDirections = GetComponent<TouchingDirections>();
         playerStats = GetComponent<PlayerStats>();
         playerDamage = GetComponent<PlayerDamage>();
-
+        tr = GetComponent<TrailRenderer>();
     }
 
     // Update is called once per frame
@@ -110,6 +113,7 @@ public class PlayerController : MonoBehaviour, IDashingable
 
     private void FixedUpdate()
     {
+        if (isDashing) return;
         if (!playerDamage.IsHit)
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
 
@@ -163,9 +167,25 @@ public class PlayerController : MonoBehaviour, IDashingable
 
     public void Dashing(float dashingPower)
     {
-        float originalGravity = rb.gravityScale;
+        StartCoroutine(Dash(dashingPower));
+    }
+
+    private IEnumerator Dash(float dashingPower)
+    {
+        int realLocalScale = 1;
+        if (transform.localScale.x < 0)
+        {
+            realLocalScale = -1;
+        }
+        isDashing = true;
+        float orginGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        rb.velocity = new Vector2(transform.localScale.x * dashingPower, rb.velocity.y);
-        rb.gravityScale = originalGravity;
+        rb.velocity = new Vector2(realLocalScale * dashingPower, 0f);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
+        rb.gravityScale = orginGravity;
+        isDashing = false;
+
     }
 }

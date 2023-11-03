@@ -67,7 +67,7 @@ public class PlayerAbilityQ : MonoBehaviour
         {
             if (!IsCoolDown())
             {
-                Debug.Log("Skill is on cooldown!!!");
+
                 return;
             }
 
