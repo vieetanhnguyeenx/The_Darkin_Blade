@@ -31,7 +31,7 @@ Transform:
   m_Children:
   - {fileID: 3771070034646763685}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3771070033703288701
 SpriteRenderer:
@@ -279,11 +279,11 @@ GameObject:
   - component: {fileID: 6253517629432274946}
   m_Layer: 5
   m_Name: Icon
-  m_TagString: Untagged
+  m_TagString: R
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6132294612870264556
 RectTransform:
   m_ObjectHideFlags: 0
@@ -362,6 +362,8 @@ MonoBehaviour:
   imageEdge: {fileID: 6171271411650655259}
   Key: 114
   cooldownTime: 7
+  R: {fileID: 4192254627439823279}
+  W: {fileID: 8706790189282220769}
 --- !u!1 &4663011984289632114
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,11 +588,11 @@ GameObject:
   - component: {fileID: 8692870670754879092}
   m_Layer: 5
   m_Name: IconW
-  m_TagString: Untagged
+  m_TagString: W
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2660193522505929741
 RectTransform:
   m_ObjectHideFlags: 0
