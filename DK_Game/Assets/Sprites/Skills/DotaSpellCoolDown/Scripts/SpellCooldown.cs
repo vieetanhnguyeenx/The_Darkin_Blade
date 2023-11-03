@@ -25,6 +25,8 @@ public class SpellCooldown : MonoBehaviour
     private PlayerAbilityW playerAbilityW;
     private PlayerAbilityE playerAbilityE;
     private PlayerAbilityR playerAbilityR;
+    [SerializeField]
+    private GameObject R, W;
     // Start is called before the first frame update
     void Start()
     {
@@ -64,22 +66,10 @@ public class SpellCooldown : MonoBehaviour
                 }
                 break;
             case KeyCode.W:
-                //if (playerAbilityW.IsWCooldown)
-                //{
-                //    return;
-                //}
-
-                //bool spellUsedW = UseSpell();
-
-                //if (spellUsedW)
-                //{
-                //    cooldownTimer = playerAbilityW.baseCoolDown;
-                //}
-
-                //if (!playerAbilityW.IsWCooldown)
-                //{
-                //    ApplyCooldown();
-                //}
+                if (playerAbilityW.IsActivated)
+                    W.SetActive(true);
+                else
+                    W.SetActive(false);
                 break;
             case KeyCode.E:
                 if (playerAbilityE.IsECooldown)
@@ -100,6 +90,10 @@ public class SpellCooldown : MonoBehaviour
                 }
                 break;
             case KeyCode.R:
+                if (playerAbilityR.IsActivated)
+                    R.SetActive(true);
+                else
+                    R.SetActive(false);
                 if (playerAbilityR.IsRCooldown)
                 {
                     return;

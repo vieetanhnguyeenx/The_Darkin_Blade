@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2676040620896403565, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.9
+      objectReference: {fileID: 0}
     - target: {fileID: 3771070033703288699, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
       propertyPath: m_Name
       value: 'CharacterStatistics '
@@ -183,6 +187,34 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 513745433}
+    - target: {fileID: 3771070034646763688, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192254627439823279, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_TagString
+      value: R
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525231380477896125, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295441591047742533, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591946975586971669, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -177.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591946975586971669, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115.70001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8706790189282220769, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
+      propertyPath: m_TagString
+      value: W
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 869e4318213d2374e9533213b8b49c55, type: 3}
