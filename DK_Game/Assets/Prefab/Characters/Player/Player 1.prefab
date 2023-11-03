@@ -557,6 +557,7 @@ GameObject:
   - component: {fileID: 2997231761962665929}
   - component: {fileID: 2685863362877525810}
   - component: {fileID: 6785972672574295228}
+  - component: {fileID: 2962020688670978662}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
@@ -857,6 +858,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 34ef0837-b951-431b-adf5-091cbe1b003a
     m_ActionName: Player/Skill_3[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2962020688670978662}
+        m_TargetAssemblyTypeName: PlayerAbilityR, Assembly-CSharp
+        m_MethodName: OnActionR
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 63464ce9-a253-42e4-96ac-aa05f9052ec2
+    m_ActionName: Player/Skill_4[/Keyboard/r]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1127,6 +1144,23 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &2962020688670978662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848940130306441704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e308118468ea9b42b7db0664c30271d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseCooldown: 20
+  baseCooldownTimmer: 20
+  Duration: 15
+  DurationTimmer: 0
+  isActivated: 0
 --- !u!1 &3773765683581502773
 GameObject:
   m_ObjectHideFlags: 0

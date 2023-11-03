@@ -22,6 +22,7 @@
         public static string isAttackRange = "isAttackRange";
 
         public static string abilityQ1 = "abilityQ";
+        public static string abilityR = "abilityR";
 
     }
 }
