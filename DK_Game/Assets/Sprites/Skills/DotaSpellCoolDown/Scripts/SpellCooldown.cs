@@ -24,6 +24,7 @@ public class SpellCooldown : MonoBehaviour
     private PlayerAbilityQ playerAbilityQ;
     private PlayerAbilityW playerAbilityW;
     private PlayerAbilityE playerAbilityE;
+    private PlayerAbilityR playerAbilityR;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class SpellCooldown : MonoBehaviour
         playerAbilityQ = player.GetComponent<PlayerAbilityQ>();
         playerAbilityW = player.GetComponent<PlayerAbilityW>();
         playerAbilityE = player.GetComponent<PlayerAbilityE>();
+        playerAbilityR = player.GetComponent<PlayerAbilityR>();
         textCooldown.gameObject.SetActive(false);
         imageEdge.gameObject.SetActive(false);
         imageCooldown.fillAmount = 0.0f;
@@ -80,22 +82,40 @@ public class SpellCooldown : MonoBehaviour
                 //}
                 break;
             case KeyCode.E:
-                //if (playerAbilityE.IsECooldown)
-                //{
-                //    return;
-                //}
+                if (playerAbilityE.IsECooldown)
+                {
+                    return;
+                }
 
-                //bool spellUsedE = UseSpell();
+                bool spellUsedE = UseSpell();
 
-                //if (spellUsedE)
-                //{
-                //    cooldownTimer = playerAbilityE.baseCoolDown;
-                //}
+                if (spellUsedE)
+                {
+                    cooldownTimer = playerAbilityE.BaseCooldown;
+                }
 
-                //if (!playerAbilityE.IsECooldown)
-                //{
-                //    ApplyCooldown();
-                //}
+                if (!playerAbilityE.IsECooldown)
+                {
+                    ApplyCooldown();
+                }
+                break;
+            case KeyCode.R:
+                if (playerAbilityR.IsRCooldown)
+                {
+                    return;
+                }
+
+                bool spellUsedR = UseSpell();
+
+                if (spellUsedR)
+                {
+                    cooldownTimer = playerAbilityR.BaseCooldown;
+                }
+
+                if (!playerAbilityR.IsRCooldown)
+                {
+                    ApplyCooldown();
+                }
                 break;
         }
     }

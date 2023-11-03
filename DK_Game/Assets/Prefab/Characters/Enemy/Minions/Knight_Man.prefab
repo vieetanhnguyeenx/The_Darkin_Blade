@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1045421187734617215}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 1045421187935054148}
   - component: {fileID: 1045421187935054151}
   - component: {fileID: 1045421187935054150}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Knight_Man
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 1045421188627708529}
   - component: {fileID: 1045421188627708535}
   - component: {fileID: 1045421188627708534}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 1045421188683595719}
   - component: {fileID: 1045421188683595717}
   - component: {fileID: 1045421188683595716}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 1045421188999889017}
   - component: {fileID: 1045421188999889016}
   - component: {fileID: 1045421188999889019}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 1045421189189650548}
   - component: {fileID: 1045421189189650538}
   - component: {fileID: 1045421189189650549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: src
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 1045421189649537462}
   - component: {fileID: 1045421189649537460}
   - component: {fileID: 1045421189649537461}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DetectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 1045421189694303250}
   - component: {fileID: 1045421189694303248}
   - component: {fileID: 1045421189694303251}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}

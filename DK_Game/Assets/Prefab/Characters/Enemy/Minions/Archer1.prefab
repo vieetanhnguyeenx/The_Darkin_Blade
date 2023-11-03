@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 615991193354854082}
   - component: {fileID: 615991193354854083}
   - component: {fileID: 615991193354854084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Archer1
   m_TagString: Archer1
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 615991193629011046}
   - component: {fileID: 615991193629011064}
   - component: {fileID: 615991193629011047}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 615991193957433296}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 615991194056904245}
   - component: {fileID: 615991194056904247}
   - component: {fileID: 615991194056904246}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 615991194469332756}
   - component: {fileID: 615991194469332758}
   - component: {fileID: 615991194469332757}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 615991194592987190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 615991194825266004}
   - component: {fileID: 615991194825266003}
   - component: {fileID: 615991194825266002}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 2244010210791247615}
   - component: {fileID: 3012624028740052608}
   - component: {fileID: 1106113943029509095}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: src
   m_TagString: Untagged
   m_Icon: {fileID: 0}

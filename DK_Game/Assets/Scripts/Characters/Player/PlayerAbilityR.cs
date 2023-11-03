@@ -19,6 +19,15 @@ public class PlayerAbilityR : MonoBehaviour
     private StatModifier flatLifeSteal;
     private Animator animator;
     private PlayerStats playerStats;
+
+    public bool IsRCooldown
+    {
+        get
+        {
+            return baseCooldownTimmer > BaseCooldown;
+        }
+    }
+
     public bool IsActivated
     {
         get

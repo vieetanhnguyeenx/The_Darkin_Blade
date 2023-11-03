@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5325052937494840}
   - component: {fileID: 5325052937494842}
   - component: {fileID: 5325052937494843}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 5325053208956530}
   - component: {fileID: 5325053208956531}
   - component: {fileID: 5325053208956528}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5325053231220244}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 5325053686758634}
   - component: {fileID: 5325053686758612}
   - component: {fileID: 5325053686758613}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 5325053894484759}
   - component: {fileID: 5325053894484753}
   - component: {fileID: 5325053894484758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: src
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 5325054130516561}
   - component: {fileID: 5325054130516563}
   - component: {fileID: 5325054130516560}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 5325054518866846}
   - component: {fileID: 5325054518866847}
   - component: {fileID: 5325054518866844}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 5325054572858325}
   - component: {fileID: 5325054572858327}
   - component: {fileID: 5325054572858324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DetectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

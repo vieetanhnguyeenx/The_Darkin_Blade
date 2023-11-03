@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3243310050069686352}
   - component: {fileID: 3243310050069686358}
   - component: {fileID: 3243310050069686359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3243310050386857355}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 3243310050718222222}
   - component: {fileID: 3243310050718222220}
   - component: {fileID: 3243310050718222221}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 3243310050828317231}
   - component: {fileID: 3243310050828317229}
   - component: {fileID: 3243310050828317230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: src
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3243310050834988377}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Boss_HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 3243310050932884631}
   - component: {fileID: 3243310050932884624}
   - component: {fileID: 3243310050932884625}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 3243310050971543483}
   - component: {fileID: 3243310050971543481}
   - component: {fileID: 3243310050971543482}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,9 +647,9 @@ GameObject:
   - component: {fileID: 3243310051300942586}
   - component: {fileID: 3243310051300942587}
   - component: {fileID: 3243310051300942580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MonsterBug
-  m_TagString: Boss2
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 3243310051309103331}
   - component: {fileID: 3243310051309103329}
   - component: {fileID: 3243310051309103330}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 3243310051603722673}
   - component: {fileID: 3243310051603722679}
   - component: {fileID: 3243310051603722672}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DetectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

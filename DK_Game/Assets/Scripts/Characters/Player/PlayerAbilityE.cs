@@ -13,6 +13,14 @@ public class PlayerAbilityE : MonoBehaviour
     private PlayerController playerController;
     private PlayerDamage playerDamage;
 
+    public bool IsECooldown
+    {
+        get
+        {
+            return BaseCooldownTimmer > BaseCooldown;
+        }
+    }
+
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
