@@ -77731,7 +77731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a6ff0c1be4a054f8434f7c187618e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timedelay: 0
+  timedelay: 0.45
 --- !u!61 &1094211085
 BoxCollider2D:
   m_ObjectHideFlags: 0
