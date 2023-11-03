@@ -699,6 +699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
+    - target: {fileID: 2936473366604081337, guid: 9bd515f1cc2791644b82112b851ff1a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2936473366604081340, guid: 9bd515f1cc2791644b82112b851ff1a7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
