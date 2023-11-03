@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BaseCooldown: 20
-  baseCooldownTimmer: 20
+  baseCooldownTimmer: 0
   Duration: 15
   DurationTimmer: 0
   isActivated: 0
