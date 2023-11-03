@@ -1,5 +1,6 @@
 using Assets.Scripts;
 using Assets.Scripts.Characters;
+using System;
 using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable, IPunishable, IDashingable
@@ -100,13 +101,15 @@ public class PlayerDamage : MonoBehaviour, IDamageable, ILifestealable, IPunisha
     {
         if (_isAlive && !isInvincible)
         {
-            CurrentHealth -= damageAmount;
+            float damageGiven = damageAmount * 100 / (100 + playerStats.Armor.Value);
+            double dameVisible = Math.Round(damageGiven, 0);
+            CurrentHealth -= damageGiven;
             isInvincible = true;
             // Todo caculate damage
             GameObject txtDamage = Instantiate(FloatingDamage, transform.position, Quaternion.identity);
-            txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{damageAmount}";
+            txtDamage.transform.GetChild(0).GetComponent<TextMesh>().text = $"-{dameVisible}";
             healthBar.UpdateHealthBar(CurrentHealth, playerStats.MaxHealth.Value);
-            return damageAmount;
+            return damageGiven;
         }
         return 0;
     }
