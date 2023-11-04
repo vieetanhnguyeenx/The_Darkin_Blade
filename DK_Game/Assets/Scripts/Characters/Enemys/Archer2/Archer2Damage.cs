@@ -1,5 +1,6 @@
 using Assets.Scripts;
 using Assets.Scripts.Characters;
+using System.Collections;
 using UnityEngine;
 
 public class Archer2Damage : MonoBehaviour, IDamageable, IKnockbackable
@@ -44,6 +45,10 @@ public class Archer2Damage : MonoBehaviour, IDamageable, IKnockbackable
             isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("Enemy death");
+            if (!isAlive)
+            {
+                gameObject.GetComponentInChildren<Enemysfx>().PlayDeadSound();
+            }
             if (ObjectPool != null)
                 ObjectPool.GetComponentInChildren<ObjectPool>().ReturnToPool(gameObject);
             else
@@ -53,6 +58,10 @@ public class Archer2Damage : MonoBehaviour, IDamageable, IKnockbackable
         }
     }
 
+    IEnumerator WaitForSecond(float timer)
+    {
+        yield return new WaitForSeconds(timer);
+    }
 
     private void Awake()
     {

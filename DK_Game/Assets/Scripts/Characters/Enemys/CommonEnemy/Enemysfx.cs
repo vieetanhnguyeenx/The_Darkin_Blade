@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemysfx : MonoBehaviour
@@ -5,16 +6,30 @@ public class Enemysfx : MonoBehaviour
     [SerializeField]
     private AudioSource src;
     [SerializeField]
-    private AudioClip weapon, hurt;
+    private AudioClip weapon, hurt, dead;
 
     public void WeaponSound()
     {
-        src.clip = weapon;
-        src.Play();
+        src.enabled = true;
+        src.PlayOneShot(weapon);
     }
+
     public void HurtSound()
     {
-        src.clip = hurt;
-        src.Play();
+        src.enabled = true;
+        src.PlayOneShot(hurt);
+    }
+
+    public void PlayDeadSound()
+    {
+        src.enabled = true;
+        src.PlayOneShot(dead);
+        StartCoroutine(DisableAudioSource());
+    }
+
+    IEnumerator DisableAudioSource()
+    {
+        yield return new WaitForSeconds(3.0f);
+        src.enabled = false;
     }
 }
