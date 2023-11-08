@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3606623648062896737}
   - component: {fileID: 44061646746844554}
   - component: {fileID: 5345085856332638354}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: btnNo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ RectTransform:
   - {fileID: 2936473368468886037}
   - {fileID: 4775921215899963097}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -252,6 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 2936473368468886038}
   PanelGameOver: {fileID: 6853290909020591100}
+  Passcode: {fileID: 0}
 --- !u!1 &2936473367249355094
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +265,7 @@ GameObject:
   - component: {fileID: 2936473367249355098}
   - component: {fileID: 2936473367249355099}
   - component: {fileID: 2936473367249355092}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: btnNo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +398,7 @@ GameObject:
   - component: {fileID: 2936473367290246976}
   - component: {fileID: 2936473367290246982}
   - component: {fileID: 2936473367290246983}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +534,7 @@ GameObject:
   - component: {fileID: 2936473367430205271}
   - component: {fileID: 2936473367430205264}
   - component: {fileID: 2936473367430205265}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: btnYes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +667,7 @@ GameObject:
   - component: {fileID: 2936473367438978626}
   - component: {fileID: 2936473367438978624}
   - component: {fileID: 2936473367438978625}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +804,7 @@ GameObject:
   - component: {fileID: 2936473368398932214}
   - component: {fileID: 2936473368398932212}
   - component: {fileID: 2936473368398932213}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -938,7 +939,7 @@ GameObject:
   - component: {fileID: 2936473368468886037}
   - component: {fileID: 2936473368468886043}
   - component: {fileID: 2936473368468886036}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1017,7 +1018,7 @@ GameObject:
   - component: {fileID: 7019771466774404254}
   - component: {fileID: 6421987924495244223}
   - component: {fileID: 5176628541265954419}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,7 +1155,7 @@ GameObject:
   - component: {fileID: 216658843778755992}
   - component: {fileID: 5812796912068105538}
   - component: {fileID: 8759888936770801620}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +1290,7 @@ GameObject:
   - component: {fileID: 4775921215899963097}
   - component: {fileID: 4421641399067946696}
   - component: {fileID: 755906113564564938}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelGameOVer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1368,7 +1369,7 @@ GameObject:
   - component: {fileID: 5805311029843746078}
   - component: {fileID: 2830274063077590090}
   - component: {fileID: 443026088192494230}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1504,7 +1505,7 @@ GameObject:
   - component: {fileID: 7078143034232394376}
   - component: {fileID: 3101028525728952892}
   - component: {fileID: 1444984546404354641}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: btnYes
   m_TagString: Untagged
   m_Icon: {fileID: 0}

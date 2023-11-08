@@ -11,9 +11,15 @@ public class DevTool : MonoBehaviour
     [SerializeField]
     private GameObject txtMessage;
     [SerializeField]
-    private GameObject PassCodePanel;
+    private GameObject? PassCodePanel;
 
     private string passcode = "PRU_Fall23_VietAnh_Nghia_Khang";
+
+    private void Start()
+    {
+        DevToolContent.SetActive(false);
+        PassCodePanel.SetActive(true);
+    }
     public void LoadSceneIntro()
     {
         SceneManager.LoadScene(0);
@@ -74,7 +80,8 @@ public class DevTool : MonoBehaviour
         if (tbPassCode.text == passcode)
         {
             DevToolContent.SetActive(true);
-            PassCodePanel.SetActive(false);
+
+            PassCodePanel.GetComponent<Canvas>().renderMode = RenderMode.WorldSpace;
         }
         else
         {
